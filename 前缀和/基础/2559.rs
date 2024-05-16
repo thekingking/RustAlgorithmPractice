@@ -1,11 +1,6 @@
-
-
-fn main() {
-    println!("{}", false as i32);
-}
-
 struct Solution;
 
+// 经典前缀和，读题不仔细耽误不少时间，要求字符串首尾皆包含元音字母
 impl Solution {
     pub fn vowel_strings(words: Vec<String>, queries: Vec<Vec<i32>>) -> Vec<i32> {
         let arr = [b'a', b'e', b'i', b'o', b'u'];
