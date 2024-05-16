@@ -2,7 +2,7 @@ struct NumArray {
     arr: Vec<i32>,
 }
 
-// 前缀和
+// 前缀和，双百诶
 impl NumArray {
 
     fn new(nums: Vec<i32>) -> Self {
