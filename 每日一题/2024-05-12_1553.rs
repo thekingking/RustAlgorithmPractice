@@ -3,7 +3,7 @@ use std::collections::HashMap;
 struct Solution;
 
 impl Solution {
-    // 官方题解
+    // 官方题解，一看就是没做出来
     pub fn min_days(n: i32) -> i32 {
         let mut memo = HashMap::new();
         Self::helper(n, &mut memo)

@@ -1,14 +1,23 @@
-
-
-fn main() {
-    println!("{}", false as i32);
-}
-
 struct Solution;
 
 impl Solution {
-    // 官方题解，双指针
-    pub fn max_profit_assignment(difficulty: Vec<i32>, profit: Vec<i32>, worker: Vec<i32>) -> i32 {
+    // 我自己一开始想的，简单的遍历每个工人，求每个工人的最大收益，然后再求和
+    pub fn max_profit_assignment1(difficulty: Vec<i32>, profit: Vec<i32>, worker: Vec<i32>) -> i32 {
+        let mut res = 0;
+        for i in 0..worker.len() {
+            let mut max = 0;
+            for j in 0..difficulty.len() {
+                if difficulty[j] <= worker[i] && profit[j] > max {
+                    max = profit[j];
+                }
+            }
+            res += max;
+        }
+        res
+    }
+    
+    // 官方题解，排序 + 双指针
+    pub fn max_profit_assignment2(difficulty: Vec<i32>, profit: Vec<i32>, worker: Vec<i32>) -> i32 {
         // 关联difficult和profit，并将其排序
         let mut jobs:Vec<(i32, i32)> = difficulty.into_iter().zip(profit).collect();
         jobs.sort_by_key(|&x| x.0);
@@ -33,5 +42,4 @@ impl Solution {
         }
         res
     }
-
 }
