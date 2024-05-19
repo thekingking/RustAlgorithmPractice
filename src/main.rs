@@ -1,4 +1,7 @@
 
+use std::{collections::HashMap, hash::Hash};
+
+
 
 fn main() {
     println!("hello, world");
@@ -8,20 +11,26 @@ fn main() {
 struct Solution;
 
 impl Solution {
-    
-    pub fn get_winner(arr: Vec<i32>, k: i32) -> i32 {
-        let mut max = arr[0];
-        let mut num = 0;
-        for &i in &arr[1..] {
-            if max < i {
-                num = 0;
-                max = i;
+    pub fn sum_digit_differences(nums: Vec<i32>) -> i64 {
+        let mut n = nums[0];
+        let mut len = 0;
+        let mut nums = nums;
+        while n != 0 {
+            n /= 10;
+            len += 1;
+        }
+        let mut ans:i64 = 1;
+        for _ in 0..len {
+            let mut arr = vec![0; 10];
+            for i in 0..nums.len() {
+                arr[nums[i] as usize % 10] += 1;
             }
-            num += 1;
-            if num == k {
-                break;
+            for i in 0..10 {
+                if arr[i] != 0 {
+                    ans *= arr[i];
+                }
             }
         }
-        max
+        ans
     }
 }
