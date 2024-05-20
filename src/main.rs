@@ -1,8 +1,4 @@
-
-use std::{collections::HashMap, hash::Hash};
-
-
-
+use std::collections::HashMap;
 fn main() {
     println!("hello, world");
 }
@@ -11,26 +7,27 @@ fn main() {
 struct Solution;
 
 impl Solution {
-    pub fn sum_digit_differences(nums: Vec<i32>) -> i64 {
-        let mut n = nums[0];
-        let mut len = 0;
-        let mut nums = nums;
-        while n != 0 {
-            n /= 10;
-            len += 1;
+    pub fn longest_awesome(s: String) -> i32 {
+        let mut ans = 1;
+        let mut map = HashMap::new();
+        map.insert(0, -1);
+        let mut prev = 0;
+        let mut lib = [0; 11];
+        for i in 0..10 {
+            lib[i + 1] = 1 << i;
         }
-        let mut ans:i64 = 1;
-        for _ in 0..len {
-            let mut arr = vec![0; 10];
-            for i in 0..nums.len() {
-                arr[nums[i] as usize % 10] += 1;
-            }
-            for i in 0..10 {
-                if arr[i] != 0 {
-                    ans *= arr[i];
+        for (idx, c) in s.bytes().enumerate() {
+            prev ^= 1 << (c - 48);
+            for target in lib {
+                let cur = target ^ prev;
+                if map.get(&cur).is_some() {
+                    ans = ans.max(idx as i32 - map.get(&cur).unwrap());
                 }
             }
+            if map.get(&prev).is_none() {
+                map.insert(prev, idx as i32);
+            }
         }
-        ans
+        ans as i32
     }
 }
