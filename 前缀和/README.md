@@ -1,10 +1,29 @@
 # 前缀和
 灵茶山艾府[常用数据结构题单](https://leetcode.cn/circle/discuss/mOr1u6/)
 ## 基础
-- [303. 区域和检索 - 数组不可变](https://leetcode.cn/problems/range-sum-query-immutable/description/) 2024-05-16
-- [2559. 统计范围内的元音字符串数](https://leetcode.cn/problems/count-vowel-strings-in-ranges/description/) 2024-05-16
-- [2389. 和有限的最长子序列](https://leetcode.cn/problems/longest-subsequence-with-limited-sum/description/) 2024-05-17
+- [303. 区域和检索 - 数组不可变](https://leetcode.cn/problems/range-sum-query-immutable/description/)
+- [2559. 统计范围内的元音字符串数](https://leetcode.cn/problems/count-vowel-strings-in-ranges/description/)
+- [2389. 和有限的最长子序列](https://leetcode.cn/problems/longest-subsequence-with-limited-sum/description/)
 - [2438. 二的幂数组中查询范围内的乘积](https://leetcode.cn/problems/range-product-queries-of-powers/description/)
 - [2055. 蜡烛之间的盘子](https://leetcode.cn/problems/plates-between-candles/description/)
 - [1744. 你能在你最喜欢的那天吃到你最喜欢的糖果吗？](https://leetcode.cn/problems/can-you-eat-your-favorite-candy-on-your-favorite-day/description/)
 - [53. 最大子数组和](https://leetcode.cn/problems/maximum-subarray/description/)
+## 前缀和与哈希表
+- [930. 和相同的二元子数组](https://leetcode.cn/problems/binary-subarrays-with-sum/description/)
+- [560. 和为 K 的子数组](https://leetcode.cn/problems/subarray-sum-equals-k/description/)
+- [1524. 和为奇数的子数组数目](https://leetcode.cn/problems/number-of-sub-arrays-with-odd-sum/description/)
+- [974. 和可被 K 整除的子数组](https://leetcode.cn/problems/subarray-sums-divisible-by-k/)
+- [523. 连续的子数组和](https://leetcode.cn/problems/continuous-subarray-sum/)
+- [437. 路径总和 III](https://leetcode.cn/problems/path-sum-iii/)
+- [2588. 统计美丽子数组数目](https://leetcode.cn/problems/count-the-number-of-beautiful-subarrays/)
+- [525. 连续数组](https://leetcode.cn/problems/contiguous-array/)
+- [3026. 最大好子数组和](https://leetcode.cn/problems/maximum-good-subarray-sum/)
+- [1546. 和为目标值且不重叠的非空子数组的最大数目](https://leetcode.cn/problems/maximum-number-of-non-overlapping-subarrays-with-sum-equals-target/)
+- [面试题 17.05. 字母与数字](https://leetcode.cn/problems/find-longest-subarray-lcci/)
+- [1124. 表现良好的最长时间段](https://leetcode.cn/problems/longest-well-performing-interval/)
+- [2488. 统计中位数为 K 的子数组](https://leetcode.cn/problems/count-subarrays-with-median-k/)
+- [1590. 使数组和能被 P 整除](https://leetcode.cn/problems/make-sum-divisible-by-p/)
+- [2845. 统计趣味子数组的数目](https://leetcode.cn/problems/count-of-interesting-subarrays/)
+- [1442. 形成两个异或相等数组的三元组数目](https://leetcode.cn/problems/count-triplets-that-can-form-two-arrays-of-equal-xor/)
+- [2025. 分割数组的最多方案数](https://leetcode.cn/problems/maximum-number-of-ways-to-partition-an-array/)
+- [2949. 统计美丽子字符串 II](https://leetcode.cn/problems/count-beautiful-substrings-ii/)
