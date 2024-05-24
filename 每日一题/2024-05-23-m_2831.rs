@@ -3,7 +3,7 @@ use std::collections::HashMap;
 struct Solution;
 
 impl Solution {
-    // 看了下提示，之后有空或者明天再看题解
+    
     pub fn longest_equal_subarray(nums: Vec<i32>, k: i32) -> i32 {
         let mut indices = HashMap::new();
         for i in 0..nums.len() {

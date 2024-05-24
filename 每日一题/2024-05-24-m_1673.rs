@@ -1,12 +1,7 @@
-use std::collections::HashMap;
-fn main() {
-    println!("hello, world");
-}
-
-#[warn(dead_code)]
 struct Solution;
 
 impl Solution {
+    // 看官解写的，单调栈，一开始写的时间复杂度过不了
     pub fn most_competitive(nums: Vec<i32>, k: i32) -> Vec<i32> {
         let mut ans = Vec::new();
         let n = nums.len();
