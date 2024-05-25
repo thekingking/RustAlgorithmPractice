@@ -1,13 +1,7 @@
-use std::collections::HashMap;
-fn main() {
-    println!("hello, world");
-}
-
-#[warn(dead_code)]
 struct Solution;
 
 impl Solution {
-
+    // 简单前缀和，关键在i32会溢出
     pub fn can_eat(candies_count: Vec<i32>, queries: Vec<Vec<i32>>) -> Vec<bool> {
         // 由于i32可能会溢出，所以使用i64（我已经试过了，i32会溢出）
         let mut pre_sum:Vec<i64> = vec![0; candies_count.len() + 1];
