@@ -1,13 +1,20 @@
-use std::collections::HashMap;
-fn main() {
-    println!("hello, world");
-}
-
-#[warn(dead_code)]
 struct Solution;
 
 impl Solution {
-    pub fn find_indices(nums: Vec<i32>, index_difference: i32, value_difference: i32) -> Vec<i32> {
+    // 暴力，两重循环，O(n2)
+    pub fn find_indices1(nums: Vec<i32>, index_difference: i32, value_difference: i32) -> Vec<i32> {
+        for i in 0..nums.len() {
+            for j in (i + index_difference as usize)..nums.len() {
+                if (nums[j] - nums[i]).abs() >= value_difference {
+                    return vec![i as i32, j as i32];
+                }
+            }
+        }
+        vec![-1, -1]
+    }
+
+    // 官解，一次遍历，O(n)，双百
+    pub fn find_indices2(nums: Vec<i32>, index_difference: i32, value_difference: i32) -> Vec<i32> {
         let mut max = 0;
         let mut min = 0;
         for j in (index_difference as usize)..nums.len() {
