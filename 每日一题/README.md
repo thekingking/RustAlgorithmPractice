@@ -3,6 +3,9 @@
 ## 一次遍历
 - [找出满足差值条件的下标 I (2024-05-25-e_2903)](https://leetcode.cn/problems/find-indices-with-index-and-value-difference-i?envType=daily-question&envId=2024-05-25)
 
+## 前缀和
+- [找出第 K 大的异或坐标值 (2024-05-26-m_1738)](https://leetcode.cn/problems/find-kth-largest-xor-coordinate-value/solutions/784300/zhao-chu-di-k-da-de-yi-huo-zuo-biao-zhi-mgick/)
+
 ## 单调栈
 - [找出最具竞争力的子序列 (2024-05-24-m_1673)](https://leetcode.cn/problems/find-the-most-competitive-subsequence)
 
