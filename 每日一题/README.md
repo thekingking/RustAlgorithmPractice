@@ -1,10 +1,10 @@
 # 每日一题
 这是一件没有意义的事，你什么也没看见
 ## 一次遍历
-- [找出满足差值条件的下标 I (2024-05-25-e_2903)](https://leetcode.cn/problems/find-indices-with-index-and-value-difference-i?envType=daily-question&envId=2024-05-25)
+- [找出满足差值条件的下标 I (2024-05-25-e_2903)](https://leetcode.cn/problems/find-indices-with-index-and-value-difference-i)
 
 ## 前缀和
-- [找出第 K 大的异或坐标值 (2024-05-26-m_1738)](https://leetcode.cn/problems/find-kth-largest-xor-coordinate-value/solutions/784300/zhao-chu-di-k-da-de-yi-huo-zuo-biao-zhi-mgick/)
+- [找出第 K 大的异或坐标值 (2024-05-26-m_1738)](https://leetcode.cn/problems/find-kth-largest-xor-coordinate-value)
 
 ## 单调栈
 - [找出最具竞争力的子序列 (2024-05-24-m_1673)](https://leetcode.cn/problems/find-the-most-competitive-subsequence)
@@ -17,6 +17,7 @@
 
 ## 模拟
 - [找出数组游戏的赢家 (2024-05-19-m_1535)](https://leetcode.cn/problems/find-the-winner-of-an-array-game/description/)
+- [找出缺失的观测数据 (2024-05-27-m_2028)](https://leetcode.cn/problems/find-missing-observations)
 
 ## 简单题
 - [找出最大的可达成数字 (2024-05-21-e_2769)](https://leetcode.cn/problems/find-the-maximum-achievable-number/description/)
