@@ -17,7 +17,6 @@
 
 ## 模拟
 - [找出数组游戏的赢家 (2024-05-19-m_1535)](https://leetcode.cn/problems/find-the-winner-of-an-array-game/description/)
-- [找出缺失的观测数据 (2024-05-27-m_2028)](https://leetcode.cn/problems/find-missing-observations)
-
-## 简单题
 - [找出最大的可达成数字 (2024-05-21-e_2769)](https://leetcode.cn/problems/find-the-maximum-achievable-number/description/)
+- [找出缺失的观测数据 (2024-05-27-m_2028)](https://leetcode.cn/problems/find-missing-observations)
+- [找出峰值 (2024-05-28-e_2951)](https://leetcode.cn/problems/find-the-peaks)
