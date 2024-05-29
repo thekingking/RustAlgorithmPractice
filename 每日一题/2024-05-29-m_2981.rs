@@ -1,13 +1,30 @@
 use std::collections::HashMap;
 
-fn main() {
-    println!("hello, world");
-}
-
-#[warn(dead_code)]
 struct Solution;
 
 impl Solution {
+    // 写复杂了
+    pub fn maximum_length(s: String) -> i32 {
+        let mut cnt = HashMap::new();
+        for (i, c) in s.chars().enumerate() {
+            for (j, t) in s[0..=i].chars().rev().enumerate() {
+                if c == t {
+                    cnt.entry(&s[(i - j)..=i]).and_modify(|x| *x += 1).or_insert(1);
+                } else {
+                    break;
+                }
+            }
+        }
+        let mut max = -1;
+        for (k, v) in cnt {
+            if v >= 3 && k.len() as i32 > max {
+                max = k.len() as i32;
+            }
+        }
+        max
+    }
+
+    // 官解，一次遍历
     pub fn maximum_length(s: String) -> i32 {
         let mut ans = -1;
         let len = s.len();
