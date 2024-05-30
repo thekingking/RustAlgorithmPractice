@@ -2,7 +2,8 @@
 这是一件没有意义的事，你什么也没看见
 ## 一次遍历
 - [找出满足差值条件的下标 I (2024-05-25-e_2903)](https://leetcode.cn/problems/find-indices-with-index-and-value-difference-i)
-- [找出出现至少三次的最长特殊子字符串 I (2024-05-29-m-2981)](https://leetcode.cn/problems/find-longest-special-substring-that-occurs-thrice-i)
+- [找出出现至少三次的最长特殊子字符串 I (2024-05-29-m_2981)](https://leetcode.cn/problems/find-longest-special-substring-that-occurs-thrice-i)
+- [找出出现至少三次的最长特殊子字符串 II (2024-05-30-m_2932)](https://leetcode.cn/problems/find-longest-special-substring-that-occurs-thrice-ii)
 
 ## 前缀和
 - [找出第 K 大的异或坐标值 (2024-05-26-m_1738)](https://leetcode.cn/problems/find-kth-largest-xor-coordinate-value)
