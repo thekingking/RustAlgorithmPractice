@@ -1,13 +1,9 @@
 use std::collections::HashMap;
 
-fn main() {
-    println!("hello, world");
-}
-
-#[warn(dead_code)]
 struct Solution;
 
 impl Solution {
+    // 跟930有点像，使用前缀和加哈希表方法代码是一样的，但是由于nums[i]与k可以为负数，这个题不能使用滑动窗口
     pub fn subarray_sum(nums: Vec<i32>, k: i32) -> i32 {
         let mut cnt = HashMap::new();
         let mut ans = 0;
