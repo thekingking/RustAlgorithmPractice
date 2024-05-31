@@ -10,17 +10,38 @@ struct Solution;
 impl Solution {
     pub fn find_missing_and_repeated_values(grid: Vec<Vec<i32>>) -> Vec<i32> {
         let n = grid.len() as i32;
-        let m = n * n;
-        let mut d1 = -(m + 1) * m / 2;
-        let m = m as i64;
-        let mut d2 = -m * (m + 1) * (m * 2 + 1) / 6;
-        for row in grid {
-            for x in row {
-                d1 += x;
-                d2 += (x * x) as i64;
+        let mut xor_all = 0;
+        for row in &grid {
+            for &x in row {
+                xor_all ^= x;
             }
         }
-        let d = (d2 / d1 as i64) as i32;
-        vec![(d + d1) / 2, (d - d1) / 2]
+        xor_all ^= if n % 2 == 1 { 1 } else { n * n };
+
+        let mut ans = vec![0, 0];
+        let low_bit = xor_all & -xor_all;
+        for x in 1..=(n * n) {
+            if x & low_bit != 0 {
+                ans[0] ^= x;
+            } else {
+                ans[1] ^= x;
+            }
+        }
+        for row in &grid {
+            for &x in row {
+                if x & low_bit != 0 {
+                    ans[0] ^= x;
+                } else {
+                    ans[1] ^= x;
+                }
+            }
+        }
+
+        for row in grid {
+            if row.contains(&ans[0]) {
+                return ans
+            }
+        }
+        vec![ans[1], ans[0]]
     }
 }
