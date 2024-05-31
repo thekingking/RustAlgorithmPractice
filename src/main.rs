@@ -8,15 +8,19 @@ fn main() {
 struct Solution;
 
 impl Solution {
-    pub fn subarray_sum(nums: Vec<i32>, k: i32) -> i32 {
-        let mut cnt = HashMap::new();
-        let mut ans = 0;
-        let mut sum = 0;
-        for i in 0..nums.len() {
-            cnt.entry(sum).and_modify(|x| *x += 1).or_insert(1);
-            sum += nums[i];
-            ans += cnt.get(&(sum - k)).unwrap_or(&0);
+    pub fn find_missing_and_repeated_values(grid: Vec<Vec<i32>>) -> Vec<i32> {
+        let n = grid.len() as i32;
+        let m = n * n;
+        let mut d1 = -(m + 1) * m / 2;
+        let m = m as i64;
+        let mut d2 = -m * (m + 1) * (m * 2 + 1) / 6;
+        for row in grid {
+            for x in row {
+                d1 += x;
+                d2 += (x * x) as i64;
+            }
         }
-        ans
+        let d = (d2 / d1 as i64) as i32;
+        vec![(d + d1) / 2, (d - d1) / 2]
     }
 }
