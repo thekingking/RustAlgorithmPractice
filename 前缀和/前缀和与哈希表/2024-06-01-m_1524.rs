@@ -1,13 +1,7 @@
-use std::collections::HashMap;
-
-fn main() {
-    println!("hello, world");
-}
-
-#[warn(dead_code)]
 struct Solution;
 
 impl Solution {
+    /// 前缀和，存储前缀和奇偶数的数量
     pub fn num_of_subarrays(arr: Vec<i32>) -> i32 {
         let (mut odd, mut even) = (0_i64, 0_i64);
         let mut ans = 0_i64;
