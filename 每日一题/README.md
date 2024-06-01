@@ -23,3 +23,6 @@
 - [找出最大的可达成数字 (2024-05-21-e_2769)](https://leetcode.cn/problems/find-the-maximum-achievable-number/description/)
 - [找出缺失的观测数据 (2024-05-27-m_2028)](https://leetcode.cn/problems/find-missing-observations)
 - [找出峰值 (2024-05-28-e_2951)](https://leetcode.cn/problems/find-the-peaks)
+
+## 暴力枚举
+- [给小朋友们分糖果 I (2024-06-01-e_2928)](https://leetcode.cn/problems/distribute-candies-among-children-i)
