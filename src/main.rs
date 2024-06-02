@@ -8,18 +8,16 @@ fn main() {
 struct Solution;
 
 impl Solution {
-    pub fn num_of_subarrays(arr: Vec<i32>) -> i32 {
-        let (mut odd, mut even) = (0_i64, 0_i64);
-        let mut ans = 0_i64;
-        for x in arr {
-            if x % 2 == 1 {
-                ans += even + 1;
-                (odd, even) = (even + 1, odd);
-            } else {
-                ans += odd;
-                (odd, even) = (odd, even + 1);
+    pub fn minimum_difference(nums: Vec<i32>, k: i32) -> i32 {
+        let mut ans = i32::MAX;
+        for i in 0..nums.len() {
+            let mut cnt = nums[i];
+            ans = ans.min(i32::abs(k - cnt));
+            for j in (0..i).rev() {
+                cnt &= nums[j];
+                ans = ans.min(i32::abs(k - cnt));
             }
         }
-        (ans % 1_000_000_007) as i32
+        ans
     }
 }
