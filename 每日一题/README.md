@@ -17,6 +17,7 @@
 ## 哈希表
 - [找出最长的超赞子字符串(2024-05-20-h_1542) (状态压缩)](https://leetcode.cn/problems/find-the-longest-equal-subarray)
 - [找出缺失和重复的数字 (2024-05-31-e_2965) (其他方法：异或和、数学方法)](https://leetcode.cn/problems/find-missing-and-repeated-values)
+- [分糖果 (2024-06-02-e_575)](https://leetcode.cn/problems/distribute-candies)
 
 ## 模拟
 - [找出数组游戏的赢家 (2024-05-19-m_1535)](https://leetcode.cn/problems/find-the-winner-of-an-array-game/description/)

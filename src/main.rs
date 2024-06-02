@@ -1,4 +1,4 @@
-use std::collections::HashMap;
+use std::collections::HashSet;
 
 fn main() {
     println!("hello, world");
@@ -8,16 +8,7 @@ fn main() {
 struct Solution;
 
 impl Solution {
-    pub fn minimum_difference(nums: Vec<i32>, k: i32) -> i32 {
-        let mut ans = i32::MAX;
-        for i in 0..nums.len() {
-            let mut cnt = nums[i];
-            ans = ans.min(i32::abs(k - cnt));
-            for j in (0..i).rev() {
-                cnt &= nums[j];
-                ans = ans.min(i32::abs(k - cnt));
-            }
-        }
-        ans
+    pub fn distribute_candies(candy_type: Vec<i32>) -> i32 {
+        candy_type.iter().collect::<HashSet<_>>().len().min(candy_type.len() / 2) as _
     }
 }
