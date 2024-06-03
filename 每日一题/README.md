@@ -27,3 +27,4 @@
 
 ## 暴力枚举
 - [给小朋友们分糖果 I (2024-06-01-e_2928)](https://leetcode.cn/problems/distribute-candies-among-children-i)
+- [分糖果 II (2024-06-03-e_1103)](https://leetcode.cn/problems/distribute-candies-to-people)

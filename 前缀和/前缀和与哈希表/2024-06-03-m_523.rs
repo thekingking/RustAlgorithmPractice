@@ -1,13 +1,7 @@
-use std::collections::HashMap;
-
-fn main() {
-    println!("hello, world");
-}
-
-#[warn(dead_code)]
 struct Solution;
 
 impl Solution {
+    /// 跟974题差不多，同样前缀和加哈希表，哈希表存储余数最小坐标，利用同余定理进行判断
     pub fn check_subarray_sum(nums: Vec<i32>, k: i32) -> bool {
         let mut cnt = HashMap::new();
         let mut pre_sum = 0;
