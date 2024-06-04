@@ -1,15 +1,6 @@
-
 use std::collections::HashMap;
 use std::rc::Rc;
 use std::cell::RefCell;
-
-fn main() {
-    println!("hello, world");
-}
-
-#[warn(dead_code)]
-struct Solution;
-
 
 // Definition for a binary tree node.
 #[derive(Debug, PartialEq, Eq)]
@@ -29,6 +20,10 @@ impl TreeNode {
     }
   }
 }
+
+#[warn(dead_code)]
+struct Solution;
+
 impl Solution {
     pub fn path_sum(root: Option<Rc<RefCell<TreeNode>>>, target_sum: i32) -> i32 {
         fn dfs(node: &Option<Rc<RefCell<TreeNode>>>, cnt: &mut HashMap<i64, i32>, ans: &mut i32, pre: i64, target_sum: i64) {
