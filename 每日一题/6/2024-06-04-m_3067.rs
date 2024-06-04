@@ -1,13 +1,9 @@
-use std::collections::HashMap;
-
-fn main() {
-    println!("hello, world");
-}
-
-#[warn(dead_code)]
 struct Solution;
 
 impl Solution {
+    /// DFS
+    /// 无环图，无空节点，即有n-1条边，n个节点，将edges化为邻接表
+    /// 以当前节点为根节点进行dfs，计算子树中符合条件的节点个数，排列组合计算总的可能数
     pub fn count_pairs_of_connectable_servers(edges: Vec<Vec<i32>>, signal_speed: i32) -> Vec<i32> {
         let n = edges.len() + 1;
         let mut graph = vec![Vec::new(); n];
