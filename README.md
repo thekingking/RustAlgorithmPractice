@@ -15,3 +15,9 @@ LeetCode算法练习，目前跟着灵茶山大佬的[【题单】常用数据�
 
 看提示做会的
 - mid  2831(2024-05-23每日一题，滑动窗口)
+
+## 知识模块
+
+相关知识学习链接
+
+- [树状数组](https://leetcode.cn/problems/range-sum-query-mutable/solutions/2524481/dai-ni-fa-ming-shu-zhuang-shu-zu-fu-shu-lyfll/)
