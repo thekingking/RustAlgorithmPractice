@@ -20,8 +20,8 @@
 - [分糖果 (2024-06-02-e_575)](https://leetcode.cn/problems/distribute-candies)
 
 ## 模拟
-- [找出数组游戏的赢家 (2024-05-19-m_1535)](https://leetcode.cn/problems/find-the-winner-of-an-array-game/description/)
-- [找出最大的可达成数字 (2024-05-21-e_2769)](https://leetcode.cn/problems/find-the-maximum-achievable-number/description/)
+- [找出数组游戏的赢家 (2024-05-19-m_1535)](https://leetcode.cn/problems/find-the-winner-of-an-array-game)
+- [找出最大的可达成数字 (2024-05-21-e_2769)](https://leetcode.cn/problems/find-the-maximum-achievable-number)
 - [找出缺失的观测数据 (2024-05-27-m_2028)](https://leetcode.cn/problems/find-missing-observations)
 - [找出峰值 (2024-05-28-e_2951)](https://leetcode.cn/problems/find-the-peaks)
 
@@ -31,3 +31,6 @@
 
 ## DFS
 - [在带权树网络中统计可连接服务器对数目 (2024-06-04-m_3067)](https://leetcode.cn/problems/count-pairs-of-connectable-servers-in-a-weighted-tree-network)
+
+## 贪心
+- [区分黑球与白球 (2024-06-06-m_2038)](https://leetcode.cn/problems/separate-black-and-white-balls)
