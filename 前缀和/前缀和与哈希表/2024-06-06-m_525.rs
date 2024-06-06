@@ -1,13 +1,9 @@
 use std::collections::HashMap;
 
-fn main() {
-    println!("hello, world");
-}
-
-#[warn(dead_code)]
 struct Solution;
 
 impl Solution {
+    /// 前缀和、哈希表，化0为-1，记录1和-1出现之和
     pub fn find_max_length(nums: Vec<i32>) -> i32 {
         let mut cnt = HashMap::new();
         let mut pre_sum = 0;
