@@ -1,13 +1,7 @@
-use std::collections::HashMap;
-
-fn main() {
-    println!("hello, world");
-}
-
-#[warn(dead_code)]
 struct Solution;
 
 impl Solution {
+    /// 简单题，遍历一遍就行了
     pub fn max_operations(nums: Vec<i32>) -> i32 {
         let mut ans = 1;
         let score = nums[0] + nums[1];

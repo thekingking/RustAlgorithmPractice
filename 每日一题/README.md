@@ -25,9 +25,10 @@
 - [找出缺失的观测数据 (2024-05-27-m_2028)](https://leetcode.cn/problems/find-missing-observations)
 - [找出峰值 (2024-05-28-e_2951)](https://leetcode.cn/problems/find-the-peaks)
 
-## 暴力枚举
+## 枚举
 - [给小朋友们分糖果 I (2024-06-01-e_2928)](https://leetcode.cn/problems/distribute-candies-among-children-i)
 - [分糖果 II (2024-06-03-e_1103)](https://leetcode.cn/problems/distribute-candies-to-people)
+- [相同分数的最大操作数目 I (2024-06-07-e_3038)](https://leetcode.cn/problems/maximum-number-of-operations-with-the-same-score-i)
 
 ## DFS
 - [在带权树网络中统计可连接服务器对数目 (2024-06-04-m_3067)](https://leetcode.cn/problems/count-pairs-of-connectable-servers-in-a-weighted-tree-network)
