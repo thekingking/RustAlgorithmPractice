@@ -1,14 +1,11 @@
 use std::collections::HashMap;
 
-fn main() {
-    println!("hello, world");
-}
-
-#[warn(dead_code)]
 struct Solution;
 
 impl Solution {
-    
+    /// 双百
+    /// 记忆化搜索，暴力枚举每种情况时把当前状态存储在哈希表中，后面遇到相同情况直接拿出来用就行了
+    /// 当某种情况遍历完整个数组即表示这个为最佳解，也没必要继续求解了，所以添加了done进行判断
     pub fn max_operations(nums: Vec<i32>) -> i32 {
         fn search(nums: &Vec<i32>, cnt: &mut HashMap<(i32, i32), i32>, left: i32, right: i32, target: i32, done: &mut bool) -> i32 {
             if right <= left || *done {
