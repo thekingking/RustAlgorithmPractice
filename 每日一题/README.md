@@ -35,7 +35,7 @@
 
 ## 贪心
 - [2038.区分黑球与白球 (2024-06-06-m_2038)](https://leetcode.cn/problems/separate-black-and-white-balls)
-- [881.救生艇 (2024-06-10-m_881)](https://leetcode.cn/problems/boats-to-save-people/description/)
+- [881.救生艇 (2024-06-10-m_881)](https://leetcode.cn/problems/boats-to-save-people)
 
 ## 记忆化搜索
 - [3040.相同分数的最大操作数目 II (2024-06-08-m_3040)](https://leetcode.cn/problems/maximum-number-of-operations-with-the-same-score-ii)

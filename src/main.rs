@@ -9,21 +9,14 @@ fn main() {
 struct Solution;
 
 impl Solution {
-    pub fn num_rescue_boats(mut people: Vec<i32>, limit: i32) -> i32 {
-        people.sort_unstable();
-        let mut ans = 0;
-        let mut left = 0;
-        let mut right = people.len() - 1;
-        while left < right {
-            if people[left] + people[right] <= limit {
-                left += 1;
-            }
-            right -= 1;
-            ans += 1;
+    pub fn rob(nums: Vec<i32>) -> i32 {
+        let mut f1 = 0;
+        let mut f2 = 0;
+        for x in nums {
+            let f3 = std::cmp::max(f2, f1 + x);
+            f1 = f2;
+            f2 = f3;
         }
-        if left == right {
-            ans += 1;
-        }
-        ans
+        f2
     }
 }

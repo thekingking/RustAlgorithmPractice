@@ -1,5 +1,5 @@
 # 滑动窗口
-来源：灵神
+来源：[灵神](https://leetcode.cn/circle/discuss/0viNMK/)
 ## 定长滑动窗口
 - [1456. 定长子串中元音的最大数目](https://leetcode.cn/problems/maximum-number-of-vowels-in-a-substring-of-given-length/)
 - [2269. 找到一个数字的 K 美丽值](https://leetcode.cn/problems/find-the-k-beauty-of-a-number/)
