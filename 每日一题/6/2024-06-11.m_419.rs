@@ -1,14 +1,7 @@
-
-
-fn main() {
-    println!("hello, world");
-    Solution::max_coins(vec![3,1,5,8]);
-}
-
-#[warn(dead_code)]
 struct Solution;
 
 impl Solution {
+    /// 傻逼题目，也不说清楚点
     pub fn count_battleships(board: Vec<Vec<char>>) -> i32 {
         let mut ans = 0;
         for (i , row) in board.iter().enumerate() {
