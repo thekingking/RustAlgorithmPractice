@@ -1,15 +1,7 @@
-use std::collections::HashMap;
-
-
-
-fn main() {
-    println!("hello, world");
-}
-
-#[warn(dead_code)]
 struct Solution;
 
 impl Solution {
+    /// 中心前缀和 + 哈希表，从k向左右求前缀和，以哈希表存储值
     pub fn count_subarrays(nums: Vec<i32>, k: i32) -> i32 {
         let mut cnt = HashMap::new();
         let mut index = 0;
