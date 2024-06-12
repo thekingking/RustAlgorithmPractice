@@ -41,3 +41,6 @@
 ## 记忆化搜索
 - [3040.相同分数的最大操作数目 II (2024-06-08-m_3040)](https://leetcode.cn/problems/maximum-number-of-operations-with-the-same-score-ii)
 - [312.戳气球 (2024-06-09-h_312)](https://leetcode.cn/problems/burst-balloons)
+
+## 简单题
+- [2806.取整购买后的账户余额 (2024-06-12-e_2806)](https://leetcode.cn/problems/account-balance-after-rounded-purchase)
