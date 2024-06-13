@@ -1,15 +1,9 @@
 use std::collections::HashMap;
 
-
-
-fn main() {
-    println!("hello, world");
-}
-
-#[warn(dead_code)]
 struct Solution;
 
 impl Solution {
+    /// 反悔贪心，将profit排序，由最大到最小依次减小total_profits，增加distinct_categories，寻找最大answer
     pub fn find_maximum_elegance(mut items: Vec<Vec<i32>>, k: i32) -> i64 {
         items.sort_unstable_by_key(|x| x[0]);
         let mut profits = 0;
