@@ -45,3 +45,6 @@
 
 ## 简单题
 - [2806.取整购买后的账户余额 (2024-06-12-e_2806)](https://leetcode.cn/problems/account-balance-after-rounded-purchase)
+
+## 动态规划
+- [2786.访问数组中的位置使分数最大 (2024-06-14-2786)](https://leetcode.cn/problems/visit-array-positions-to-maximize-score)
