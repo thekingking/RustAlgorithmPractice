@@ -1,5 +1,5 @@
 # 每日一题
-这是一件没有意义的事，你什么也没看见
+或许这是一件没有意义的事，你什么也没看见
 ## 一次遍历
 - [2903.找出满足差值条件的下标 I (2024-05-25-e_2903)](https://leetcode.cn/problems/find-indices-with-index-and-value-difference-i)
 - [2981.找出出现至少三次的最长特殊子字符串 I (2024-05-29-m_2981)](https://leetcode.cn/problems/find-longest-special-substring-that-occurs-thrice-i)
@@ -14,6 +14,7 @@
 
 ## 滑动窗口
 - [2831.找出最长等值子数组 (2024-05-23-m_2831)](https://leetcode.cn/problems/find-the-longest-equal-subarray)
+- [2779.数组的最大美丽值 (2024-06-15-m_2779)](https://leetcode.cn/problems/maximum-beauty-of-an-array-after-applying-operation)
 
 ## 哈希表
 - [1542.找出最长的超赞子字符串(2024-05-20-h_1542) (状态压缩)](https://leetcode.cn/problems/find-the-longest-equal-subarray)
