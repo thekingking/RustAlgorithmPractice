@@ -1,11 +1,7 @@
-fn main() {
-    println!("hello, world");
-}
-
-#[warn(dead_code)]
 struct Solution;
 
 impl Solution {
+    /// 前缀和+哈希表
     pub fn min_subarray(nums: Vec<i32>, p: i32) -> i32 {
         let mut sum = 0;
         for &x in nums.iter() {
