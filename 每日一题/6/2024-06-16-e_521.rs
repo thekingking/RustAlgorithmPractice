@@ -1,11 +1,7 @@
-fn main() {
-    println!("hello, world");
-}
-
-#[warn(dead_code)]
 struct Solution;
 
 impl Solution {
+    /// 一看题目挺唬人的，实际还是一个简单题
     pub fn find_lu_slength(a: String, b: String) -> i32 {
         if a.len() != b.len() {
             return if a.len() > b.len() { a.len() as i32 } else { b.len() as i32};
