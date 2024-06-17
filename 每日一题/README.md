@@ -31,6 +31,7 @@
 - [2928.给小朋友们分糖果 I (2024-06-01-e)](https://leetcode.cn/problems/distribute-candies-among-children-i)
 - [1103.分糖果 II (2024-06-03-e)](https://leetcode.cn/problems/distribute-candies-to-people)
 - [3038.相同分数的最大操作数目 I (2024-06-07-e)](https://leetcode.cn/problems/maximum-number-of-operations-with-the-same-score-i)
+- [522.最长特殊序列 II (2024-06-17-m)](https://leetcode.cn/problems/longest-uncommon-subsequence-ii)
 
 ## DFS
 - [3067.在带权树网络中统计可连接服务器对数目 (2024-06-04-m)](https://leetcode.cn/problems/count-pairs-of-connectable-servers-in-a-weighted-tree-network)
