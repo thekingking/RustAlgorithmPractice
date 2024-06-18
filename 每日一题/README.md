@@ -26,6 +26,7 @@
 - [2769.找出最大的可达成数字 (2024-05-21-e)](https://leetcode.cn/problems/find-the-maximum-achievable-number)
 - [2028.找出缺失的观测数据 (2024-05-27-m)](https://leetcode.cn/problems/find-missing-observations)
 - [2951.找出峰值 (2024-05-28-e)](https://leetcode.cn/problems/find-the-peaks)
+- [2288.价格减免 (2024-06-18-m)](https://leetcode.cn/problems/apply-discount-to-prices)
 
 ## 枚举
 - [2928.给小朋友们分糖果 I (2024-06-01-e)](https://leetcode.cn/problems/distribute-candies-among-children-i)
