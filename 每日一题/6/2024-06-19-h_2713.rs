@@ -1,11 +1,9 @@
-fn main() {
-    println!("hello, world");
-}
-
-#[warn(dead_code)]
 struct Solution;
 
 impl Solution {
+    /// 动态规划 
+    /// 双百，可惜不是我自己想出来的解题思路，参考了灵神的解题方法
+    /// 由于值是从小到大，故由值构建递归方程
     pub fn max_increasing_cells(mat: Vec<Vec<i32>>) -> i32 {
         let mut cnt = std::collections::HashMap::new();
         let mut set = std::collections::HashSet::new();
