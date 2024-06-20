@@ -1,0 +1,25 @@
+# 差分
+## 参考
+[灵神题单](https://leetcode.cn/circle/discuss/mOr1u6/)
+
+## 一维差分
+- [ ] [2848. 与车相交的点](https://leetcode.cn/problems/points-that-intersect-with-cars/)
+- [ ] [1893. 检查是否区域内所有整数都被覆盖](https://leetcode.cn/problems/check-if-all-the-integers-in-a-range-are-covered/)
+- [ ] [1854. 人口最多的年份](https://leetcode.cn/problems/maximum-population-year/)
+- [ ] [2960. 统计已测试设备](https://leetcode.cn/problems/count-tested-devices-after-test-operations/)
+- [ ] [1094. 拼车](https://leetcode.cn/problems/car-pooling/)
+- [ ] [1109. 航班预订统计](https://leetcode.cn/problems/corporate-flight-bookings/)
+- [ ] [56. 合并区间](https://leetcode.cn/problems/merge-intervals/)
+- [ ] [57. 插入区间](https://leetcode.cn/problems/insert-interval/)
+- [ ] [732. 我的日程安排表 III](https://leetcode.cn/problems/my-calendar-iii/)
+- [ ] [2406. 将区间分为最少组数](https://leetcode.cn/problems/divide-intervals-into-minimum-number-of-groups/)
+- [ ] [2381. 字母移位 II](https://leetcode.cn/problems/shifting-letters-ii/)
+- [ ] [995. K 连续位的最小翻转次数](https://leetcode.cn/problems/minimum-number-of-k-consecutive-bit-flips/)
+- [ ] [1589. 所有排列中的最大和](https://leetcode.cn/problems/maximum-sum-obtained-of-any-permutation/)
+- [ ] [1943. 描述绘画结果](https://leetcode.cn/problems/describe-the-painting/)
+- [ ] [2251. 花期内花的数目](https://leetcode.cn/problems/number-of-flowers-in-full-bloom/)
+- [ ] [2772. 使数组中的所有元素都等于零](https://leetcode.cn/problems/apply-operations-to-make-all-array-elements-equal-to-zero/)
+- [ ] [798. 得分最高的最小轮调](https://leetcode.cn/problems/smallest-rotation-with-highest-score/)
+- [ ] [2528. 最大化城市的最小供电站数目](https://leetcode.cn/problems/maximize-the-minimum-powered-city/)
+- [ ] [1674. 使数组互补的最少操作次数](https://leetcode.cn/problems/minimum-moves-to-make-array-complementary/)
+- [ ] [3017. 按距离统计房屋对数目 II](https://leetcode.cn/problems/count-the-number-of-houses-at-a-certain-distance-ii/)
