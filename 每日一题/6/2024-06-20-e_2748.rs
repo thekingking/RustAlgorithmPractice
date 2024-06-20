@@ -1,11 +1,8 @@
-fn main() {
-    println!("hello, world");
-}
-
-#[warn(dead_code)]
 struct Solution;
 
 impl Solution {
+    /// 简单题
+    /// 枚举
     pub fn count_beautiful_pairs(nums: Vec<i32>) -> i32 {
         const MUTEX: [[bool; 10]; 10] = [
             [false, false, false, false, false, false, false, false, false, false],
