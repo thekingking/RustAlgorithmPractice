@@ -5,6 +5,7 @@
 - [2981.找出出现至少三次的最长特殊子字符串 I (2024-05-29-m)](https://leetcode.cn/problems/find-longest-special-substring-that-occurs-thrice-i)
 - [2932.找出出现至少三次的最长特殊子字符串 II (2024-05-30-m)](https://leetcode.cn/problems/find-longest-special-substring-that-occurs-thrice-ii)
 - [491.甲板上的战舰 (2024-06-11-m)](https://leetcode.cn/problems/battleships-in-a-board)
+- [LCP 61.气温变化趋势 (2024-06-21-m)](https://leetcode.cn/problems/6CE719/)
 
 ## 前缀和
 - [1738.找出第 K 大的异或坐标值 (2024-05-26-m)](https://leetcode.cn/problems/find-kth-largest-xor-coordinate-value)

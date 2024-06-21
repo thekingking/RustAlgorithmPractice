@@ -1,11 +1,7 @@
-fn main() {
-    println!("hello, world");
-}
-
-#[warn(dead_code)]
 struct Solution;
 
 impl Solution {
+    /// 一次遍历，简单题
     pub fn temperature_trend(temperature_a: Vec<i32>, temperature_b: Vec<i32>) -> i32 {
         let len = temperature_a.len();
         let mut res = 0;
