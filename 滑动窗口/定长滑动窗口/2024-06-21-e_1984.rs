@@ -1,11 +1,7 @@
-fn main() {
-    println!("hello, world");
-}
-
-#[warn(dead_code)]
 struct Solution;
 
 impl Solution {
+    /// 排序+滑动窗口
     pub fn minimum_difference(mut nums: Vec<i32>, k: i32) -> i32 {
         nums.sort_unstable();
         let k = k as usize;
