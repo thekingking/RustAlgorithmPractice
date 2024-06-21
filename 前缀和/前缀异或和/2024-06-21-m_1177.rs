@@ -1,11 +1,7 @@
-fn main() {
-    println!("hello, world");
-}
-
-#[warn(dead_code)]
 struct Solution;
 
 impl Solution {
+    /// 前缀异或和，注意题意，可以重新排列子序列
     pub fn can_make_pali_queries(s: String, queries: Vec<Vec<i32>>) -> Vec<bool> {
         let mut pre = 0;
         let mut cnt = vec![0; s.len() + 1];

@@ -38,8 +38,8 @@
 - [ ] [3086. 拾起 K 个 1 需要的最少行动次数](https://leetcode.cn/problems/minimum-moves-to-pick-k-ones/)
 
 ## 前缀异或和
-- [ ] [1310. 子数组异或查询](https://leetcode.cn/problems/xor-queries-of-a-subarray/)
-- [ ] [1177. 构建回文串检测](https://leetcode.cn/problems/can-make-palindrome-from-substring/)
+- [x] [1310. 子数组异或查询](https://leetcode.cn/problems/xor-queries-of-a-subarray/)
+- [x] [1177. 构建回文串检测](https://leetcode.cn/problems/can-make-palindrome-from-substring/)
 - [ ] [1371. 每个元音包含偶数次的最长子字符串](https://leetcode.cn/problems/find-the-longest-substring-containing-vowels-in-even-counts/)
 - [ ] [1542. 找出最长的超赞子字符串](https://leetcode.cn/problems/find-longest-awesome-substring/)
 - [ ] [1915. 最美子字符串的数目](https://leetcode.cn/problems/number-of-wonderful-substrings/)
