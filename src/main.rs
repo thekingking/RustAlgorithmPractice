@@ -6,16 +6,28 @@ fn main() {
 struct Solution;
 
 impl Solution {
-    pub fn minimum_difference(mut nums: Vec<i32>, k: i32) -> i32 {
-        nums.sort_unstable();
-        let k = k as usize;
-        let mut res = 100_000;
-        if k > nums.len() {
-            return nums[nums.len() - 1] - nums[0];
+    pub fn smallest_beautiful_string(mut s: String, k: i32) -> String {
+        let s_byte = unsafe {
+            s.as_bytes_mut()
+        };
+        let n = s_byte.len();
+        let k = k as u8 + b'a';
+        let mut i = n - 1;
+        s_byte[i] += 1;
+        while i < n {
+            if s_byte[i] == k {
+                if i == 0 {
+                    return String::from("");
+                }
+                s_byte[i] = b'a';
+                i -= 1;
+                s_byte[i] += 1;
+            } else if i > 0 && s_byte[i] == s_byte[i - 1] || i > 1 && s_byte[i] == s_byte[i -  2] {
+                s_byte[i] += 1;
+            } else {
+                i += 1;
+            }
         }
-        for i in 0..=(nums.len() - k) {
-            res = res.min(nums[i + k - 1] - nums[i]);
-        }
-        res
+        s
     }
 }
