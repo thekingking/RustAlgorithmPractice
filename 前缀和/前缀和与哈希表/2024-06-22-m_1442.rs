@@ -1,11 +1,8 @@
-fn main() {
-    println!("hello, world");
-}
-
-#[warn(dead_code)]
 struct Solution;
 
 impl Solution {
+    /// 双百
+    /// 前缀和+哈希表
     pub fn count_triplets(arr: Vec<i32>) -> i32 {
         let mut cnt = std::collections::HashMap::new();
         let mut pre = 0;
