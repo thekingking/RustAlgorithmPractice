@@ -1,11 +1,7 @@
-fn main() {
-    println!("hello, world");
-}
-
-#[warn(dead_code)]
 struct Solution;
 
 impl Solution {
+    /// 滑动窗口，注意i32正溢出
     pub fn get_averages(nums: Vec<i32>, k: i32) -> Vec<i32> {
         if k == 0 {
             return nums;
