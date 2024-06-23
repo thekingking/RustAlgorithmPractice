@@ -1,11 +1,7 @@
-fn main() {
-    println!("hello, world");
-}
-
-#[warn(dead_code)]
 struct Solution;
 
 impl Solution {
+    /// 滑动窗口
     pub fn find_max_average(nums: Vec<i32>, k: i32) -> f64 {
         let mut all = 0;
         let mut max = i32::MIN;
