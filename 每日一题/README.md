@@ -51,6 +51,7 @@
 
 ## 简单题
 - [2806.取整购买后的账户余额 (2024-06-12-e)](https://leetcode.cn/problems/account-balance-after-rounded-purchase)
+- [520.检测大写字母 (2024-06-23-e)](https://leetcode.cn/problems/detect-capital)
 
 ## 动态规划
 - [2786.访问数组中的位置使分数最大 (2024-06-14)](https://leetcode.cn/problems/visit-array-positions-to-maximize-score)
