@@ -1,13 +1,8 @@
-use std::collections::HashMap;
-
-fn main() {
-    println!("hello, world");
-}
-
-#[warn(dead_code)]
 struct Solution;
 
 impl Solution {
+    /// 可惜没在周赛做出
+    /// 动态规划
     pub fn maximum_total_cost(nums: Vec<i32>) -> i64 {
         let mut dp = vec![[i64::MIN, i64::MIN]; nums.len()];
         dp[0][0] = nums[0] as i64;
