@@ -12,6 +12,7 @@
 
 ## 单调栈
 - [1673.找出最具竞争力的子序列 (2024-05-24-m)](https://leetcode.cn/problems/find-the-most-competitive-subsequence)
+- [503.下一个更大元素 II (2024-06-24-m)](https://leetcode.cn/problems/next-greater-element-ii)
 
 ## 滑动窗口
 - [2831.找出最长等值子数组 (2024-05-23-m)](https://leetcode.cn/problems/find-the-longest-equal-subarray)
