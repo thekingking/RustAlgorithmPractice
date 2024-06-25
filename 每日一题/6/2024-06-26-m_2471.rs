@@ -1,13 +1,8 @@
-use std::collections::HashMap;
-
-fn main() {
-    println!("hello, world");
-}
-
-#[warn(dead_code)]
 struct Solution;
 
 impl Solution {
+    /// 动态规划 or 记忆化搜索
+    /// 灵神题解，今天有事就先抄抄了
     pub fn special_perm(nums: Vec<i32>) -> i32 {
         let n = nums.len();
         let u = (1 << n) - 1;
