@@ -1,13 +1,7 @@
-use std::collections::HashMap;
-
-fn main() {
-    println!("hello, world");
-}
-
-#[warn(dead_code)]
 struct Solution;
 
 impl Solution {
+    /// 数学问题
     pub fn good_subsetof_binary_matrix(grid: Vec<Vec<i32>>) -> Vec<i32> {
         let n = 1 << grid[0].len();
         let mut cnt = vec![-1; n];

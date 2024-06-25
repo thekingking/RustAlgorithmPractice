@@ -60,3 +60,6 @@
 
 ## 脑筋急转弯
 - [521.最长特殊序列 Ⅰ (2024-06-16-e)](https://leetcode.cn/problems/longest-uncommon-subsequence-i)
+
+## 数学
+- [2732.找到矩阵中的好子集 (2024-06-25-h)](https://leetcode.cn/problems/find-a-good-subset-of-the-matrix)
