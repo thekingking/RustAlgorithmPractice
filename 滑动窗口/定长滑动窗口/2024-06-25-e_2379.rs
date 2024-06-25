@@ -1,13 +1,8 @@
-use std::collections::HashMap;
 
-fn main() {
-    println!("hello, world");
-}
-
-#[warn(dead_code)]
 struct Solution;
 
 impl Solution {
+    /// 滑动窗口
     pub fn minimum_recolors(blocks: String, k: i32) -> i32 {
         let byte = blocks.as_bytes();
         let mut num = 0;
