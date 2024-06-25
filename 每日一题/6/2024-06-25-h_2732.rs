@@ -27,6 +27,7 @@ impl Solution {
                 if j >= 0 {
                     return vec![i.min(j), i.max(j)];
                 }
+                // 把y二进制中为1的部分逐渐换为0，直到在cnt中存在或y==0
                 y = (y - 1) & c;
             }
         }
