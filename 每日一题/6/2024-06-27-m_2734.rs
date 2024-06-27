@@ -1,13 +1,7 @@
-use std::collections::HashMap;
-
-fn main() {
-    println!("hello, world");
-}
-
-#[warn(dead_code)]
 struct Solution;
 
 impl Solution {
+    /// 贪心
     pub fn smallest_string(mut s: String) -> String {
         let mut bytes = unsafe {
             s.as_bytes_mut()

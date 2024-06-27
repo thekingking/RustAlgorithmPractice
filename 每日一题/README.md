@@ -45,6 +45,7 @@
 - [881.救生艇 (2024-06-10-m)](https://leetcode.cn/problems/boats-to-save-people)
 - [2831.子序列最大优雅度 (2024-06-13-h)](https://leetcode.cn/problems/maximum-elegance-of-a-k-length-subsequence)
 - [2663.字典序最小的美丽字符串 (2024-06-22-h)](https://leetcode.cn/problems/lexicographically-smallest-beautiful-string)
+- [2734.执行子串操作后的字典序最小字符串 (2024-06-27-m)](https://leetcode.cn/problems/lexicographically-smallest-string-after-substring-operation)
 
 ## 记忆化搜索
 - [3040.相同分数的最大操作数目 II (2024-06-08-m)](https://leetcode.cn/problems/maximum-number-of-operations-with-the-same-score-ii)
