@@ -57,8 +57,9 @@
 - [520.检测大写字母 (2024-06-23-e)](https://leetcode.cn/problems/detect-capital)
 
 ## 动态规划
-- [2786.访问数组中的位置使分数最大 (2024-06-14)](https://leetcode.cn/problems/visit-array-positions-to-maximize-score)
+- [2786.访问数组中的位置使分数最大 (2024-06-14-m)](https://leetcode.cn/problems/visit-array-positions-to-maximize-score)
 - [2713.矩阵中严格递增的单元格数 (2024-06-19-h)](https://leetcode.cn/problems/maximum-strictly-increasing-cells-in-a-matrix)
+- [2742.给墙壁刷油漆 (2024-06-28-h)](https://leetcode.cn/problems/painting-the-walls)
 
 ## 脑筋急转弯
 - [521.最长特殊序列 Ⅰ (2024-06-16-e)](https://leetcode.cn/problems/longest-uncommon-subsequence-i)

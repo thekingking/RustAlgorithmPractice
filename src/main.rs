@@ -8,22 +8,17 @@ fn main() {
 struct Solution;
 
 impl Solution {
-    pub fn smallest_string(mut s: String) -> String {
-        let mut bytes = unsafe {
-            s.as_bytes_mut()
-        };
-        let mut index = 0;
-        while index < bytes.len() && bytes[index] == b'a' {
-            index += 1;
-        }
-        if index == bytes.len() {
-            bytes[index - 1] = b'z';
-        } else {
-            while index < bytes.len() && bytes[index] != b'a' {
-                bytes[index] -= 1;
-                index += 1;
+    pub fn paint_walls(cost: Vec<i32>, time: Vec<i32>) -> i32 {
+        let n = cost.len();
+        let mut dp = vec![i32::MAX / 2; n + 1];
+        dp[0] = 0;
+        for i in 0..n {
+            let c = cost[i];
+            let t = time[i] + 1;
+            for j in (0..=n).rev() {
+                dp[j] = std::cmp::min(dp[j], dp[std::cmp::max(j as i32 - t, 0) as usize] + c);
             }
         }
-        s
+        dp[n]
     }
 }
