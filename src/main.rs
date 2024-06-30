@@ -8,7 +8,18 @@ fn main() {
 struct Solution;
 
 impl Solution {
-    pub fn remove_trailing_zeros(num: String) -> String {
-        num.trim_end_matches('0').to_string()
+    pub fn combination_sum4(nums: Vec<i32>, target: i32) -> i32 {
+        let  target = target as usize;
+        let mut dp = vec![0; target + 1];
+        dp[0] = 1;
+        for i in 1..=target {
+            for &x in nums.iter() {
+                let x = x as usize;
+                if x <= i {
+                    dp[i] += dp[i - x];
+                }
+            }
+        }
+        dp[target]
     }
 }
