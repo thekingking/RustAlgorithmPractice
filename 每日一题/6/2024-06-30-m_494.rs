@@ -20,4 +20,22 @@ impl Solution {
         }
         dp[nums.len() % 2][(1000 + target) as usize]
     }
+
+    /// 背包问题
+    pub fn find_target_sum_ways(nums: Vec<i32>, target: i32) -> i32 {
+        let s = nums.iter().sum::<i32>() - target.abs();
+        if s < 0 || s % 2 == 1 {
+            return 0;
+        }
+        let m = s as usize / 2;
+        let mut f = vec![0; m + 1];
+        f[0] = 1;
+        for &x in &nums {
+            let x = x as usize;
+            for i in (x..=m).rev() {
+                f[i] += f[i - x];
+            }
+        }
+        f[m]
+    }
 }
