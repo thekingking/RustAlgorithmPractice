@@ -1,13 +1,7 @@
-use std::{collections::{BinaryHeap, HashMap}, vec};
-
-fn main() {
-    println!("hello, world");
-}
-
-#[warn(dead_code)]
 struct Solution;
 
 impl Solution {
+    /// 简单贪心
     pub fn minimum_boxes(apple: Vec<i32>, capacity: Vec<i32>) -> i32 {
         let mut sum: i32 = apple.iter().sum();
         let mut capacity = capacity;
