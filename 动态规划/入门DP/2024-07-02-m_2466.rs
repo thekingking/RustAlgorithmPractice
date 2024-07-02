@@ -1,13 +1,7 @@
-use std::{collections::{BinaryHeap, HashMap}, vec};
-
-fn main() {
-    println!("hello, world");
-}
-
-#[warn(dead_code)]
 struct Solution;
 
 impl Solution {
+    /// 爬楼梯换皮
     pub fn count_good_strings(low: i32, high: i32, zero: i32, one: i32) -> i32 {
         let mut dp = vec![0_i64; high as usize + 1];
         dp[0] = 1;
