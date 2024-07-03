@@ -1,13 +1,7 @@
-use std::{collections::{BinaryHeap, HashMap}, vec};
-
-fn main() {
-    println!("hello, world");
-}
-
-#[warn(dead_code)]
 struct Solution;
 
 impl Solution {
+    /// 简单题
     pub fn sum_of_the_digits_of_harshad_number(x: i32) -> i32 {
         let mut n = x;
         let mut sum = 0;
