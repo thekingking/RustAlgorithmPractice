@@ -1,13 +1,7 @@
-use std::{collections::{BinaryHeap, HashMap}, vec};
-
-fn main() {
-    println!("hello, world");
-}
-
-#[warn(dead_code)]
 struct Solution;
 
 impl Solution {
+    /// 贪心
     pub fn maximum_bags(capacity: Vec<i32>, rocks: Vec<i32>, additional_rocks: i32) -> i32 {
         let mut cnt = vec![0; capacity.len()];
         for i in 0..capacity.len() {

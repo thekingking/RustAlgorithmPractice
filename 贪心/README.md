@@ -4,7 +4,7 @@
 ## 从最小/最大开始贪心
 - [x] [1833. 雪糕的最大数量 1253](https://leetcode.cn/problems/maximum-ice-cream-bars/)
 - [x] [3074. 重新分装苹果 ~1260](https://leetcode.cn/problems/apple-redistribution-into-boxes/)
-- [ ] [2279. 装满石头的背包的最大数量 ~1260](https://leetcode.cn/problems/maximum-bags-with-full-capacity-of-rocks/)
+- [x] [2279. 装满石头的背包的最大数量 ~1260](https://leetcode.cn/problems/maximum-bags-with-full-capacity-of-rocks/)
 - [ ] [1005. K 次取反后最大化的数组和 1275](https://leetcode.cn/problems/maximize-sum-of-array-after-k-negations/)
 - [ ] [1481. 不同整数的最少数目 1284](https://leetcode.cn/problems/least-number-of-unique-integers-after-k-removals/)
 - [ ] [1403. 非递增顺序的最小子序列 1288](https://leetcode.cn/problems/minimum-subsequence-in-non-increasing-order/)
