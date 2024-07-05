@@ -1,13 +1,7 @@
-use std::{cmp::max, collections::{BinaryHeap, HashMap}, vec};
-
-fn main() {
-    println!("hello, world");
-}
-
-#[warn(dead_code)]
 struct Solution;
 
 impl Solution {
+    /// 简单题
     pub fn modified_matrix(mut matrix: Vec<Vec<i32>>) -> Vec<Vec<i32>> {
         let m = matrix.len();
         let n = matrix[0].len();

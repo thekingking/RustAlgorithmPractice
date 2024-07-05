@@ -60,6 +60,7 @@
 - [2710.移除字符串中的尾随零 (2024-06-29-e)](https://leetcode.cn/problems/remove-trailing-zeros-from-a-string)
 - [3115.质数的最大距离 (2024-07-02-m)](https://leetcode.cn/problems/maximum-prime-difference)
 - [3099.哈沙德数 (2024-07-03-e)](https://leetcode.cn/problems/harshad-number)
+- [3033.修改矩阵 (2024-07-05-e)](https://leetcode.cn/problems/modify-the-matrix)
 
 ## 动态规划
 - [2786.访问数组中的位置使分数最大 (2024-06-14-m)](https://leetcode.cn/problems/visit-array-positions-to-maximize-score)
