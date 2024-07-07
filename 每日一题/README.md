@@ -31,13 +31,14 @@
 - [2951.找出峰值 (2024-05-28-e)](https://leetcode.cn/problems/find-the-peaks)
 - [2288.价格减免 (2024-06-18-m)](https://leetcode.cn/problems/apply-discount-to-prices)
 
-## 暴力
+## 暴力枚举
 - [2928.给小朋友们分糖果 I (2024-06-01-e)](https://leetcode.cn/problems/distribute-candies-among-children-i)
 - [1103.分糖果 II (2024-06-03-e)](https://leetcode.cn/problems/distribute-candies-to-people)
 - [3038.相同分数的最大操作数目 I (2024-06-07-e)](https://leetcode.cn/problems/maximum-number-of-operations-with-the-same-score-i)
 - [522.最长特殊序列 II (2024-06-17-m)](https://leetcode.cn/problems/longest-uncommon-subsequence-ii)
 - [2748.美丽下标对的数目 (2024-06-20-e)](https://leetcode.cn/problems/number-of-beautiful-pairs)
 - [2065.最大化一张图中的路径价值 （暴力搜索，Dijkstra算法优化搜索） (2024-07-01-h)](https://leetcode.cn/problems/maximum-path-quality-of-a-graph)
+- [1958.检查操作是否合法 (2024-07-07-m)](https://leetcode.cn/problems/check-if-move-is-legal)
 
 ## DFS
 - [3067.在带权树网络中统计可连接服务器对数目 (2024-06-04-m)](https://leetcode.cn/problems/count-pairs-of-connectable-servers-in-a-weighted-tree-network)

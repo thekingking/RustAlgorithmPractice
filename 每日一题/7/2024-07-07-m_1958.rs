@@ -1,13 +1,7 @@
-use std::{cmp::max, collections::{BinaryHeap, HashMap}, vec};
-
-fn main() {
-    println!("hello, world");
-}
-
-#[warn(dead_code)]
 struct Solution;
 
 impl Solution {
+    /// 各个方向枚举
     pub fn check_move(board: Vec<Vec<char>>, r_move: i32, c_move: i32, color: char) -> bool {
         let m = board.len() as i32;
         let n = board[0].len() as i32;
