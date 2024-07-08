@@ -1,13 +1,7 @@
-use std::{cmp::max, collections::{BinaryHeap, HashMap}, vec};
-
-fn main() {
-    println!("hello, world");
-}
-
-#[warn(dead_code)]
 struct Solution;
 
 impl Solution {
+    /// 前缀和
     pub fn pivot_index(nums: Vec<i32>) -> i32 {
         let sum = nums.iter().sum::<i32>();
         let mut s = 0;
