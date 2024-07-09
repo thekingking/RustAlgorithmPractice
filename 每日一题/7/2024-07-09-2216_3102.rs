@@ -1,9 +1,3 @@
-use std::collections::BTreeMap;
-
-fn main() {
-    println!("hello, world");
-}
-
 struct Solution;
 
 impl Solution {

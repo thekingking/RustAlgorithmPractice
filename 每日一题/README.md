@@ -76,3 +76,6 @@
 
 ## 数学
 - [2732.找到矩阵中的好子集 (2024-06-25-h)](https://leetcode.cn/problems/find-a-good-subset-of-the-matrix)
+
+## 有序集合
+- [3102.最小化曼哈顿距离 (2024-07-09-2216)](https://leetcode.cn/problems/minimize-manhattan-distances/description/)
