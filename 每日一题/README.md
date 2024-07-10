@@ -15,7 +15,6 @@
 ## 单调栈
 - [1673.找出最具竞争力的子序列 (2024-05-24-m)](https://leetcode.cn/problems/find-the-most-competitive-subsequence)
 - [503.下一个更大元素 II (2024-06-24-m)](https://leetcode.cn/problems/next-greater-element-ii)
-- [2970.统计移除递增子数组的数目 I (2024-07-10-1563)](https://leetcode.cn/problems/count-the-number-of-incremovable-subarrays-i)
 
 ## 滑动窗口
 - [2831.找出最长等值子数组 (2024-05-23-m)](https://leetcode.cn/problems/find-the-longest-equal-subarray)
@@ -80,3 +79,6 @@
 
 ## 有序集合
 - [3102.最小化曼哈顿距离 (2024-07-09-2216)](https://leetcode.cn/problems/minimize-manhattan-distances/description/)
+
+## 双指针
+- [2970.统计移除递增子数组的数目 I (2024-07-10-1563)](https://leetcode.cn/problems/count-the-number-of-incremovable-subarrays-i)
