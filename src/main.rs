@@ -7,40 +7,25 @@ fn main() {
 struct Solution;
 
 impl Solution {
-    /// 有序集合
-    pub fn minimum_distance(points: Vec<Vec<i32>>) -> i32 {
-        let mut sx: BTreeMap<i32, i32> = BTreeMap::new();
-        let mut sy: BTreeMap<i32, i32> = BTreeMap::new();
-
-        for p in &points {
-            *sx.entry(p[0] - p[1]).or_insert(0) += 1;
-            *sy.entry(p[0] + p[1]).or_insert(0) += 1;
+    pub fn incremovable_subarray_count(nums: Vec<i32>) -> i32 {
+        let n = nums.len();
+        let mut i = 0;
+        while i < n - 1 && nums[i] < nums[i + 1] {
+            i += 1;
         }
-
-        let mut res = i32::MAX;
-
-        for p in &points {
-            let sx_key = p[0] - p[1];
-            let sy_key = p[0] + p[1];
-            let count_sx = sx.entry(sx_key).or_insert(0);
-            *count_sx -= 1;
-            if *count_sx == 0 {
-                sx.remove(&sx_key);
-            }
-            let count_sy = sy.entry(sy_key).or_insert(0);
-            *count_sy -= 1;
-            if *count_sy == 0 {
-                sy.remove(&sy_key);
-            }
-
-            if !sx.is_empty() && !sy.is_empty() {
-                let max_sx = *sx.iter().rev().next().unwrap().0 - *sx.iter().next().unwrap().0;
-                let max_sy = *sy.iter().rev().next().unwrap().0 - *sy.iter().next().unwrap().0;
-                res = res.min(max_sx.max(max_sy));
-            }
-            *sx.entry(sx_key).or_insert(0) += 1;
-            *sy.entry(sy_key).or_insert(0) += 1;
+        if i == n - 1 {
+            return (n * (n + 1)) as i32 / 2;
         }
-        res
+        let mut i = i as i32;
+        let mut ans = i + 2;
+        let mut j = n - 1;
+        while j == n - 1 || nums[j] < nums[j + 1] {
+            while i >= 0 && nums[i as usize] < nums[j] {
+                i -= 1;
+            }
+            ans += i + 2;
+            j -= 1;
+        }
+        ans
     }
 }
