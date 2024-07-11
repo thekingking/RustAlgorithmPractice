@@ -82,3 +82,4 @@
 
 ## 双指针
 - [2970.统计移除递增子数组的数目 I (2024-07-10-1563)](https://leetcode.cn/problems/count-the-number-of-incremovable-subarrays-i)
+- [2972.统计移除递增子数组的数目 I (2024-07-10-2153)](https://leetcode.cn/problems/count-the-number-of-incremovable-subarrays-ii)
