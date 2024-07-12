@@ -1,12 +1,7 @@
-use std::collections::BTreeMap;
-
-fn main() {
-    println!("hello, world");
-}
-
 struct Solution;
 
 impl Solution {
+    /// 线性DP，斐波那契数列
     pub fn count_house_placements(n: i32) -> i32 {
         const MOD: i64 = 1_000_000_007;
         let mut f1: i64 = 1;

@@ -6,15 +6,15 @@
 - [x] [70. 爬楼梯（题解）](https://leetcode.cn/problems/climbing-stairs/)
 - [x] [746. 使用最小花费爬楼梯（题解）](https://leetcode.cn/problems/min-cost-climbing-stairs/)
 - [x] [377. 组合总和 Ⅳ](https://leetcode.cn/problems/combination-sum-iv/)
-- [x] [2466.  统计构造好字符串的方案数](https://leetcode.cn/problems/count-ways-to-build-good-strings/)
+- [x] [2466.  统计构造好字符串的方案数 1694](https://leetcode.cn/problems/count-ways-to-build-good-strings/)
 - [x] [2266.  统计打字方案数 1857](https://leetcode.cn/problems/count-number-of-texts/)
 
 ### 打家劫舍
-- [x] [198. 打家劫舍](https://leetcode.cn/problems/house-robber/)
-- [ ] [740. 删除并获得点数](https://leetcode.cn/problems/delete-and-earn/)
-- [ ] [2320. 统计放置房子的方式数](https://leetcode.cn/problems/count-number-of-ways-to-place-houses/)
-- [ ] [213. 打家劫舍 II](https://leetcode.cn/problems/house-robber-ii/)
-- [ ] [3186. 施咒的最大总伤害](https://leetcode.cn/problems/maximum-total-damage-with-spell-casting/)
+- [x] [198. 打家劫舍 1500](https://leetcode.cn/problems/house-robber/)
+- [x] [740. 删除并获得点数 1600](https://leetcode.cn/problems/delete-and-earn/)
+- [x] [2320. 统计放置房子的方式数 1608](https://leetcode.cn/problems/count-number-of-ways-to-place-houses/)
+- [ ] [213. 打家劫舍 II 1650](https://leetcode.cn/problems/house-robber-ii/)
+- [ ] [3186. 施咒的最大总伤害 1850](https://leetcode.cn/problems/maximum-total-damage-with-spell-casting/)
 
 ### 最大子数组和
 - [ ] [53. 最大子数组和](https://leetcode.cn/problems/maximum-subarray/)
