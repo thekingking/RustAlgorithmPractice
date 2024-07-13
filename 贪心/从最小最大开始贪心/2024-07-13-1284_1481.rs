@@ -1,12 +1,7 @@
-use std::collections::BTreeMap;
-
-fn main() {
-    println!("hello, world");
-}
-
 struct Solution;
 
 impl Solution {
+    /// 贪心 + 哈希
     pub fn find_least_num_of_unique_ints(arr: Vec<i32>, k: i32) -> i32 {
         let mut cnt = std::collections::HashMap::new();
         for x in arr {
