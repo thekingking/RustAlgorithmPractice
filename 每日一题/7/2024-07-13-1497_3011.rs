@@ -1,12 +1,7 @@
-use std::collections::BTreeMap;
-
-fn main() {
-    println!("hello, world");
-}
-
 struct Solution;
 
 impl Solution {
+    /// 一次遍历
     pub fn can_sort_array(mut nums: Vec<i32>) -> bool {
         let mut cur_max = 0;
         let mut pre_max = 0;
