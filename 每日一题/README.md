@@ -25,6 +25,7 @@
 - [1542.找出最长的超赞子字符串(2024-05-20-h) (状态压缩)](https://leetcode.cn/problems/find-the-longest-equal-subarray)
 - [2965.找出缺失和重复的数字 (2024-05-31-e) (其他方法：异或和、数学方法)](https://leetcode.cn/problems/find-missing-and-repeated-values)
 - [575.分糖果 (2024-06-02-e)](https://leetcode.cn/problems/distribute-candies)
+- [721.账户合并 (2024-07-15-m)](https://leetcode.cn/problems/accounts-merge/description/)
 
 ## 模拟
 - [1535.找出数组游戏的赢家 (2024-05-19-m)](https://leetcode.cn/problems/find-the-winner-of-an-array-game)

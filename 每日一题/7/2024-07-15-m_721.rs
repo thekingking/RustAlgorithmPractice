@@ -1,26 +1,9 @@
 use std::collections::{HashMap, HashSet};
 
-fn main() {
-    println!("hello, world");
-}
-
-// Definition for singly-linked list.
-#[derive(PartialEq, Eq, Clone, Debug)]
-pub struct ListNode {
-    pub val: i32,
-    pub next: Option<Box<ListNode>>,
-}
-
-impl ListNode {
-    #[inline]
-    fn new(val: i32) -> Self {
-        ListNode { next: None, val }
-    }
-}
-
 struct Solution;
 
 impl Solution {
+    /// 图的搜索
     pub fn accounts_merge(accounts: Vec<Vec<String>>) -> Vec<Vec<String>> {
         let mut email_to_idx = HashMap::new();
 
