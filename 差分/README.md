@@ -4,8 +4,8 @@
 
 ## 一维差分
 - [x] [2848. 与车相交的点 1230](https://leetcode.cn/problems/points-that-intersect-with-cars/)
-- [ ] [1893. 检查是否区域内所有整数都被覆盖](https://leetcode.cn/problems/check-if-all-the-integers-in-a-range-are-covered/)
-- [ ] [1854. 人口最多的年份](https://leetcode.cn/problems/maximum-population-year/)
+- [x] [1893. 检查是否区域内所有整数都被覆盖](https://leetcode.cn/problems/check-if-all-the-integers-in-a-range-are-covered/)
+- [x] [1854. 人口最多的年份](https://leetcode.cn/problems/maximum-population-year/)
 - [ ] [2960. 统计已测试设备](https://leetcode.cn/problems/count-tested-devices-after-test-operations/)
 - [x] [1094. 拼车 1441](https://leetcode.cn/problems/car-pooling/)
 - [ ] [1109. 航班预订统计](https://leetcode.cn/problems/corporate-flight-bookings/)
@@ -23,3 +23,9 @@
 - [ ] [2528. 最大化城市的最小供电站数目](https://leetcode.cn/problems/maximize-the-minimum-powered-city/)
 - [ ] [1674. 使数组互补的最少操作次数](https://leetcode.cn/problems/minimum-moves-to-make-array-complementary/)
 - [ ] [3017. 按距离统计房屋对数目 II](https://leetcode.cn/problems/count-the-number-of-houses-at-a-certain-distance-ii/)
+
+## 二维差分
+- [2536. 子矩阵元素加 1 1583](https://leetcode.cn/problems/increment-submatrices-by-one/)
+- [850. 矩形面积 II 2236](https://leetcode.cn/problems/rectangle-area-ii/)
+- [2132. 用邮票贴满网格图 2364](https://leetcode.cn/problems/stamping-the-grid/)
+- [LCP 74. 最强祝福力场](https://leetcode.cn/problems/xepqZ5/)
