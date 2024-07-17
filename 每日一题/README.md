@@ -88,3 +88,6 @@
 ## 双指针
 - [2970.统计移除递增子数组的数目 I (2024-07-10-1563)](https://leetcode.cn/problems/count-the-number-of-incremovable-subarrays-i)
 - [2972.统计移除递增子数组的数目 I (2024-07-10-2153)](https://leetcode.cn/problems/count-the-number-of-incremovable-subarrays-ii)
+
+## Floyd
+- [2959.关闭分部的可行集合数目 (2024-07-17-h)](https://leetcode.cn/problems/number-of-possible-sets-of-closing-branches/)

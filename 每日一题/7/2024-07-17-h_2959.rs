@@ -1,26 +1,8 @@
-use std::collections::{HashMap, HashSet};
-
-fn main() {
-    println!("hello, world");
-}
-
-// Definition for singly-linked list.
-#[derive(PartialEq, Eq, Clone, Debug)]
-pub struct ListNode {
-    pub val: i32,
-    pub next: Option<Box<ListNode>>,
-}
-
-impl ListNode {
-    #[inline]
-    fn new(val: i32) -> Self {
-        ListNode { next: None, val }
-    }
-}
-
 struct Solution;
 
 impl Solution {
+    /// 二进制枚举 + Floyd
+    /// 灵神题解
     pub fn number_of_sets(n: i32, max_distance: i32, roads: Vec<Vec<i32>>) -> i32 {
         let n = n as usize;
         let mut cnt = vec![vec![i32::MAX / 2; n + 1]; n + 1];
