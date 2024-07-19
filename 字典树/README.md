@@ -5,7 +5,7 @@
 
 ## 基础
 - [x] [208. 实现 Trie (前缀树)](https://leetcode.cn/problems/implement-trie-prefix-tree/)
-- [ ] [211. 添加与搜索单词 - 数据结构设计](https://leetcode.cn/problems/design-add-and-search-words-data-structure/)
+- [x] [211. 添加与搜索单词 - 数据结构设计](https://leetcode.cn/problems/design-add-and-search-words-data-structure/)
 - [ ] [14. 最长公共前缀](https://leetcode.cn/problems/longest-common-prefix/)
 - [ ] [648. 单词替换](https://leetcode.cn/problems/replace-words/)
 - [ ] [677. 键值映射](https://leetcode.cn/problems/map-sum-pairs/)
