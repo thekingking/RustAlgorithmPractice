@@ -12,6 +12,7 @@
 ## 前缀和
 - [1738.找出第 K 大的异或坐标值 (2024-05-26-m)](https://leetcode.cn/problems/find-kth-largest-xor-coordinate-value)
 - [724.寻找数组的中心下标 (2024-07-08-e)](https://leetcode.cn/problems/find-pivot-index)
+- [3096.得到更多分数的最少关卡数目 (2024-07-19-1501)](https://leetcode.cn/problems/minimum-levels-to-gain-more-points/)
 
 ## 单调栈
 - [1673.找出最具竞争力的子序列 (2024-05-24-m)](https://leetcode.cn/problems/find-the-most-competitive-subsequence)
