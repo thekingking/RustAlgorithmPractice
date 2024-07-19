@@ -19,24 +19,53 @@
 - [ ] [2156. 查找给定哈希值的子串](https://leetcode.cn/problems/find-substring-with-given-hash-value/)
 - [ ] [2953. 统计完全子字符串](https://leetcode.cn/problems/count-complete-substrings/)
 
-## 不定长滑动窗口
-- 3. 无重复字符的最长子串
-- 1493. 删掉一个元素以后全为 1 的最长子数组 1423
-- 2730. 找到最长的半重复子字符串 1502
-- 904. 水果成篮 1516
-- 1695. 删除子数组的最大得分 1529
-- 2958. 最多 K 个重复元素的最长子数组 1535
-- 2024. 考试的最大困扰度 1643
-- 1004. 最大连续1的个数 III 1656
-- 1438. 绝对差不超过限制的最长连续子数组 1672
-- 2401. 最长优雅子数组 1750
-- 1658. 将 x 减到 0 的最小操作数 1817
-- 1838. 最高频元素的频数 1876
-- 2516. 每种字符至少取 K 个 1948
-- 2831. 找出最长等值子数组 1976
-- 2106. 摘水果 2062
-- 1610. 可见点的最大数目 2147
-- 2781. 最长合法子字符串的长度 2204
-- 2968. 执行操作使频率分数最大 2444
-- 395. 至少有 K 个重复字符的最长子串
-- 1763. 最长的美好子字符串
+## 不定长滑动窗口（求最长/最大）
+- [ ] [3. 无重复字符的最长子串](https://leetcode.cn/problems/longest-substring-without-repeating-characters/)
+- [ ] [1493. 删掉一个元素以后全为 1 的最长子数组 1423](https://leetcode.cn/problems/longest-subarray-of-1s-after-deleting-one-element/)
+- [ ] [2730. 找到最长的半重复子字符串 1502](https://leetcode.cn/problems/find-the-longest-semi-repetitive-substring/)
+- [ ] [904. 水果成篮 1516](https://leetcode.cn/problems/fruit-into-baskets/)
+- [ ] [1695. 删除子数组的最大得分 1529](https://leetcode.cn/problems/maximum-erasure-value/)
+- [ ] [2958. 最多 K 个重复元素的最长子数组 1535](https://leetcode.cn/problems/length-of-longest-subarray-with-at-most-k-frequency/)
+- [ ] [2024. 考试的最大困扰度 1643](https://leetcode.cn/problems/maximize-the-confusion-of-an-exam/)
+- [ ] [1004. 最大连续1的个数 III 1656](https://leetcode.cn/problems/max-consecutive-ones-iii/)
+- [ ] [1438. 绝对差不超过限制的最长连续子数组 1672](https://leetcode.cn/problems/longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit/)
+- [ ] [2401. 最长优雅子数组 1750](https://leetcode.cn/problems/longest-nice-subarray/)
+- [ ] [1658. 将 x 减到 0 的最小操作数 1817](https://leetcode.cn/problems/minimum-operations-to-reduce-x-to-zero/)
+- [ ] [1838. 最高频元素的频数 1876](https://leetcode.cn/problems/frequency-of-the-most-frequent-element/)
+- [ ] [2516. 每种字符至少取 K 个 1948](https://leetcode.cn/problems/take-k-of-each-character-from-left-and-right/)
+- [ ] [2831. 找出最长等值子数组 1976](https://leetcode.cn/problems/find-the-longest-equal-subarray/)
+- [ ] [2106. 摘水果 2062](https://leetcode.cn/problems/maximum-fruits-harvested-after-at-most-k-steps/)
+- [ ] [1610. 可见点的最大数目 2147](https://leetcode.cn/problems/maximum-number-of-visible-points/)
+- [ ] [2781. 最长合法子字符串的长度 2204](https://leetcode.cn/problems/length-of-the-longest-valid-substring/)
+- [ ] [2968. 执行操作使频率分数最大 2444](https://leetcode.cn/problems/apply-operations-to-maximize-frequency-score/)
+- [ ] [395. 至少有 K 个重复字符的最长子串](https://leetcode.cn/problems/longest-substring-with-at-least-k-repeating-characters/)
+- [ ] [1763. 最长的美好子字符串](https://leetcode.cn/problems/longest-nice-substring/)
+- [ ] [159. 至多包含两个不同字符的最长子串（会员题）](https://leetcode.cn/problems/longest-substring-with-at-most-two-distinct-characters/)
+- [ ] [340. 至多包含 K 个不同字符的最长子串（会员题）](https://leetcode.cn/problems/longest-substring-with-at-most-k-distinct-characters/)
+
+## 不定长滑动窗口（求最短/最小）
+- [ ] [209. 长度最小的子数组](https://leetcode.cn/problems/minimum-size-subarray-sum/)
+- [ ] [1234. 替换子串得到平衡字符串 1878](https://leetcode.cn/problems/replace-the-substring-for-balanced-string/)
+- [ ] [1574. 删除最短的子数组使剩余数组有序 1932](https://leetcode.cn/problems/shortest-subarray-to-be-removed-to-make-array-sorted/)
+- [ ] [76. 最小覆盖子串](https://leetcode.cn/problems/minimum-window-substring/)
+- [ ] [面试题 17.18. 最短超串](https://leetcode.cn/problems/shortest-supersequence-lcci/)
+
+## 不定长滑动窗口（求子数组个数）
+- [ ] [2799. 统计完全子数组的数目 1398](https://leetcode.cn/problems/count-complete-subarrays-in-an-array/)
+- [ ] [713. 乘积小于 K 的子数组](https://leetcode.cn/problems/subarray-product-less-than-k/)
+- [ ] [1358. 包含所有三种字符的子字符串数目 1646](https://leetcode.cn/problems/number-of-substrings-containing-all-three-characters/)
+- [ ] [2962. 统计最大元素出现至少 K 次的子数组 1701](https://leetcode.cn/problems/count-subarrays-where-max-element-appears-at-least-k-times/)
+- [ ] [2302. 统计得分小于 K 的子数组数目 1808](https://leetcode.cn/problems/count-subarrays-with-score-less-than-k/)
+- [ ] [2537. 统计好子数组的数目 1892](https://leetcode.cn/problems/count-the-number-of-good-subarrays/)
+- [ ] [2762. 不间断子数组 1940](https://leetcode.cn/problems/continuous-subarrays/)
+- [ ] [2972. 统计移除递增子数组的数目 II 2153](https://leetcode.cn/problems/count-the-number-of-incremovable-subarrays-ii/)
+- [ ] [2743. 计算没有重复字符的子字符串数量（会员题）](https://leetcode.cn/problems/count-substrings-without-repeating-character/)
+
+## 多指针滑动窗口
+- [ ] [930. 和相同的二元子数组 1592](https://leetcode.cn/problems/binary-subarrays-with-sum/)
+- [ ] [1248. 统计「优美子数组」 1624](https://leetcode.cn/problems/count-number-of-nice-subarrays/)
+- [ ] [2563. 统计公平数对的数目 1721](https://leetcode.cn/problems/count-the-number-of-fair-pairs/)
+- [ ] [1712. 将数组分成三个子数组的方案数 2079](https://leetcode.cn/problems/ways-to-split-array-into-three-subarrays/)
+- [ ] [2444. 统计定界子数组的数目 2093](https://leetcode.cn/problems/count-subarrays-with-fixed-bounds/)
+- [ ] [992. K 个不同整数的子数组 2210](https://leetcode.cn/problems/subarrays-with-k-different-integers/)
+- [ ] [1989. 捉迷藏中可捕获的最大人数（会员题）](https://leetcode.cn/problems/maximum-number-of-people-that-can-be-caught-in-tag/)
