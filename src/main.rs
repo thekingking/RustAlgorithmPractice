@@ -1,4 +1,4 @@
-use std::{collections::{HashMap, HashSet}, vec};
+use std::{cmp, collections::{HashMap, HashSet}, vec};
 
 fn main() {
     println!("hello, world");
@@ -71,26 +71,12 @@ impl WordDictionary {
 struct Solution;
 
 impl Solution {
-    pub fn minimum_levels(possible: Vec<i32>) -> i32 {
-        let mut sum = 0;
-        for &p in &possible {
-            if p == 1 {
-                sum += 1;
-            } else {
-                sum -= 1;
-            }
+    pub fn losing_player(x: i32, y: i32) -> String {
+        let t = std::cmp::min(x, y / 4);
+        if t % 2 == 1 {
+            "Alice".to_string()
+        } else {
+            "Bob".to_string()
         }
-        let mut res = 0;
-        for (i, &p) in possible[0..(possible.len() - 1)].iter().enumerate() {
-            if p == 1 {
-                res += 1;
-            } else {
-                res -= 1;
-            }
-            if res * 2 > sum {
-                return i as i32 + 1;
-            }
-        }
-        -1
     }
 }

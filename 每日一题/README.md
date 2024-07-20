@@ -44,6 +44,7 @@
 - [2748.美丽下标对的数目 (2024-06-20-e)](https://leetcode.cn/problems/number-of-beautiful-pairs)
 - [2065.最大化一张图中的路径价值 （暴力搜索，Dijkstra算法优化搜索） (2024-07-01-h)](https://leetcode.cn/problems/maximum-path-quality-of-a-graph)
 - [1958.检查操作是否合法 (2024-07-07-m)](https://leetcode.cn/problems/check-if-move-is-legal)
+- [2850.将石头分散到网格图的最少移动次数 (2024-07-20-m)](https://leetcode.cn/problems/minimum-moves-to-spread-stones-over-grid/)
 
 ## DFS
 - [3067.在带权树网络中统计可连接服务器对数目 (2024-06-04-m)](https://leetcode.cn/problems/count-pairs-of-connectable-servers-in-a-weighted-tree-network)
