@@ -77,6 +77,7 @@
 - [2713.矩阵中严格递增的单元格数 (2024-06-19-h)](https://leetcode.cn/problems/maximum-strictly-increasing-cells-in-a-matrix)
 - [2742.给墙壁刷油漆 (2024-06-28-h)](https://leetcode.cn/problems/painting-the-walls)
 - [494.目标和 (2024-06-30-m)](https://leetcode.cn/problems/target-sum)
+- [1186.删除一次得到子数组最大和 (2024-07-21-1179)](https://leetcode.cn/problems/maximum-subarray-sum-with-one-deletion/)
 
 ## 脑筋急转弯
 - [521.最长特殊序列 Ⅰ (2024-06-16-e)](https://leetcode.cn/problems/longest-uncommon-subsequence-i)
