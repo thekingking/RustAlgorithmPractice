@@ -71,15 +71,26 @@ impl WordDictionary {
 struct Solution;
 
 impl Solution {
-    pub fn minimum_length(s: String) -> i32 {
-        let mut cnt = [0; 26];
-        for &c in s.as_bytes() {
-            cnt[(c - b'a') as usize] += 1;
+    pub fn min_changes(nums: Vec<i32>, k: i32) -> i32 {
+        let mut cnt = vec![0; k as usize + 1];
+        let mut cnt2 = vec![0; k as usize + 1];
+        let n = nums.len();
+        for i in 0..n / 2 {
+            let (mut p, mut q) = (nums[i], nums[n - i - 1]);
+            if p > q {
+                (p, q) = (q, p);
+            }
+            cnt[(q - p) as usize] += 1;
+            cnt2[std::cmp::max(q, k - p) as usize] += 1;
         }
-        let mut res = 0;
-        for x in cnt {
-            res += (x - 1) % 2 + 1;
+        let mut ans = n as i32;
+        // 范围之外，需要改动两次的数目
+        let mut sum2 = 0;
+        // 枚举所有可能
+        for i in 0..=(k as usize) {
+            ans = std::cmp::min(ans, n as i32 / 2 - cnt[i] + sum2);
+            sum2 += cnt2[i];
         }
-        res
+        ans
     }
 }
