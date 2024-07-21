@@ -1,6 +1,12 @@
 struct Solution;
 
 impl Solution {
+    /// 题解，我们Rust也有自己的一行代码
+    pub fn min_changes(n: i32, k: i32) -> i32 {
+        if n & k == k { (n ^ k).count_ones() as i32 } else { -1 }
+    }
+
+    /// 周赛
     pub fn min_changes(mut n: i32, mut k: i32) -> i32 {
         let mut res = 0;
         while n != 0 && k != 0 {

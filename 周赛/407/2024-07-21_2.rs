@@ -1,6 +1,12 @@
 struct Solution;
 
 impl Solution {
+    /// 题解
+    pub fn does_alice_win(s: String) -> bool {
+        s.as_bytes().iter().any(|c| [b'a', b'e', b'i', b'o', b'u'].contains(c))
+    }
+
+    /// 周赛
     pub fn does_alice_win(s: String) -> bool {
         let mut sum = 0;
         for &c in s.as_bytes() {
