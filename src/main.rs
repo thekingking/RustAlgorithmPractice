@@ -71,17 +71,15 @@ impl WordDictionary {
 struct Solution;
 
 impl Solution {
-    pub fn max_operations(s: String) -> i32 {
-        let mut ans = 0;
-        let mut cnt = 0;
-        let bs = s.as_bytes();
-        for i in 0..bs.len() {
-            if bs[i] == b'1' {
-                cnt += 1;
-            } else if i > 0 && bs[i - 1] == b'1' {
-                ans += cnt;
-            }
+    pub fn minimum_length(s: String) -> i32 {
+        let mut cnt = [0; 26];
+        for &c in s.as_bytes() {
+            cnt[(c - b'a') as usize] += 1;
         }
-        ans
+        let mut res = 0;
+        for x in cnt {
+            res += (x - 1) % 2 + 1;
+        }
+        res
     }
 }
