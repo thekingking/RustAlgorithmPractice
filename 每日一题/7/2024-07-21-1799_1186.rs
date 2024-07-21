@@ -1,7 +1,7 @@
 struct Solution;
 
 impl Solution {
-    /// 最长子数组加强版，先找最长子数组解法（经典DP），然后由最长子数组选择是否减去一个值（从大小判断）
+    /// 最大子数组加强版，先找最大子数组解法（经典DP），然后构建删除一个数的最大子数组，选择最大的数为结果
     pub fn maximum_sum(arr: Vec<i32>) -> i32 {
         let mut res = arr[0];
         let mut dp0 = arr[0];
