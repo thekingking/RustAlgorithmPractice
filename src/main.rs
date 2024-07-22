@@ -71,26 +71,28 @@ impl WordDictionary {
 struct Solution;
 
 impl Solution {
-    pub fn min_changes(nums: Vec<i32>, k: i32) -> i32 {
-        let mut cnt = vec![0; k as usize + 1];
-        let mut cnt2 = vec![0; k as usize + 1];
-        let n = nums.len();
-        for i in 0..n / 2 {
-            let (mut p, mut q) = (nums[i], nums[n - i - 1]);
-            if p > q {
-                (p, q) = (q, p);
+    pub fn maximum_detonation(mut bombs: Vec<Vec<i32>>) -> i32 {
+        let n = bombs.len();
+        let mut g = vec![0i128; n];
+        for i in 0..n {
+            for j in 0..n {
+                let dis = ((bombs[i][0] - bombs[j][0]) as i64).pow(2) + ((bombs[i][1] - bombs[j][1]) as i64).pow(2);
+                if dis <= (bombs[i][2] as i64).pow(2) {
+                    g[i] |= 1 << j;
+                }
             }
-            cnt[(q - p) as usize] += 1;
-            cnt2[std::cmp::max(q, k - p) as usize] += 1;
         }
-        let mut ans = n as i32;
-        // 范围之外，需要改动两次的数目
-        let mut sum2 = 0;
-        // 枚举所有可能
-        for i in 0..=(k as usize) {
-            ans = std::cmp::min(ans, n as i32 / 2 - cnt[i] + sum2);
-            sum2 += cnt2[i];
+        for k in 0..n {
+            for i in 0..n {
+                if g[i] >> k & 1 != 0 {
+                    g[i] |= g[k];
+                }
+            }
         }
-        ans
+        let mut res = 0;
+        for x in g {
+            res = res.max(x.count_ones() as i32);
+        }
+        res
     }
 }

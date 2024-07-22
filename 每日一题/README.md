@@ -94,6 +94,7 @@
 
 ## Floyd
 - [2959.关闭分部的可行集合数目 (2024-07-17-h)](https://leetcode.cn/problems/number-of-possible-sets-of-closing-branches/)
+- [2101.引爆最多的炸弹 (2024-07-22-1880)](https://leetcode.cn/problems/detonate-the-maximum-bombs/)
 
 ## Dijkstra
 - [3112.访问消失节点的最少时间 (2024-07-18-1757)](https://leetcode.cn/problems/minimum-time-to-visit-disappearing-nodes)
