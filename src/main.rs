@@ -1,4 +1,4 @@
-use std::{cmp, collections::{HashMap, HashSet}, vec};
+use std::{cmp, collections::{HashMap, HashSet}, i32, vec};
 
 fn main() {
     println!("hello, world");
@@ -71,28 +71,7 @@ impl WordDictionary {
 struct Solution;
 
 impl Solution {
-    pub fn maximum_detonation(mut bombs: Vec<Vec<i32>>) -> i32 {
-        let n = bombs.len();
-        let mut g = vec![0i128; n];
-        for i in 0..n {
-            for j in 0..n {
-                let dis = ((bombs[i][0] - bombs[j][0]) as i64).pow(2) + ((bombs[i][1] - bombs[j][1]) as i64).pow(2);
-                if dis <= (bombs[i][2] as i64).pow(2) {
-                    g[i] |= 1 << j;
-                }
-            }
-        }
-        for k in 0..n {
-            for i in 0..n {
-                if g[i] >> k & 1 != 0 {
-                    g[i] |= g[k];
-                }
-            }
-        }
-        let mut res = 0;
-        for x in g {
-            res = res.max(x.count_ones() as i32);
-        }
-        res
+    pub fn sum_of_powers(mut nums: Vec<i32>, k: i32) -> i32 {
+        
     }
 }

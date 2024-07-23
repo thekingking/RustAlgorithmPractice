@@ -62,6 +62,7 @@
 - [3040.相同分数的最大操作数目 II (2024-06-08-m)](https://leetcode.cn/problems/maximum-number-of-operations-with-the-same-score-ii)
 - [312.戳气球 (2024-06-09-h_312)](https://leetcode.cn/problems/burst-balloons)
 - [2471.特别的排列 (2024-06-26-m_2471)](https://leetcode.cn/problems/special-permutations)
+- [3098.求出所有子序列的能量和 (2024-07-23-2553)](https://leetcode.cn/problems/find-the-sum-of-subsequence-powers/)
 
 ## 简单题
 - [2806.取整购买后的账户余额 (2024-06-12-e)](https://leetcode.cn/problems/account-balance-after-rounded-purchase)
