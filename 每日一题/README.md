@@ -28,6 +28,7 @@
 - [575.分糖果 (2024-06-02-e)](https://leetcode.cn/problems/distribute-candies)
 - [721.账户合并 (2024-07-15-m)](https://leetcode.cn/problems/accounts-merge/description/)
 - [2956.找到两个数组中的公共元素 (2024-07-16-1215)](https://leetcode.cn/problems/find-common-elements-between-two-arrays/)
+- [2766.重新放置石块 (2024-07-24-1613)](https://leetcode.cn/problems/relocate-marbles/)
 
 ## 模拟
 - [1535.找出数组游戏的赢家 (2024-05-19-m)](https://leetcode.cn/problems/find-the-winner-of-an-array-game)
