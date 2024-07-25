@@ -71,19 +71,28 @@ impl WordDictionary {
 struct Solution;
 
 impl Solution {
-    pub fn corp_flight_bookings(bookings: Vec<Vec<i32>>, n: i32) -> Vec<i32> {
-        let n = n as usize;
-        let mut res = vec![0; n + 1];
-        for booking in bookings {
-            res[booking[0] as usize - 1] += booking[2];
-            res[booking[1] as usize] -= booking[2];
+    pub fn minimum_operations(num: String) -> i32 {
+        let mut res1 = 0;
+        let mut res2 = 0;
+        let bs = num.as_bytes();
+        let n = bs.len();
+        while res1 < n && bs[n - res1 - 1] != b'5' {
+            res1 += 1;
         }
-        let mut sum = 0;
-        for i in 0..n {
-            sum += res[i];
-            res[i] = sum;
+        res1 += 1;
+        while res1 < n && bs[n - res1 - 1] != b'2' && bs[n - res1 - 1] != b'7' {
+            res1 += 1;
         }
-        res.pop();
-        res
+        if res1 == n {
+            res1 += 1;
+        }
+        while res2 < n && bs[n - res2 - 1] != b'0' {
+            res2 += 1;
+        }
+        res2 += 1;
+        while res2 < n && bs[n - res2 - 1] != b'0' && bs[n - res2 - 1] != b'5' {
+            res2 += 1;
+        }
+        n.min(res1 - 1).min(res2 - 1) as i32
     }
 }
