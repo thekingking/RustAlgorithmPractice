@@ -71,23 +71,26 @@ impl WordDictionary {
 struct Solution;
 
 impl Solution {
-    pub fn merge(intervals: Vec<Vec<i32>>) -> Vec<Vec<i32>> {
-        let mut cnt = [0; 20002];
-        for row in intervals {
-            cnt[row[0] as usize * 2] += 1;
-            cnt[row[1] as usize * 2 + 1] -= 1;
-        }
+    pub fn insert(intervals: Vec<Vec<i32>>, new_interval: Vec<i32>) -> Vec<Vec<i32>> {
         let mut res = vec![];
-        let mut sum = 0;
-        let mut pre = 0;
-        for (i, &x) in cnt.iter().enumerate() {
-            if sum == 0 {
-                pre = i;
-            }
-            if sum != 0 && sum + x == 0 {
-                res.push(vec![pre as i32 / 2, i as i32 / 2]);
-            }
-            sum += x;
+        let mut i = 0;
+        let n = intervals.len();
+        while i < n && intervals[i][1] < new_interval[0] {
+            res.push(intervals[i].clone());
+            i += 1;
+        }
+        let mut j = i;
+        while j < n && intervals[j][0] <= new_interval[1] {
+            j += 1;
+        }
+        if i == j {
+            res.push(new_interval)
+        } else {
+            res.push(vec![std::cmp::min(new_interval[0], intervals[i][0]), std::cmp::max(new_interval[1], intervals[j - 1][1])]);
+        }
+        while j < n {
+            res.push(intervals[j].clone());
+            j += 1;
         }
         res
     }
