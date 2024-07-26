@@ -9,7 +9,7 @@
 - [x] [2960. 统计已测试设备](https://leetcode.cn/problems/count-tested-devices-after-test-operations/)
 - [x] [1094. 拼车 1441](https://leetcode.cn/problems/car-pooling/)
 - [x] [1109. 航班预订统计](https://leetcode.cn/problems/corporate-flight-bookings/)
-- [ ] [56. 合并区间](https://leetcode.cn/problems/merge-intervals/)
+- [x] [56. 合并区间](https://leetcode.cn/problems/merge-intervals/)
 - [ ] [57. 插入区间](https://leetcode.cn/problems/insert-interval/)
 - [ ] [732. 我的日程安排表 III](https://leetcode.cn/problems/my-calendar-iii/)
 - [ ] [2406. 将区间分为最少组数](https://leetcode.cn/problems/divide-intervals-into-minimum-number-of-groups/)
