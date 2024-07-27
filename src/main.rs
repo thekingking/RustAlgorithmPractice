@@ -71,27 +71,20 @@ impl WordDictionary {
 struct Solution;
 
 impl Solution {
-    pub fn insert(intervals: Vec<Vec<i32>>, new_interval: Vec<i32>) -> Vec<Vec<i32>> {
-        let mut res = vec![];
-        let mut i = 0;
-        let n = intervals.len();
-        while i < n && intervals[i][1] < new_interval[0] {
-            res.push(intervals[i].clone());
-            i += 1;
+    pub fn get_smallest_string(mut s: String, mut k: i32) -> String {
+        let bs = unsafe {
+            s.as_bytes_mut()
+        };
+        for b in bs {
+            let dis = std::cmp::min(*b - b'a', b'z' - *b + 1) as i32;
+            if dis <= k {
+                k -= dis;
+                *b = b'a';
+            } else {
+                *b -= k as u8;
+                break;
+            }
         }
-        let mut j = i;
-        while j < n && intervals[j][0] <= new_interval[1] {
-            j += 1;
-        }
-        if i == j {
-            res.push(new_interval)
-        } else {
-            res.push(vec![std::cmp::min(new_interval[0], intervals[i][0]), std::cmp::max(new_interval[1], intervals[j - 1][1])]);
-        }
-        while j < n {
-            res.push(intervals[j].clone());
-            j += 1;
-        }
-        res
+        s
     }
 }
