@@ -71,20 +71,23 @@ impl WordDictionary {
 struct Solution;
 
 impl Solution {
-    pub fn get_smallest_string(mut s: String, mut k: i32) -> String {
-        let bs = unsafe {
-            s.as_bytes_mut()
-        };
-        for b in bs {
-            let dis = std::cmp::min(*b - b'a', b'z' - *b + 1) as i32;
-            if dis <= k {
-                k -= dis;
-                *b = b'a';
-            } else {
-                *b -= k as u8;
-                break;
+    pub fn falling_squares(positions: Vec<Vec<i32>>) -> Vec<i32> {
+        let mut cnt: Vec<Vec<i32>> = Vec::new();
+        let mut res = Vec::new();
+        let mut max = 0;
+        for p in &positions {
+            let l = p[0];
+            let r = p[0] + p[1];
+            let mut h = 0;
+            for c in &cnt {
+                if l < c[1] && r > c[0] {
+                    h = h.max(c[2]);
+                }
             }
+            cnt.push(vec![l, r, h + p[1]]);
+            max = max.max(h + p[1]);
+            res.push(max);
         }
-        s
+        res
     }
 }

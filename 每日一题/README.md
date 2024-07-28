@@ -1,5 +1,5 @@
 # 每日一题
-或许这是一件没有意义的事，你什么也没看见
+
 ## 一次遍历
 - [2903.找出满足差值条件的下标 I (2024-05-25-e)](https://leetcode.cn/problems/find-indices-with-index-and-value-difference-i)
 - [2981.找出出现至少三次的最长特殊子字符串 I (2024-05-29-m)](https://leetcode.cn/problems/find-longest-special-substring-that-occurs-thrice-i)
@@ -47,6 +47,7 @@
 - [1958.检查操作是否合法 (2024-07-07-m)](https://leetcode.cn/problems/check-if-move-is-legal)
 - [2850.将石头分散到网格图的最少移动次数 (2024-07-20-m)](https://leetcode.cn/problems/minimum-moves-to-spread-stones-over-grid/)
 - [2844.生成特殊数字的最少操作 (2024-07-25-1588)](https://leetcode.cn/problems/minimum-operations-to-make-a-special-number/)
+- [699.掉落的方块 (2024-07-28-h)](https://leetcode.cn/problems/falling-squares/)
 
 ## DFS
 - [3067.在带权树网络中统计可连接服务器对数目 (2024-06-04-m)](https://leetcode.cn/problems/count-pairs-of-connectable-servers-in-a-weighted-tree-network)
