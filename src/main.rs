@@ -1,4 +1,4 @@
-use std::{cmp, collections::{BTreeMap, HashMap, HashSet}, i32, vec};
+use std::{cmp::{self, max}, collections::{BTreeMap, HashMap, HashSet}, i32, vec};
 
 fn main() {
     println!("hello, world");
@@ -107,22 +107,7 @@ impl WordDictionary {
 struct Solution;
 
 impl Solution {
-    pub fn number_of_substrings(s: String) -> i32 {
-        let mut cnt = vec![];
-        let mut res = 0;
-        for (i, c) in s.chars().enumerate() {
-            let mut pre = i;
-            let mut sum = 0;
-            if c == '0' {
-                cnt.push(i);
-            }
-            for &j in cnt.iter().rev() {
-                res += std::cmp::max(0, (i - j) as i32 - sum * (sum + 1)).min((pre - j) as i32);
-                sum += 1;
-                pre = j
-            }
-            res += std::cmp::max(0, i as i32 + 1 - sum * (sum + 1)).min(pre as i32 + 1);
-        }
-        res
+    pub fn can_reach_corner(x: i32, y: i32, circles: Vec<Vec<i32>>) -> bool {
+        
     }
 }
