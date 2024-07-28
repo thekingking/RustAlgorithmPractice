@@ -107,22 +107,21 @@ impl WordDictionary {
 struct Solution;
 
 impl Solution {
-    pub fn falling_squares(positions: Vec<Vec<i32>>) -> Vec<i32> {
-        let mut cnt: Vec<Vec<i32>> = Vec::new();
-        let mut res = Vec::new();
-        let mut max = 0;
-        for p in &positions {
-            let l = p[0];
-            let r = p[0] + p[1];
-            let mut h = 0;
-            for c in &cnt {
-                if l < c[1] && r > c[0] {
-                    h = h.max(c[2]);
-                }
+    pub fn number_of_substrings(s: String) -> i32 {
+        let mut cnt = vec![];
+        let mut res = 0;
+        for (i, c) in s.chars().enumerate() {
+            let mut pre = i;
+            let mut sum = 0;
+            if c == '0' {
+                cnt.push(i);
             }
-            cnt.push(vec![l, r, h + p[1]]);
-            max = max.max(h + p[1]);
-            res.push(max);
+            for &j in cnt.iter().rev() {
+                res += std::cmp::max(0, (i - j) as i32 - sum * (sum + 1)).min((pre - j) as i32);
+                sum += 1;
+                pre = j
+            }
+            res += std::cmp::max(0, i as i32 + 1 - sum * (sum + 1)).min(pre as i32 + 1);
         }
         res
     }
