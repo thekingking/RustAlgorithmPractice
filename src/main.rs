@@ -107,18 +107,21 @@ impl WordDictionary {
 struct Solution;
 
 impl Solution {
-    pub fn min_groups(intervals: Vec<Vec<i32>>) -> i32 {
-        let mut cnt = std::collections::BTreeMap::new();
-        for row in intervals {
-            cnt.entry(row[0]).and_modify(|x| *x += 1).or_insert(1);
-            cnt.entry(row[1] + 1).and_modify(|x| *x -= 1).or_insert(-1);
+    pub fn shifting_letters(mut s: String, shifts: Vec<Vec<i32>>) -> String {
+        let mut cnt = vec![0; s.len() + 1];
+        for s in shifts {
+            let num = if s[2] == 1 { 1 } else { -1 };
+            cnt[s[0] as usize] += num;
+            cnt[s[1] as usize + 1] -= num;
         }
-        let mut res = 0;
+        let bs = unsafe {
+            s.as_bytes_mut()
+        };
         let mut sum = 0;
-        for &v in cnt.values() {
-            sum += v;
-            res = res.max(sum);
+        for i in 0..bs.len() {
+            sum = (sum + cnt[i]) % 26 + 26;
+            bs[i] = (bs[i] - b'a' + sum as u8) % 26 + b'a';
         }
-        res
+        s
     }
 }

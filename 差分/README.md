@@ -13,7 +13,7 @@
 - [x] [57. 插入区间](https://leetcode.cn/problems/insert-interval/)
 - [x] [732. 我的日程安排表 III](https://leetcode.cn/problems/my-calendar-iii/)
 - [x] [2406. 将区间分为最少组数](https://leetcode.cn/problems/divide-intervals-into-minimum-number-of-groups/)
-- [ ] [2381. 字母移位 II](https://leetcode.cn/problems/shifting-letters-ii/)
+- [x] [2381. 字母移位 II](https://leetcode.cn/problems/shifting-letters-ii/)
 - [ ] [995. K 连续位的最小翻转次数](https://leetcode.cn/problems/minimum-number-of-k-consecutive-bit-flips/)
 - [ ] [1589. 所有排列中的最大和](https://leetcode.cn/problems/maximum-sum-obtained-of-any-permutation/)
 - [ ] [1943. 描述绘画结果](https://leetcode.cn/problems/describe-the-painting/)
