@@ -104,3 +104,6 @@
 
 ## Dijkstra
 - [3112.访问消失节点的最少时间 (2024-07-18-1757)](https://leetcode.cn/problems/minimum-time-to-visit-disappearing-nodes)
+
+## 栈
+- [682.棒球比赛 (2024-07-29-e)](https://leetcode.cn/problems/baseball-game/)
