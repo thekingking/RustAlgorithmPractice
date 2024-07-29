@@ -107,22 +107,18 @@ impl WordDictionary {
 struct Solution;
 
 impl Solution {
-    pub fn cal_points(operations: Vec<String>) -> i32 {
-        let mut cnt = Vec::new();
-        for s in operations {
-            if let Ok(num) = s.parse::<i32>() {
-                cnt.push(num);
-            } else {
-                let c = s.as_bytes()[0];
-                if c == b'+' {
-                    cnt.push(cnt[cnt.len() - 1] + cnt[cnt.len() - 2]);
-                } else if c == b'D' {
-                    cnt.push(cnt[cnt.len() - 1] * 2);
-                } else {
-                    cnt.pop();
-                }
-            }
+    pub fn min_groups(intervals: Vec<Vec<i32>>) -> i32 {
+        let mut cnt = std::collections::BTreeMap::new();
+        for row in intervals {
+            cnt.entry(row[0]).and_modify(|x| *x += 1).or_insert(1);
+            cnt.entry(row[1] + 1).and_modify(|x| *x -= 1).or_insert(-1);
         }
-        cnt.iter().sum()
+        let mut res = 0;
+        let mut sum = 0;
+        for &v in cnt.values() {
+            sum += v;
+            res = res.max(sum);
+        }
+        res
     }
 }
