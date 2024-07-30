@@ -107,22 +107,28 @@ impl WordDictionary {
 struct Solution;
 
 impl Solution {
-    pub fn min_k_bit_flips(nums: Vec<i32>, k: i32) -> i32 {
-        let n = nums.len();
-        let mut dif = vec![0; n + 1];
-        let mut ans = 0;
-        let mut sum = 0;
-        for i in 0..n {
-            sum += dif[i];
-            if (nums[i] + sum) % 2 == 0 {
-                if i + k as usize > n {
-                    return -1;
-                }
-                ans += 1;
-                sum += 1;
-                dif[i + k as usize] -= 1;
+    pub fn get_good_indices(variables: Vec<Vec<i32>>, target: i32) -> Vec<i32> {
+        let mut res = Vec::new();
+        for (i, row) in variables.iter().enumerate() {
+            let a = row[0];
+            let mut b = row[1];
+            let mut c = row[2];
+            let m = row[3];
+            let mut cnt = 1;
+            while b > 0 {
+                cnt = cnt * a % 10;
+                b -= 1;
+            }   
+            let d = cnt;
+            cnt = 1;
+            while c > 0 {
+                cnt = cnt * d % m;
+                c -= 1;
+            }
+            if cnt == target {
+                res.push(i as i32);
             }
         }
-        ans
+        res
     }
 }

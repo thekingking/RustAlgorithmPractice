@@ -107,3 +107,6 @@
 
 ## 栈
 - [682.棒球比赛 (2024-07-29-e)](https://leetcode.cn/problems/baseball-game/)
+
+## 快速幂
+- [2961.双模幂运算 (2024-07-30-1451)](https://leetcode.cn/problems/double-modular-exponentiation/)
