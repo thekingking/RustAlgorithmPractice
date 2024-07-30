@@ -16,7 +16,7 @@
 - [x] [2381. 字母移位 II](https://leetcode.cn/problems/shifting-letters-ii/)
 - [x] [995. K 连续位的最小翻转次数](https://leetcode.cn/problems/minimum-number-of-k-consecutive-bit-flips/)
 - [x] [1589. 所有排列中的最大和](https://leetcode.cn/problems/maximum-sum-obtained-of-any-permutation/)
-- [ ] [1943. 描述绘画结果](https://leetcode.cn/problems/describe-the-painting/)
+- [x] [1943. 描述绘画结果](https://leetcode.cn/problems/describe-the-painting/)
 - [ ] [2251. 花期内花的数目](https://leetcode.cn/problems/number-of-flowers-in-full-bloom/)
 - [ ] [2772. 使数组中的所有元素都等于零](https://leetcode.cn/problems/apply-operations-to-make-all-array-elements-equal-to-zero/)
 - [ ] [798. 得分最高的最小轮调](https://leetcode.cn/problems/smallest-rotation-with-highest-score/)
