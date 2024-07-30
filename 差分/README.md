@@ -18,7 +18,7 @@
 - [x] [1589. 所有排列中的最大和](https://leetcode.cn/problems/maximum-sum-obtained-of-any-permutation/)
 - [x] [1943. 描述绘画结果](https://leetcode.cn/problems/describe-the-painting/)
 - [x] [2251. 花期内花的数目](https://leetcode.cn/problems/number-of-flowers-in-full-bloom/)
-- [ ] [2772. 使数组中的所有元素都等于零](https://leetcode.cn/problems/apply-operations-to-make-all-array-elements-equal-to-zero/)
+- [x] [2772. 使数组中的所有元素都等于零](https://leetcode.cn/problems/apply-operations-to-make-all-array-elements-equal-to-zero/)
 - [ ] [798. 得分最高的最小轮调](https://leetcode.cn/problems/smallest-rotation-with-highest-score/)
 - [ ] [2528. 最大化城市的最小供电站数目](https://leetcode.cn/problems/maximize-the-minimum-powered-city/)
 - [ ] [1674. 使数组互补的最少操作次数](https://leetcode.cn/problems/minimum-moves-to-make-array-complementary/)
