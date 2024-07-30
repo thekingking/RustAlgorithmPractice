@@ -19,7 +19,7 @@
 - [x] [1943. 描述绘画结果](https://leetcode.cn/problems/describe-the-painting/)
 - [x] [2251. 花期内花的数目](https://leetcode.cn/problems/number-of-flowers-in-full-bloom/)
 - [x] [2772. 使数组中的所有元素都等于零](https://leetcode.cn/problems/apply-operations-to-make-all-array-elements-equal-to-zero/)
-- [ ] [798. 得分最高的最小轮调](https://leetcode.cn/problems/smallest-rotation-with-highest-score/)
+- [x] [798. 得分最高的最小轮调](https://leetcode.cn/problems/smallest-rotation-with-highest-score/)
 - [ ] [2528. 最大化城市的最小供电站数目](https://leetcode.cn/problems/maximize-the-minimum-powered-city/)
 - [ ] [1674. 使数组互补的最少操作次数](https://leetcode.cn/problems/minimum-moves-to-make-array-complementary/)
 - [ ] [3017. 按距离统计房屋对数目 II](https://leetcode.cn/problems/count-the-number-of-houses-at-a-certain-distance-ii/)
