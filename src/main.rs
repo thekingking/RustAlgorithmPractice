@@ -107,28 +107,26 @@ impl WordDictionary {
 struct Solution;
 
 impl Solution {
-    pub fn get_good_indices(variables: Vec<Vec<i32>>, target: i32) -> Vec<i32> {
-        let mut res = Vec::new();
-        for (i, row) in variables.iter().enumerate() {
-            let a = row[0];
-            let mut b = row[1];
-            let mut c = row[2];
-            let m = row[3];
-            let mut cnt = 1;
-            while b > 0 {
-                cnt = cnt * a % 10;
-                b -= 1;
-            }   
-            let d = cnt;
-            cnt = 1;
-            while c > 0 {
-                cnt = cnt * d % m;
-                c -= 1;
-            }
-            if cnt == target {
-                res.push(i as i32);
-            }
+    pub fn max_sum_range_query(mut nums: Vec<i32>, requests: Vec<Vec<i32>>) -> i32 {
+        let mut cnt = vec![0; nums.len() + 1];
+        for q in requests {
+            cnt[q[0] as usize] += 1;
+            cnt[q[1] as usize + 1] -= 1;
         }
-        res
+        let mut sum = 0;
+        for i in 0..cnt.len() {
+            sum += cnt[i];
+            cnt[i] = sum;
+        }
+        nums.sort_unstable_by_key(|x| -x);
+        cnt.sort_unstable_by_key(|x| -x);
+        let mut res = 0;
+        for i in 0..nums.len() {
+            if cnt[i] == 0 {
+                break;
+            }
+            res = (res + cnt[i] as i64 * nums[i] as i64) % 1_000_000_007
+        }
+        res as i32
     }
 }
