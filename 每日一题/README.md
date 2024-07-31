@@ -62,6 +62,7 @@
 - [807.保持城市天际线 (2024-07-14-1376)](https://leetcode.cn/problems/max-increase-to-keep-city-skyline/description/)
 - [2740.找出分区值 (2024-07-26-1302)](https://leetcode.cn/problems/find-the-value-of-the-partition/)
 - [3106.满足距离约束且字典序最小的字符串 (2024-07-27-1515)](https://leetcode.cn/problems/lexicographically-smallest-string-after-operations-with-constraint/)
+- [3111. 覆盖所有点的最少矩形数目 (2024-07-31-1401)](https://leetcode.cn/problems/minimum-rectangles-to-cover-points/)
 
 ## 记忆化搜索
 - [3040.相同分数的最大操作数目 II (2024-06-08-m)](https://leetcode.cn/problems/maximum-number-of-operations-with-the-same-score-ii)
