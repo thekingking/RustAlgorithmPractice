@@ -56,7 +56,7 @@
 - [ ] [2983. 回文串重新排列查询](https://leetcode.cn/problems/palindrome-rearrangement-queries/)
 
 ## 二维前缀和
-- [ ] [304. 二维区域和检索 - 矩阵不可变](https://leetcode.cn/problems/range-sum-query-2d-immutable/)
+- [x] [304. 二维区域和检索 - 矩阵不可变](https://leetcode.cn/problems/range-sum-query-2d-immutable/)
 - [ ] [1314. 矩阵区域和](https://leetcode.cn/problems/matrix-block-sum/)
 - [ ] [3070. 元素和小于等于 k 的子矩阵的数目](https://leetcode.cn/problems/count-submatrices-with-top-left-element-and-sum-less-than-k/)
 - [ ] [1738. 找出第 K 大的异或坐标值](https://leetcode.cn/problems/find-kth-largest-xor-coordinate-value/)
