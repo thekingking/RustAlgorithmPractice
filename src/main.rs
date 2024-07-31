@@ -107,21 +107,30 @@ impl WordDictionary {
 struct Solution;
 
 impl Solution {
-    pub fn min_rectangles_to_cover_points(points: Vec<Vec<i32>>, w: i32) -> i32 {
-        let mut cnt = std::collections::HashSet::new();
-        for p in points {
-            cnt.insert(p[0]);
+    pub fn range_add_queries(n: i32, queries: Vec<Vec<i32>>) -> Vec<Vec<i32>> {
+        let n = n as usize;
+        let mut diff = vec![vec![0; n + 1]; n + 1];
+        for q in queries {
+            let x1 = q[0] as usize;
+            let y1 = q[1] as usize;
+            let x2 = q[2] as usize;
+            let y2 = q[3] as usize;
+            diff[x1][y1] += 1;
+            diff[x1][y2 + 1] -= 1;
+            diff[x2 + 1][y1] -= 1;
+            diff[x2 + 1][y2 + 1] += 1;
         }
-        let mut res = -w - 1;
-        let mut cnt = cnt.into_iter().collect::<Vec<i32>>();
-        cnt.sort_unstable();
-        let mut pre = 0;
-        for c in cnt {
-            if c - pre > w {
-                pre = c;
-                res += 1;
+        for i in 1..=n {
+            for j in 1..=n {
+                diff[i][j] += diff[i - 1][j] + diff[i][j - 1] - diff[i - 1][j - 1];
             }
         }
-        res
+        let mut mat = vec![vec![0; n]; n];
+        for i in 0..n {
+            for j in 0..n {
+                mat[i][j] = diff[i + 1][j + 1];
+            }
+        }
+        mat
     }
 }

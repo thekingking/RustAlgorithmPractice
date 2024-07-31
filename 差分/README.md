@@ -25,7 +25,7 @@
 - [ ] [3017. 按距离统计房屋对数目 II](https://leetcode.cn/problems/count-the-number-of-houses-at-a-certain-distance-ii/)
 
 ## 二维差分
-- [ ] [2536. 子矩阵元素加 1 1583](https://leetcode.cn/problems/increment-submatrices-by-one/)
+- [x] [2536. 子矩阵元素加 1 1583](https://leetcode.cn/problems/increment-submatrices-by-one/)
 - [ ] [850. 矩形面积 II 2236](https://leetcode.cn/problems/rectangle-area-ii/)
 - [ ] [2132. 用邮票贴满网格图 2364](https://leetcode.cn/problems/stamping-the-grid/)
 - [ ] [LCP 74. 最强祝福力场](https://leetcode.cn/problems/xepqZ5/)
