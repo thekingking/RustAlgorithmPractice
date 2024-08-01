@@ -107,63 +107,49 @@ impl WordDictionary {
 struct Solution;
 
 impl Solution {
-    pub fn range_add_queries(n: i32, queries: Vec<Vec<i32>>) -> Vec<Vec<i32>> {
-        let n = n as usize;
-        let mut diff = vec![vec![0; n + 1]; n + 1];
-        for q in queries {
-            let x1 = q[0] as usize;
-            let y1 = q[1] as usize;
-            let x2 = q[2] as usize;
-            let y2 = q[3] as usize;
-            diff[x1][y1] += 1;
-            diff[x1][y2 + 1] -= 1;
-            diff[x2 + 1][y1] -= 1;
-            diff[x2 + 1][y2 + 1] += 1;
-        }
-        for i in 1..=n {
-            for j in 1..=n {
-                diff[i][j] += diff[i - 1][j] + diff[i][j - 1] - diff[i - 1][j - 1];
+    pub fn maxmium_score(cards: Vec<i32>, cnt: i32) -> i32 {
+        let mut even = Vec::new();
+        let mut odd = Vec::new();
+        for &x in &cards {
+            if x % 2 == 0 {
+                even.push(x);
+            } else {
+                odd.push(x);
             }
         }
-        let mut mat = vec![vec![0; n]; n];
-        for i in 0..n {
-            for j in 0..n {
-                mat[i][j] = diff[i + 1][j + 1];
+        if even.len() == 0 && cnt % 2 == 1 || cnt as usize == cards.len() && odd.len() % 2 == 1 {
+            return 0;
+        }
+        even.sort_unstable_by_key(|&x| -x);
+        odd.sort_unstable_by_key(|&x| -x);
+        let mut res = 0;
+        let mut num = 0;
+        let mut i = 0;
+        while i + 1 < odd.len() && num + 2 <= cnt {
+            res += odd[i] + odd[i + 1];
+            num += 2;
+            i += 2;
+        }
+        let mut j = 0;
+        while j < even.len() && num < cnt {
+            res += even[j];
+            j += 1;
+            num += 1;
+        }
+        if num != cnt {
+            return 0;
+        }
+        if odd.len() == 0 || odd.len() == 1 || even.len() == 0 {
+            return res;
+        }
+        while i > 1 && j + 1 < even.len() {
+            if odd[i - 1] + odd[i - 2] >= even[j] + even[j + 1] {
+                break;
             }
+            res += even[j] + even[j + 1] - odd[i - 1] - odd[i - 2];
+            i -= 2;
+            j += 2;
         }
-        mat
+        res
     }
 }
-
-
-struct NumMatrix {
-    sum: Vec<Vec<i32>>,
-}
-
-
-/**
- * `&self` means the method takes an immutable reference.
- * If you need a mutable reference, change it to `&mut self` instead.
- */
-impl NumMatrix {
-
-    fn new(matrix: Vec<Vec<i32>>) -> Self {
-        let n = matrix.len();
-        let m = matrix[0].len();
-        let mut cnt = vec![vec![0; m + 1]; n + 1];
-        for i in 1..=n {
-            for j in 1..=m {
-                cnt[i][j] = cnt[i - 1][j] + cnt[i][j - 1] - cnt[i - 1][j - 1] + matrix[i - 1][j - 1];
-            }
-        }
-        Self {
-            sum: cnt,
-        }
-    }
-    
-    fn sum_region(&self, row1: i32, col1: i32, row2: i32, col2: i32) -> i32 {
-        let (row1, col1, row2, col2) = (row1 as usize, col1 as usize, row2 as usize, col2 as usize);
-        self.sum[row2 + 1][col2 + 1] - self.sum[row1][col2 + 1] - self.sum[row2 + 1][col1] + self.sum[row1][col1]
-    }
-}
-
