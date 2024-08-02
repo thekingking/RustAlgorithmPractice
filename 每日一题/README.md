@@ -48,6 +48,7 @@
 - [2850.将石头分散到网格图的最少移动次数 (2024-07-20-m)](https://leetcode.cn/problems/minimum-moves-to-spread-stones-over-grid/)
 - [2844.生成特殊数字的最少操作 (2024-07-25-1588)](https://leetcode.cn/problems/minimum-operations-to-make-a-special-number/)
 - [699.掉落的方块 (2024-07-28-h)](https://leetcode.cn/problems/falling-squares/)
+- [3128.直角三角形 (2024-08-01-1541)](https://leetcode.cn/problems/right-triangles/)
 
 ## DFS
 - [3067.在带权树网络中统计可连接服务器对数目 (2024-06-04-m)](https://leetcode.cn/problems/count-pairs-of-connectable-servers-in-a-weighted-tree-network)
