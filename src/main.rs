@@ -107,19 +107,15 @@ impl WordDictionary {
 struct Solution;
 
 impl Solution {
-    pub fn build_array(target: Vec<i32>, n: i32) -> Vec<String> {
-        let mut res = Vec::new();
-        let mut i = 0;
-        let mut j = 0;
-        while i < n && j < target.len() {
-            res.push("Push".to_string());
-            if target[j] == i + 1 {
-                j += 1;
-            } else {
-                res.push("Pop".to_string());
-            }
-            i += 1;
+    pub fn backspace_compare(s: String, t: String) -> bool {
+        let mut s1 = 0;
+        let mut t1 = 0;
+        let mut sb = s.into_bytes();
+        let mut tb = s.into_bytes();
+        let i = sb.len();
+        let j = tb.len();
+        while i > 0 && j > 0 {
+            
         }
-        res
     }
 }
