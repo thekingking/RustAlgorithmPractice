@@ -2,7 +2,7 @@
 来源：[灵神题单](https://leetcode.cn/circle/discuss/mOr1u6/)
 
 ## 基础
-- [ ] [1441. 用栈操作构建数组 1180](https://leetcode.cn/problems/build-an-array-with-stack-operations/)
+- [x] [1441. 用栈操作构建数组 1180](https://leetcode.cn/problems/build-an-array-with-stack-operations/)
 - [ ] [844. 比较含退格的字符串 1228](https://leetcode.cn/problems/backspace-string-compare/)
 - [ ] [682. 棒球比赛](https://leetcode.cn/problems/baseball-game/)
 - [ ] [2390. 从字符串中移除星号 1348](https://leetcode.cn/problems/removing-stars-from-a-string/)

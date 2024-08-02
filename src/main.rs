@@ -107,24 +107,18 @@ impl WordDictionary {
 struct Solution;
 
 impl Solution {
-    pub fn number_of_right_triangles(grid: Vec<Vec<i32>>) -> i64 {
-        let n = grid.len();
-        let m = grid[0].len();
-        let mut row = vec![0; n];
-        let mut col = vec![0; m];
-        let mut res = 0;
-        for i in 0..n {
-            for j in 0..m {
-                row[i] += grid[i][j];
-                col[j] += grid[i][j];
+    pub fn build_array(target: Vec<i32>, n: i32) -> Vec<String> {
+        let mut res = Vec::new();
+        let mut i = 0;
+        let mut j = 0;
+        while i < n && j < target.len() {
+            res.push("Push".to_string());
+            if target[j] == i + 1 {
+                j += 1;
+            } else {
+                res.push("Pop".to_string());
             }
-        }
-        for i in 0..n {
-            for j in 0..m {
-                if row[i] > 1 && col[j] > 1 && grid[i][j] != 0 {
-                    res += ((row[i] - 1) * (col[j] - 1)) as i64;
-                }
-            }
+            i += 1;
         }
         res
     }
