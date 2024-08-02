@@ -107,15 +107,15 @@ impl WordDictionary {
 struct Solution;
 
 impl Solution {
-    pub fn backspace_compare(s: String, t: String) -> bool {
-        let mut s1 = 0;
-        let mut t1 = 0;
-        let mut sb = s.into_bytes();
-        let mut tb = s.into_bytes();
-        let i = sb.len();
-        let j = tb.len();
-        while i > 0 && j > 0 {
-            
+    pub fn remove_stars(s: String) -> String {
+        let mut res = Vec::new();
+        for c in s.chars() {
+            if c == '*' {
+                res.pop();
+            } else {
+                res.push(c);
+            }
         }
+        res.into_iter().collect::<String>()
     }
 }

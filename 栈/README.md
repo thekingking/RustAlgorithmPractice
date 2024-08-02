@@ -5,7 +5,7 @@
 - [x] [1441. 用栈操作构建数组 1180](https://leetcode.cn/problems/build-an-array-with-stack-operations/)
 - [x] [844. 比较含退格的字符串 1228](https://leetcode.cn/problems/backspace-string-compare/)
 - [x] [682. 棒球比赛](https://leetcode.cn/problems/baseball-game/)
-- [ ] [2390. 从字符串中移除星号 1348](https://leetcode.cn/problems/removing-stars-from-a-string/)
+- [x] [2390. 从字符串中移除星号 1348](https://leetcode.cn/problems/removing-stars-from-a-string/)
 - [ ] [1472. 设计浏览器历史记录 1454](https://leetcode.cn/problems/design-browser-history/)
 - [ ] [946. 验证栈序列 1462](https://leetcode.cn/problems/validate-stack-sequences/)
 - [ ] [71. 简化路径](https://leetcode.cn/problems/simplify-path/)
