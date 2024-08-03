@@ -107,52 +107,32 @@ impl WordDictionary {
 struct Solution;
 
 impl Solution {
-    pub fn remove_stars(s: String) -> String {
-        let mut res = Vec::new();
-        for c in s.chars() {
-            if c == '*' {
-                res.pop();
-            } else {
-                res.push(c);
+    pub fn max_points_inside_square(points: Vec<Vec<i32>>, s: String) -> i32 {
+        let mut cnt = [[i32::MAX, i32::MAX]; 26];
+        let bs = s.into_bytes();
+        let n  = points.len();
+        for i in 0..n {
+            let dis = std::cmp::max(points[i][0].abs(), points[i][1].abs());
+            let bit = (bs[i] - b'a') as usize;
+            if cnt[bit][0] > dis {
+                cnt[bit][1] = cnt[bit][0];
+                cnt[bit][0] = dis;
+            } else if cnt[bit][1] > dis {
+                cnt[bit][1] = dis;
             }
         }
-        res.into_iter().collect::<String>()
-    }
-}
-struct BrowserHistory {
-    stack: Vec<String>,
-    index: usize,
-}
-
-
-/**
- * `&self` means the method takes an immutable reference.
- * If you need a mutable reference, change it to `&mut self` instead.
- */
-impl BrowserHistory {
-
-    fn new(homepage: String) -> Self {
-        Self {
-            stack: vec![homepage],
-            index: 1,
+        let mut min = i32::MAX;
+        for i in 0..26 {
+            if min > cnt[i][1] {
+                min = cnt[i][1];
+            }
         }
-    }
-    
-    fn visit(&mut self, url: String) {
-        while self.stack.len() > self.index {
-            self.stack.pop();
+        let mut res = 0;
+        for i in 0..26 {
+            if cnt[i][0] < min {
+                res += 1;
+            }
         }
-        self.stack.push(url);
-        self.index += 1;
-    }
-    
-    fn back(&mut self, steps: i32) -> String {
-        self.index = self.index.saturating_sub(steps as usize).max(1);
-        self.stack[self.index - 1].clone()
-    }
-    
-    fn forward(&mut self, steps: i32) -> String {
-        self.index = self.stack.len().min(self.index + steps as usize);
-        self.stack[self.index - 1].clone()
+        res
     }
 }
