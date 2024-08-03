@@ -107,27 +107,29 @@ impl WordDictionary {
 struct Solution;
 
 impl Solution {
-    pub fn validate_stack_sequences(pushed: Vec<i32>, popped: Vec<i32>) -> bool {
-        let mut stack = Vec::new();
+    pub fn simplify_path(path: String) -> String {
+        let bs = path.into_bytes();
+        let mut res = Vec::new();
         let mut i = 0;
-        let mut j = 0;
-        while i < pushed.len() {
-            stack.push(pushed[i]);
-            while let Some(&x) = stack.last() {
-                if x != popped[j] {
-                    break;
-                }
-                j += 1;
-                stack.pop();
+        let n = bs.len();
+        while i < n {
+            while i < n && bs[i] == b'/' {
+                i += 1;
             }
-            i += 1;
-        }
-        while let Some(x) = stack.pop() {
-            if x != popped[j] {
-                return false;
+            let mut cnt = Vec::new();
+            while i < n && bs[i] != b'/' {
+                cnt.push(bs[i]);
+                i += 1;
             }
-            j += 1;
+            if cnt.len() == 0 {
+                break;
+            }
+            if cnt.len() == 2 && cnt[0] == b'.' && cnt[1] == b'.' {
+                res.pop();
+            } else if !(cnt.len() == 1 && cnt[0] == b'.') {
+                res.push(String::from_utf8(cnt).unwrap());
+            }
         }
-        true
+        "/".to_string() + &res.join("/")
     }
 }

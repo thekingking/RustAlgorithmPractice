@@ -8,7 +8,7 @@
 - [x] [2390. 从字符串中移除星号 1348](https://leetcode.cn/problems/removing-stars-from-a-string/)
 - [x] [1472. 设计浏览器历史记录 1454](https://leetcode.cn/problems/design-browser-history/)
 - [x] [946. 验证栈序列 1462](https://leetcode.cn/problems/validate-stack-sequences/)
-- [ ] [71. 简化路径](https://leetcode.cn/problems/simplify-path/)
+- [x] [71. 简化路径](https://leetcode.cn/problems/simplify-path/)
 
 ## 进阶
 - [ ] [3170. 删除星号以后字典序最小的字符串 1772](https://leetcode.cn/problems/lexicographically-minimum-string-after-removing-stars/)
