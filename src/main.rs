@@ -1,4 +1,4 @@
-use std::{cmp::{self, max}, collections::{BTreeMap, HashMap, HashSet}, i32, vec};
+use std::{arch::x86_64, cmp::{self, max}, collections::{BTreeMap, HashMap, HashSet}, i32, vec};
 
 fn main() {
     println!("hello, world");
@@ -107,32 +107,27 @@ impl WordDictionary {
 struct Solution;
 
 impl Solution {
-    pub fn max_points_inside_square(points: Vec<Vec<i32>>, s: String) -> i32 {
-        let mut cnt = [[i32::MAX, i32::MAX]; 26];
-        let bs = s.into_bytes();
-        let n  = points.len();
-        for i in 0..n {
-            let dis = std::cmp::max(points[i][0].abs(), points[i][1].abs());
-            let bit = (bs[i] - b'a') as usize;
-            if cnt[bit][0] > dis {
-                cnt[bit][1] = cnt[bit][0];
-                cnt[bit][0] = dis;
-            } else if cnt[bit][1] > dis {
-                cnt[bit][1] = dis;
+    pub fn validate_stack_sequences(pushed: Vec<i32>, popped: Vec<i32>) -> bool {
+        let mut stack = Vec::new();
+        let mut i = 0;
+        let mut j = 0;
+        while i < pushed.len() {
+            stack.push(pushed[i]);
+            while let Some(&x) = stack.last() {
+                if x != popped[j] {
+                    break;
+                }
+                j += 1;
+                stack.pop();
             }
+            i += 1;
         }
-        let mut min = i32::MAX;
-        for i in 0..26 {
-            if min > cnt[i][1] {
-                min = cnt[i][1];
+        while let Some(x) = stack.pop() {
+            if x != popped[j] {
+                return false;
             }
+            j += 1;
         }
-        let mut res = 0;
-        for i in 0..26 {
-            if cnt[i][0] < min {
-                res += 1;
-            }
-        }
-        res
+        true
     }
 }
