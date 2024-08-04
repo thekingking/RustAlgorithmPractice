@@ -107,29 +107,23 @@ impl WordDictionary {
 struct Solution;
 
 impl Solution {
-    pub fn simplify_path(path: String) -> String {
-        let bs = path.into_bytes();
-        let mut res = Vec::new();
-        let mut i = 0;
-        let n = bs.len();
-        while i < n {
-            while i < n && bs[i] == b'/' {
-                i += 1;
-            }
-            let mut cnt = Vec::new();
-            while i < n && bs[i] != b'/' {
-                cnt.push(bs[i]);
-                i += 1;
-            }
-            if cnt.len() == 0 {
-                break;
-            }
-            if cnt.len() == 2 && cnt[0] == b'.' && cnt[1] == b'.' {
-                res.pop();
-            } else if !(cnt.len() == 1 && cnt[0] == b'.') {
-                res.push(String::from_utf8(cnt).unwrap());
+    pub fn time_taken(edges: Vec<Vec<i32>>) -> Vec<i32> {
+        let n = edges.len() + 1;
+        let mut cnt = vec![vec![]; n];
+        for (i, edge) in edges.iter().enumerate() {
+            cnt[edge[0] as usize].push((edge[1], (i + 1) % 2 + 1));
+            cnt[edge[1] as usize].push((edge[1], (i + 1) % 2 + 1));
+        }
+        fn dfs(cnt: &Vec<Vec<(i32, usize)>>, start: usize, vis: &mut Vec<bool>, dis: i32) -> i32 {
+            let mut res = 0;
+            for (i, x) in cnt[start] {
+                if vis[i as usize] {
+                    res = res.max(dfs(cnt, start, vis, dis + x as i32));
+                }
             }
         }
-        "/".to_string() + &res.join("/")
+        let mut vis = vec![false; n];
+        dfs(&cnt, start, end, &mut vis, 0);
+        res
     }
 }
