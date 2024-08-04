@@ -114,3 +114,6 @@
 
 ## 快速幂
 - [2961.双模幂运算 (2024-07-30-1451)](https://leetcode.cn/problems/double-modular-exponentiation/)
+
+## DFS
+- [572.另一棵树的子树 (2024-08-04-3)](https://leetcode.cn/problems/subtree-of-another-tree/)
