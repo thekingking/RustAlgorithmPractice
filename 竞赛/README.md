@@ -20,3 +20,16 @@
 - [x] [统计不是特殊数字的数字数量](https://leetcode.cn/problems/find-the-count-of-numbers-which-are-not-special/)
 - [ ] [统计 1 显著的字符串的数量](https://leetcode.cn/problems/count-the-number-of-substrings-with-dominant-ones/)
 - [ ] [判断矩形的两个角落是否可达](https://leetcode.cn/problems/check-if-the-rectangle-corner-is-reachable/)
+
+## 136双周赛
+- [x] [求出胜利玩家的数目](https://leetcode.cn/problems/find-the-number-of-winning-players/)
+- [x] [最少翻转次数使二进制矩阵回文 I](https://leetcode.cn/problems/minimum-number-of-flips-to-make-binary-grid-palindromic-i/)
+- [x] [最少翻转次数使二进制矩阵回文 II](https://leetcode.cn/problems/minimum-number-of-flips-to-make-binary-grid-palindromic-ii/)
+- [ ] [标记所有节点需要的时间](https://leetcode.cn/problems/time-taken-to-mark-all-nodes/)
+
+## 409周赛
+又是3题选手，但是还是上分了（谁叫我分低呢，哈哈）
+- [x] [设计相邻元素求和服务](https://leetcode.cn/problems/design-neighbor-sum-service/)
+- [x] [新增道路查询后的最短距离 I](https://leetcode.cn/problems/shortest-distance-after-road-addition-queries-i/)
+- [x] [新增道路查询后的最短距离 II](https://leetcode.cn/problems/shortest-distance-after-road-addition-queries-ii/)
+- [ ] [交替组 III](https://leetcode.cn/problems/alternating-groups-iii/)
