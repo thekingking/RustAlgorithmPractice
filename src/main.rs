@@ -1,4 +1,3 @@
-use std::{arch::x86_64, borrow::Borrow, cmp::{self, max}, collections::{BTreeMap, HashMap, HashSet}, i32, vec};
 
 fn main() {
     println!("hello, world");
@@ -7,32 +6,24 @@ fn main() {
 struct Solution;
 
 impl Solution {
-    pub fn find_integers(mut n: i32) -> i32 {
-        let mut dp = vec![0; 32];
-        dp[0] = 1;
-        dp[1] = 1;
-        for i in 2..32 {
-            dp[i] = dp[i - 1] + dp[i - 2];
+    pub fn number_of_stable_arrays(zero: i32, one: i32, limit: i32) -> i32 {
+        const MOD: i64 = 1_000_000_007;
+        let zero = zero as usize;
+        let one = one as usize;
+        let limit = limit as usize;
+        let mut dp: Vec<Vec<Vec<i64>>> = vec![vec![vec![0; 2]; one + 1]; zero + 1];
+        for i in 1..=zero.min(limit) {
+            dp[i][0][0] = 1;
         }
-        let mut cnt = Vec::new();
-        while n != 0 {
-            cnt.push(n % 2);
-            n /= 2;
+        for j in 1..=one.min(limit) {
+            dp[0][j][1] = 1;
         }
-        let mut pre = 0;
-        let mut res = 0;
-        while let Some(x) = cnt.pop() {
-            if x == 1 && pre == 0 {
-                res += dp[cnt.len() + 1];
-            } else if x == 1 && pre == 1 {
-                res += dp[cnt.len() + 1];
-                break;
+        for i in 1..=zero {
+            for j in 1..=one {
+                dp[i][j][0] = (dp[i - 1][j][0] + dp[i - 1][j][1] + if i > limit { MOD - dp[i - limit - 1][j][1] } else { 0 }) % MOD;
+                dp[i][j][1] = (dp[i][j - 1][0] + dp[i][j - 1][1] + if j > limit { MOD - dp[i][j - limit - 1][0] } else { 0 }) % MOD;
             }
-            if cnt.len() == 0 {
-                res += 1;
-            }
-            pre = x;
         }
-        res
+        ((dp[zero][one][0] + dp[zero][one][1]) % MOD) as i32
     }
 }

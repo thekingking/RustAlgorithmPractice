@@ -25,6 +25,7 @@ LeetCode算法练习，目前跟着灵茶山大佬的[【题单】常用数据�
 - [ ] [mid  2850 (2024-07-20 全排列i(Rust 貌似没有全排列api))]()
 - [ ] [2553 3098 (2024-07-23 dfs + 记忆化搜索)]()
 - [ ] [1835  995 (2024-07-29 差分数组)](https://leetcode.cn/problems/minimum-number-of-k-consecutive-bit-flips/description/)
+- [ ] [3129 2200 (2024-08-06 记忆化搜索或DP)](https://leetcode.cn/problems/find-all-possible-stable-binary-arrays-i/description/)
 
 看提示做会的
 - mid  2831(2024-05-23每日一题，滑动窗口)
