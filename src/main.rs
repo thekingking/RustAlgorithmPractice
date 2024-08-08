@@ -36,9 +36,9 @@ impl Solution {
     }
 }
 
-struct MinStack {
+struct CustomStack {
+    max_size: usize,
     stack: Vec<i32>,
-    min_pre: Vec<i32>,
 }
 
 
@@ -46,30 +46,28 @@ struct MinStack {
  * `&self` means the method takes an immutable reference.
  * If you need a mutable reference, change it to `&mut self` instead.
  */
-impl MinStack {
+impl CustomStack {
 
-    fn new() -> Self {
+    fn new(maxSize: i32) -> Self {
         Self {
+            max_size: maxSize as usize,
             stack: Vec::new(),
-            min_pre: vec![i32::MAX],
         }
     }
     
-    fn push(&mut self, val: i32) {
-        self.min_pre.push(std::cmp::min(val, *self.min_pre.last().unwrap()));
-        self.stack.push(val);
+    fn push(&mut self, x: i32) {
+        if self.stack.len() < self.max_size {
+            self.stack.push(x);
+        }
     }
     
-    fn pop(&mut self) {
-        self.min_pre.pop();
-        self.stack.pop();
+    fn pop(&mut self) -> i32 {
+        self.stack.pop().unwrap_or(-1)
     }
     
-    fn top(&self) -> i32 {
-        *self.stack.last().unwrap()
-    }
-    
-    fn get_min(&self) -> i32 {
-        *self.min_pre.last().unwrap()
+    fn increment(&mut self, k: i32, val: i32) {
+        for i in 0..self.stack.len().min(k as usize) {
+            self.stack[i] += val;
+        }
     }
 }
