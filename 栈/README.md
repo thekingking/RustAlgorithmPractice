@@ -11,8 +11,8 @@
 - [x] [71. 简化路径](https://leetcode.cn/problems/simplify-path/)
 
 ## 进阶
-- [ ] [3170. 删除星号以后字典序最小的字符串 1772](https://leetcode.cn/problems/lexicographically-minimum-string-after-removing-stars/)
-- [ ] [155. 最小栈](https://leetcode.cn/problems/min-stack/)
+- [x] [3170. 删除星号以后字典序最小的字符串 1772](https://leetcode.cn/problems/lexicographically-minimum-string-after-removing-stars/)
+- [x] [155. 最小栈](https://leetcode.cn/problems/min-stack/)
 - [ ] [1381. 设计一个支持增量操作的栈](https://leetcode.cn/problems/design-a-stack-with-increment-operation/)
 - [ ] [636. 函数的独占时间](https://leetcode.cn/problems/exclusive-time-of-functions/)
 - [ ] [2434. 使用机器人打印字典序最小的字符串 1953](https://leetcode.cn/problems/using-a-robot-to-print-the-lexicographically-smallest-string/)
