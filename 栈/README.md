@@ -16,7 +16,7 @@
 - [x] [1381. 设计一个支持增量操作的栈](https://leetcode.cn/problems/design-a-stack-with-increment-operation/)
 - [x] [636. 函数的独占时间](https://leetcode.cn/problems/exclusive-time-of-functions/)
 - [x] [2434. 使用机器人打印字典序最小的字符串 1953](https://leetcode.cn/problems/using-a-robot-to-print-the-lexicographically-smallest-string/)
-- [ ] [895. 最大频率栈 2028](https://leetcode.cn/problems/maximum-frequency-stack/)
+- [x] [895. 最大频率栈 2028](https://leetcode.cn/problems/maximum-frequency-stack/)
 - [ ] [1172. 餐盘栈 2110](https://leetcode.cn/problems/dinner-plate-stacks/)
 - [ ] [2589. 完成所有任务的最少时间 2381 做法不止一种](https://leetcode.cn/problems/minimum-time-to-complete-all-tasks/)
 - [ ] [716. 最大栈（会员题）](https://leetcode.cn/problems/max-stack/)
