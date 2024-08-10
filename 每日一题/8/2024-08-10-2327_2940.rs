@@ -1,14 +1,9 @@
-use std::collections::HashMap;
-
-
-fn main() {
-    println!("hello, world");
-}
-
 struct Solution;
 
 impl Solution {
+    /// 单调栈 + 记忆化搜索
     pub fn leftmost_building_queries(heights: Vec<i32>, queries: Vec<Vec<i32>>) -> Vec<i32> {
+        // 单调栈
         let mut stack = vec![(i32::MAX, 0)];
         let mut cnt = vec![-1; heights.len()];
         for (i, &h) in heights.iter().enumerate() {
@@ -23,6 +18,7 @@ impl Solution {
             }
         }
         let mut res = vec![0; queries.len()];
+        // 记忆化搜索
         let mut memo = std::collections::HashMap::new();
         for (i, q) in queries.iter().enumerate() {
             let a = std::cmp::min(q[0], q[1]) as usize;
@@ -46,4 +42,3 @@ impl Solution {
         res
     }  
 }
-

@@ -116,6 +116,7 @@
 
 ## 栈
 - [682.棒球比赛 (2024-07-29-e)](https://leetcode.cn/problems/baseball-game/)
+- [2940.找到 Alice 和 Bob 可以相遇的建筑 (2024-08-10-2327)](https://leetcode.cn/problems/find-building-where-alice-and-bob-can-meet/)
 
 ## 快速幂
 - [2961.双模幂运算 (2024-07-30-1451)](https://leetcode.cn/problems/double-modular-exponentiation/)
