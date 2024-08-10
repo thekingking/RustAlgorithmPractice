@@ -1,10 +1,3 @@
-use std::collections::HashMap;
-
-
-fn main() {
-    println!("hello, world");
-}
-
 struct Solution;
 
 impl Solution {
@@ -30,4 +23,3 @@ impl Solution {
         cnt.into_iter().sum()
     }  
 }
-
