@@ -1,10 +1,3 @@
-use std::collections::HashMap;
-
-
-fn main() {
-    println!("hello, world");
-}
-
 struct Solution;
 
 impl Solution {
@@ -27,4 +20,3 @@ impl Solution {
         dp[*nums.last().unwrap() as usize + 1] as i32
     }
 }
-
