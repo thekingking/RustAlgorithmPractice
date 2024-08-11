@@ -36,7 +36,7 @@
 
 ## 410周赛
 2题题意题解错了，耽误太多时间了，导致第四题时间不够了，4题和3题差不多，数据范围大了点，可惜了，差点ak了，掉大分
-- [x] [3 分 - 矩阵中的蛇](https://leetcode.cn/problems/snake-in-matrix/)
-- [x] [4 分 - 统计好节点的数目](https://leetcode.cn/problems/count-the-number-of-good-nodes/)
-- [x] [6 分 - 单调数组对的数目 I](https://leetcode.cn/problems/find-the-count-of-monotonic-pairs-i/)
-- [ ] [7 分 - 单调数组对的数目 II](https://leetcode.cn/problems/find-the-count-of-monotonic-pairs-ii/)
+- [x] [矩阵中的蛇](https://leetcode.cn/problems/snake-in-matrix/)
+- [x] [统计好节点的数目](https://leetcode.cn/problems/count-the-number-of-good-nodes/)
+- [x] [单调数组对的数目 I](https://leetcode.cn/problems/find-the-count-of-monotonic-pairs-i/)
+- [ ] [单调数组对的数目 II](https://leetcode.cn/problems/find-the-count-of-monotonic-pairs-ii/)
