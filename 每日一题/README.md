@@ -85,7 +85,7 @@
 - [2974.最小数字游戏 (2024-07-12-1185)](https://leetcode.cn/problems/minimum-number-game/)
 - [3131.找出与数组相加的整数 I (2024-08-08-1161)](https://leetcode.cn/problems/find-the-integer-added-to-array-i/)
 
-## 动态规划
+## DP
 - [2786.访问数组中的位置使分数最大 (2024-06-14-m)](https://leetcode.cn/problems/visit-array-positions-to-maximize-score)
 - [2713.矩阵中严格递增的单元格数 (2024-06-19-h)](https://leetcode.cn/problems/maximum-strictly-increasing-cells-in-a-matrix)
 - [2742.给墙壁刷油漆 (2024-06-28-h)](https://leetcode.cn/problems/painting-the-walls)
@@ -93,6 +93,7 @@
 - [1186.删除一次得到子数组最大和 (2024-07-21-1179)](https://leetcode.cn/problems/maximum-subarray-sum-with-one-deletion/)
 - [600.不含连续1的非负整数 (2024-08-05-h)](https://leetcode.cn/problems/non-negative-integers-without-consecutive-ones/)
 - [3130.找出所有稳定的二进制数组 II (2024-08-07-2825)](https://leetcode.cn/problems/find-all-possible-stable-binary-arrays-ii/)
+- [1035.不相交的线 (2024-08-11-1806)](https://leetcode.cn/problems/uncrossed-lines/)
 
 ## 脑筋急转弯
 - [521.最长特殊序列 Ⅰ (2024-06-16-e)](https://leetcode.cn/problems/longest-uncommon-subsequence-i)
