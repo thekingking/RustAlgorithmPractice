@@ -53,7 +53,8 @@
 - [3132.找出与数组相加的整数 II (2024-08-09-1620)](https://leetcode.cn/problems/find-the-integer-added-to-array-ii/)
 
 ## DFS
-- [3067.在带权树网络中统计可连接服务器对数目 (2024-06-04-m)](https://leetcode.cn/problems/count-pairs-of-connectable-servers-in-a-weighted-tree-network)
+- [3067.在带权树网络中统计可连接服务器对数目 (2024-06-04-m)](https://leetcode.cn/problems/count-pairs-of-connectable-servers-in-a-weighted-tree-network/)
+- [572.另一棵树的子树 (2024-08-04-e)](https://leetcode.cn/problems/subtree-of-another-tree/)
 
 ## 贪心
 - [2038.区分黑球与白球 (2024-06-06-m)](https://leetcode.cn/problems/separate-black-and-white-balls)
@@ -122,5 +123,5 @@
 ## 快速幂
 - [2961.双模幂运算 (2024-07-30-1451)](https://leetcode.cn/problems/double-modular-exponentiation/)
 
-## DFS
-- [572.另一棵树的子树 (2024-08-04-3)](https://leetcode.cn/problems/subtree-of-another-tree/)
+## Trie
+- [676.实现一个魔法字典 (2024-08-12-m)](https://leetcode.cn/problems/implement-magic-dictionary/)
