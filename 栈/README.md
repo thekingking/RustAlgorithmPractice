@@ -23,7 +23,7 @@
 
 ## 邻项消除
 - [x] [2696. 删除子串后的字符串最小长度 1282](https://leetcode.cn/problems/minimum-string-length-after-removing-substrings/)
-- [ ] [1047. 删除字符串中的所有相邻重复项 1286](https://leetcode.cn/problems/remove-all-adjacent-duplicates-in-string/)
+- [x] [1047. 删除字符串中的所有相邻重复项 1286](https://leetcode.cn/problems/remove-all-adjacent-duplicates-in-string/)
 - [ ] [1544. 整理字符串 1344](https://leetcode.cn/problems/make-the-string-great/)
 - [ ] [1003. 检查替换后的词是否有效 1427](https://leetcode.cn/problems/check-if-word-is-valid-after-substitutions/)
 - [ ] [2216. 美化数组的最少删除数 1510](https://leetcode.cn/problems/minimum-deletions-to-make-array-beautiful/)

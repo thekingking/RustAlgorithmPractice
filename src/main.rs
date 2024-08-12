@@ -9,11 +9,11 @@ fn main() {
 struct Solution;
 
 impl Solution {
-    pub fn min_length(s: String) -> i32 {
+    pub fn remove_duplicates(s: String) -> String {
         let mut res = Vec::new();
         for &c in s.as_bytes() {
             if let Some(&s) = res.last() {
-                if s == b'A' && c == b'B' || s == b'C' && c == b'D' {
+                if s == c {
                     res.pop();
                 } else {
                     res.push(c);
@@ -22,6 +22,6 @@ impl Solution {
                 res.push(c);
             }
         }
-        res.len() as i32
+        unsafe {String::from_utf8_unchecked(res)}
     }
 }
