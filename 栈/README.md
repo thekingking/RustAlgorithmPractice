@@ -28,7 +28,7 @@
 - [x] [1003. 检查替换后的词是否有效 1427](https://leetcode.cn/problems/check-if-word-is-valid-after-substitutions/)
 - [x] [2216. 美化数组的最少删除数 1510](https://leetcode.cn/problems/minimum-deletions-to-make-array-beautiful/)
 - [x] [1209. 删除字符串中的所有相邻重复项 II 1542](https://leetcode.cn/problems/remove-all-adjacent-duplicates-in-string-ii/)
-- [ ] [2211. 统计道路上的碰撞次数 1581](https://leetcode.cn/problems/count-collisions-on-a-road/)
+- [x] [2211. 统计道路上的碰撞次数 1581](https://leetcode.cn/problems/count-collisions-on-a-road/)
 - [ ] [735. 小行星碰撞](https://leetcode.cn/problems/asteroid-collision/)
 - [ ] [1717. 删除子字符串的最大得分 1868](https://leetcode.cn/problems/maximum-score-from-removing-substrings/)
 - [ ] [2197. 替换数组中的非互质数 2057](https://leetcode.cn/problems/replace-non-coprime-numbers-in-array/)
