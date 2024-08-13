@@ -26,7 +26,7 @@
 - [x] [1047. 删除字符串中的所有相邻重复项 1286](https://leetcode.cn/problems/remove-all-adjacent-duplicates-in-string/)
 - [x] [1544. 整理字符串 1344](https://leetcode.cn/problems/make-the-string-great/)
 - [x] [1003. 检查替换后的词是否有效 1427](https://leetcode.cn/problems/check-if-word-is-valid-after-substitutions/)
-- [ ] [2216. 美化数组的最少删除数 1510](https://leetcode.cn/problems/minimum-deletions-to-make-array-beautiful/)
+- [x] [2216. 美化数组的最少删除数 1510](https://leetcode.cn/problems/minimum-deletions-to-make-array-beautiful/)
 - [ ] [1209. 删除字符串中的所有相邻重复项 II 1542](https://leetcode.cn/problems/remove-all-adjacent-duplicates-in-string-ii/)
 - [ ] [2211. 统计道路上的碰撞次数 1581](https://leetcode.cn/problems/count-collisions-on-a-road/)
 - [ ] [735. 小行星碰撞](https://leetcode.cn/problems/asteroid-collision/)
