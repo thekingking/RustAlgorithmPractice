@@ -32,7 +32,7 @@
 - [x] [735. 小行星碰撞](https://leetcode.cn/problems/asteroid-collision/)
 - [x] [1717. 删除子字符串的最大得分 1868](https://leetcode.cn/problems/maximum-score-from-removing-substrings/)
 - [x] [2197. 替换数组中的非互质数 2057](https://leetcode.cn/problems/replace-non-coprime-numbers-in-array/)
-- [ ] [2751. 机器人碰撞 2092](https://leetcode.cn/problems/robot-collisions/)
+- [x] [2751. 机器人碰撞 2092](https://leetcode.cn/problems/robot-collisions/)
 
 ## 合法括号字符串
 - [ ] [20. 有效的括号](https://leetcode.cn/problems/valid-parentheses/)
