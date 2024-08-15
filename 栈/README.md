@@ -35,7 +35,7 @@
 - [x] [2751. 机器人碰撞 2092](https://leetcode.cn/problems/robot-collisions/)
 
 ## 合法括号字符串
-- [ ] [20. 有效的括号](https://leetcode.cn/problems/valid-parentheses/)
+- [x] [20. 有效的括号](https://leetcode.cn/problems/valid-parentheses/)
 - [ ] [921. 使括号有效的最少添加 1242](https://leetcode.cn/problems/minimum-add-to-make-parentheses-valid/)
 - [ ] [1021. 删除最外层的括号 1311](https://leetcode.cn/problems/remove-outermost-parentheses/)
 - [ ] [1614. 括号的最大嵌套深度 1323](https://leetcode.cn/problems/maximum-nesting-depth-of-the-parentheses/)
