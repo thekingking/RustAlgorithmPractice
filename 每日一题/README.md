@@ -14,6 +14,7 @@
 - [724.寻找数组的中心下标 (2024-07-08-e)](https://leetcode.cn/problems/find-pivot-index)
 - [3096.得到更多分数的最少关卡数目 (2024-07-19-1501)](https://leetcode.cn/problems/minimum-levels-to-gain-more-points/)
 - [3152.特殊数组 II (2024-08-14-1523)](https://leetcode.cn/problems/special-array-ii/)
+- [3148.矩阵中的最大得分 (2024-08-15-1820)](https://leetcode.cn/problems/maximum-difference-score-in-a-grid/)
 
 ## 单调栈
 - [1673.找出最具竞争力的子序列 (2024-05-24-m)](https://leetcode.cn/problems/find-the-most-competitive-subsequence)
