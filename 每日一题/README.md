@@ -77,6 +77,7 @@
 - [2471.特别的排列 (2024-06-26-m_2471)](https://leetcode.cn/problems/special-permutations)
 - [3098.求出所有子序列的能量和 (2024-07-23-2553)](https://leetcode.cn/problems/find-the-sum-of-subsequence-powers/)
 - [3029.找出所有稳定的二进制数组 I (2024-08-06-2200)](https://leetcode.cn/problems/find-all-possible-stable-binary-arrays-i/)
+- [3117.划分数组得到最小的值之和 (2024-08-16-2735)](https://leetcode.cn/problems/minimum-sum-of-values-by-dividing-array/description/)
 
 ## 简单题
 - [2806.取整购买后的账户余额 (2024-06-12-e)](https://leetcode.cn/problems/account-balance-after-rounded-purchase)

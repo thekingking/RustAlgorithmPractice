@@ -1,14 +1,7 @@
-use std::{default, fmt::Debug, i32};
-
-
-
-fn main() {
-    println!("hello, world");
-}
-
 struct Solution;
 
 impl Solution {
+    /// 参数压缩，将i,j,_and压缩到一块
     pub fn minimum_value_sum(nums: Vec<i32>, and_values: Vec<i32>) -> i32 {
         use std::collections::HashMap;
         fn dfs(nums: &Vec<i32>, and_values: &Vec<i32>, memo: &mut HashMap<i64, i32>, n: usize, m: usize, i: usize, j: usize, mut and_: i32) -> i32 {
