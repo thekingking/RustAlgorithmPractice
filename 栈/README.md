@@ -41,7 +41,7 @@
 - [x] [1614. 括号的最大嵌套深度 1323](https://leetcode.cn/problems/maximum-nesting-depth-of-the-parentheses/)
 - [x] [1190. 反转每对括号间的子串 1486](https://leetcode.cn/problems/reverse-substrings-between-each-pair-of-parentheses/)
 - [x] [856. 括号的分数 1563](https://leetcode.cn/problems/score-of-parentheses/)
-- [ ] [1249. 移除无效的括号 1657](https://leetcode.cn/problems/minimum-remove-to-make-valid-parentheses/)
+- [x] [1249. 移除无效的括号 1657](https://leetcode.cn/problems/minimum-remove-to-make-valid-parentheses/)
 - [ ] [1963. 使字符串平衡的最小交换次数 1689](https://leetcode.cn/problems/minimum-number-of-swaps-to-make-the-string-balanced/)
 - [ ] [678. 有效的括号字符串 ~1700](https://leetcode.cn/problems/valid-parenthesis-string/)
 - [ ] [32. 最长有效括号](https://leetcode.cn/problems/longest-valid-parentheses/)
