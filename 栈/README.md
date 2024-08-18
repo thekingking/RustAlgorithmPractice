@@ -43,7 +43,7 @@
 - [x] [856. 括号的分数 1563](https://leetcode.cn/problems/score-of-parentheses/)
 - [x] [1249. 移除无效的括号 1657](https://leetcode.cn/problems/minimum-remove-to-make-valid-parentheses/)
 - [x] [1963. 使字符串平衡的最小交换次数 1689](https://leetcode.cn/problems/minimum-number-of-swaps-to-make-the-string-balanced/)
-- [ ] [678. 有效的括号字符串 ~1700](https://leetcode.cn/problems/valid-parenthesis-string/)
+- [x] [678. 有效的括号字符串 ~1700](https://leetcode.cn/problems/valid-parenthesis-string/)
 - [ ] [32. 最长有效括号](https://leetcode.cn/problems/longest-valid-parentheses/)
 - [ ] [1111. 有效括号的嵌套深度 1749](https://leetcode.cn/problems/maximum-nesting-depth-of-two-valid-parentheses-strings/)
 - [ ] [1541. 平衡括号字符串的最少插入次数 1759](https://leetcode.cn/problems/minimum-insertions-to-balance-a-parentheses-string/)
