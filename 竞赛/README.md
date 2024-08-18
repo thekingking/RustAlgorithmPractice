@@ -40,3 +40,18 @@
 - [x] [统计好节点的数目](https://leetcode.cn/problems/count-the-number-of-good-nodes/)
 - [x] [单调数组对的数目 I](https://leetcode.cn/problems/find-the-count-of-monotonic-pairs-i/)
 - [ ] [单调数组对的数目 II](https://leetcode.cn/problems/find-the-count-of-monotonic-pairs-ii/)
+
+## 137双周赛
+又一次ak，直上knight
+- [x] [长度为 K 的子数组的能量值 I](https://leetcode.cn/problems/find-the-power-of-k-size-subarrays-i/)
+- [x] [长度为 K 的子数组的能量值 II](https://leetcode.cn/problems/find-the-power-of-k-size-subarrays-ii/)
+- [x] [放三个车的价值之和最大 I](https://leetcode.cn/problems/maximum-value-sum-by-placing-three-rooks-i/)
+- [x] [放三个车的价值之和最大 II](https://leetcode.cn/problems/maximum-value-sum-by-placing-three-rooks-ii/)
+
+## 411周赛
+t3写太久了，没时间写t4了
+- [x] [统计满足 K 约束的子字符串数量 I](https://leetcode.cn/problems/count-substrings-that-satisfy-k-constraint-i/)
+- [x] [超级饮料的最大强化能量](https://leetcode.cn/problems/maximum-energy-boost-from-two-drinks/)
+- [x] [找出最大的 N 位 K 回文数](https://leetcode.cn/problems/find-the-largest-palindrome-divisible-by-k/)
+- [ ] [统计满足 K 约束的子字符串数量 II](https://leetcode.cn/problems/count-substrings-that-satisfy-k-constraint-ii/)
+
