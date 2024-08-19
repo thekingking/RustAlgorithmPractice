@@ -101,6 +101,7 @@
 - [600.不含连续1的非负整数 (2024-08-05-h)](https://leetcode.cn/problems/non-negative-integers-without-consecutive-ones/)
 - [3130.找出所有稳定的二进制数组 II (2024-08-07-2825)](https://leetcode.cn/problems/find-all-possible-stable-binary-arrays-ii/)
 - [1035.不相交的线 (2024-08-11-1806)](https://leetcode.cn/problems/uncrossed-lines/)
+- [552.学生出勤记录 II (2024-08-19-h)](https://leetcode.cn/problems/student-attendance-record-ii/)
 
 ## 脑筋急转弯
 - [521.最长特殊序列 Ⅰ (2024-06-16-e)](https://leetcode.cn/problems/longest-uncommon-subsequence-i)
