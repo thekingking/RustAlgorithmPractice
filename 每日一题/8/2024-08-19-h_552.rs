@@ -1,33 +1,57 @@
 impl Solution {
+    /// 空间优化
     pub fn check_record(n: i32) -> i32 {
-        fn dfs(i: i32, n: i32, s: &mut Vec<char>, cnt_a: i32, sec_l: i32, mem: &mut Vec<Vec<Vec<i32>>>) -> i32 {
-            if s.len() as i32 == n { return 1; }
-            if mem[i as usize][cnt_a as usize][sec_l as usize] > -1 { return mem[i as usize][cnt_a as usize][sec_l as usize]; }
-
-            let _mod = 1000000007;
-            let mut sum = 0;
-
-            s.push('P');
-            sum += dfs(i + 1, n, s, cnt_a, 0, mem);
-            sum = sum % _mod;
-            s.pop();
-
-            if cnt_a < 1 {
-                s.push('A');
-                sum += dfs(i + 1, n, s, cnt_a + 1, 0, mem);
-                sum = sum % _mod;
-                s.pop();
-            }
-
-            if sec_l < 2 {
-                s.push('L');
-                sum += dfs(i + 1, n, s, cnt_a, sec_l + 1, mem);
-                sum = sum % _mod;
-                s.pop();
-            }
-            mem[i as usize][cnt_a as usize][sec_l as usize] = sum;
-            sum
+        const MOD: i64 = 1_000_000_007;
+        let n = n as usize;
+        if n == 1 {
+            return 3;
         }
-        dfs(0, n, &mut Vec::new(), 0, 0, &mut vec![vec![vec![-1; 3]; 2]; n as usize])
+        let mut dp = vec![0; n + 3];
+        dp[1] = 1;
+        dp[2] = 1;
+        let mut sum = 0;
+        for i in 0..n {
+            dp[i + 3] = (dp[i + 2] + dp[i + 1] + dp[i]) % MOD;
+        }
+        for i in 0..=n {
+            if i == 0 || i == n - 1 {
+                sum = (sum + dp[n + 1]) % MOD;
+            } else if i == n {
+                sum = (sum + dp[n + 2]) % MOD;
+            } else {
+                sum = (sum + (dp[i + 2]) * (dp[n - i + 1])) % MOD;
+            }
+        }
+        sum as i32
+    }
+
+    pub fn check_record(n: i32) -> i32 {
+        const MOD: i64 = 1_000_000_007;
+        let n = n as usize;
+        if n == 1 {
+            return 3;
+        }
+        let mut dp = vec![vec![0; n]; 3];
+        dp[0][0] = 1;
+        dp[1][0] = 1;
+        dp[2][0] = 0;
+        let mut sum = 0;
+        for i in 1..n {
+            dp[0][i] = (dp[0][i - 1] + dp[1][i - 1] + dp[2][i - 1]) % MOD;
+            dp[1][i] = dp[0][i - 1];
+            dp[2][i] = dp[1][i - 1];
+        }
+        for i in 0..=n {
+            if i == 0 {
+                sum = (sum + dp[0][n - i - 2] + dp[1][n - i - 2] + dp[2][n - i - 2]) % MOD;
+            } else if i == n - 1 {
+                sum = (sum + dp[0][i - 1] + dp[1][i - 1] + dp[2][i - 1]) % MOD;
+            } else if i == n {
+                sum = (sum + dp[0][i - 1] + dp[1][i - 1] + dp[2][i - 1]) % MOD;
+            } else {
+                sum = (sum + (dp[0][i - 1] + dp[1][i - 1] + dp[2][i - 1]) * (dp[0][n - i - 2] + dp[1][n - i - 2] + dp[2][n - i - 2])) % MOD;
+            }
+        }
+        sum as i32
     }
 }

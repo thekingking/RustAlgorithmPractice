@@ -15,15 +15,22 @@ impl Solution {
         if n == 1 {
             return 3;
         }
-        let mut dp = vec![vec![0; n + 2]; 2];
-        dp[0][2] = 1;
-        dp[1][2] = 1;
+        let mut dp = vec![0; n + 3];
+        dp[1] = 1;
+        dp[2] = 1;
         let mut sum = 0;
-        for i in 1..n {
-            dp[0][i + 2] = (dp[0][i + 1] + dp[1][i + 1]) % MOD;
-            dp[1][i + 2] = (dp[0][i + 1] + dp[0][i]) % MOD;
-            sum += (sum + dp[0][i + 1] + dp[1][i + 1]) % MOD;
+        for i in 0..n {
+            dp[i + 3] = (dp[i + 2] + dp[i + 1] + dp[i]) % MOD;
         }
-        ((dp[0][n + 1] + dp[1][n + 1] + sum) % MOD) as i32
+        for i in 0..=n {
+            if i == 0 || i == n - 1 {
+                sum = (sum + dp[n + 1]) % MOD;
+            } else if i == n {
+                sum = (sum + dp[n + 2]) % MOD;
+            } else {
+                sum = (sum + (dp[i + 2]) * (dp[n - i + 1])) % MOD;
+            }
+        }
+        sum as i32
     }
 }
