@@ -134,3 +134,6 @@
 
 ## Trie
 - [676.实现一个魔法字典 (2024-08-12-m)](https://leetcode.cn/problems/implement-magic-dictionary/)
+
+## 位运算
+- [3133.数组最后一个元素的最小值 (2024-08-22-1935)](https://leetcode.cn/problems/minimum-array-end/)
