@@ -27,6 +27,7 @@ LeetCode算法练习，目前跟着灵茶山大佬的[【题单】常用数据�
 - [ ] [1835  995 (2024-07-29 差分数组)](https://leetcode.cn/problems/minimum-number-of-k-consecutive-bit-flips/description/)
 - [ ] [3129 2200 (2024-08-06 记忆化搜索或DP)](https://leetcode.cn/problems/find-all-possible-stable-binary-arrays-i/description/)
 - [ ] [3117 2735 (2024-08-16 记忆化搜索)](https://leetcode.cn/problems/minimum-sum-of-values-by-dividing-array/)
+- [ ] [3145.大数组元素的乘积 (2024-08-23-2859)](https://leetcode.cn/problems/find-products-of-elements-of-big-array/)
 
 看提示做会的
 - mid  2831(2024-05-23每日一题，滑动窗口)

@@ -137,3 +137,4 @@
 
 ## 位运算
 - [3133.数组最后一个元素的最小值 (2024-08-22-1935)](https://leetcode.cn/problems/minimum-array-end/)
+- [3145.大数组元素的乘积 (2024-08-23-2859)](https://leetcode.cn/problems/find-products-of-elements-of-big-array/)
