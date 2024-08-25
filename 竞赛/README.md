@@ -55,3 +55,10 @@ t3写太久了，没时间写t4了
 - [x] [找出最大的 N 位 K 回文数](https://leetcode.cn/problems/find-the-largest-palindrome-divisible-by-k/)
 - [ ] [统计满足 K 约束的子字符串数量 II](https://leetcode.cn/problems/count-substrings-that-satisfy-k-constraint-ii/)
 
+## 412周赛
+t4早就写出来了，可惜有个7改成6了，导致后面才想起来改回来，本来有机会前百的，可惜了。
+t3有思路，可惜对堆不太熟悉，在对最小值进行操作的部分超时了，半天没写出来
+- [x] [K 次乘运算后的最终数组 I](https://leetcode.cn/problems/final-array-state-after-k-multiplication-operations-i/)
+- [x] [统计近似相等数对 I](https://leetcode.cn/problems/count-almost-equal-pairs-i/)
+- [ ] [K 次乘运算后的最终数组 II](https://leetcode.cn/problems/final-array-state-after-k-multiplication-operations-ii/)
+- [x] [统计近似相等数对 II](https://leetcode.cn/problems/count-almost-equal-pairs-ii/)
