@@ -30,3 +30,23 @@
 - [ ] [LCP 71. 集水器](https://leetcode.cn/problems/kskhHQ/)
 - [ ] [2371. 最小化网格中的最大值（会员题）](https://leetcode.cn/problems/minimize-maximum-value-in-a-grid/)
 - [ ] [2459. 通过移动项目到空白区域来排序数组（会员题）置换](https://leetcode.cn/problems/sort-array-by-moving-items-to-empty-space/)
+
+## 公因数并查集
+- [ ] [2709. 最大公约数遍历 2172](https://leetcode.cn/problems/greatest-common-divisor-traversal/)
+- [ ] [1627. 带阈值的图连通性 2221](https://leetcode.cn/problems/graph-connectivity-with-threshold/)
+- [ ] [952. 按公因数计算最大组件大小 2272](https://leetcode.cn/problems/largest-component-size-by-common-factor/)
+- [ ] [1998. 数组的最大公因数排序 2429](https://leetcode.cn/problems/gcd-sort-of-an-array/)
+
+## 数组上的并查集
+- [ ] [1562. 查找大小为 M 的最新分组 1928](https://leetcode.cn/problems/find-latest-group-of-size-m/)
+- [ ] [1488. 避免洪水泛滥 1974](https://leetcode.cn/problems/avoid-flood-in-the-city/)
+- [ ] [2382. 删除操作后的最大子段和 2136](https://leetcode.cn/problems/maximum-segment-sum-after-removals/)
+- [ ] [2334. 元素值大于变化阈值的子数组 2381](https://leetcode.cn/problems/subarray-with-elements-greater-than-varying-threshold/)
+
+## 区间并查集
+- [ ] [1851. 包含每个查询的最小区间 2286](https://leetcode.cn/problems/minimum-interval-to-include-each-query/)
+- [ ] [2158. 每天绘制新区域的数量（会员题）](https://leetcode.cn/problems/amount-of-new-area-painted-each-day/)
+
+## 边权并查集
+- [ ] [399. 除法求值](https://leetcode.cn/problems/evaluate-division/)
+- [ ] [2307. 检查方程中的矛盾之处（会员题）](https://leetcode.cn/problems/check-for-contradictions-in-equations/)
