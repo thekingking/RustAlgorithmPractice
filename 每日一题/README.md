@@ -60,6 +60,7 @@
 ## DFS
 - [3067.在带权树网络中统计可连接服务器对数目 (2024-06-04-m)](https://leetcode.cn/problems/count-pairs-of-connectable-servers-in-a-weighted-tree-network/)
 - [572.另一棵树的子树 (2024-08-04-e)](https://leetcode.cn/problems/subtree-of-another-tree/)
+- [690.员工的重要性 (2024-08-26-m)](https://leetcode.cn/problems/employee-importance/)
 
 ## 贪心
 - [2038.区分黑球与白球 (2024-06-06-m)](https://leetcode.cn/problems/separate-black-and-white-balls)
