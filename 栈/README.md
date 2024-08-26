@@ -50,7 +50,7 @@
 - [x] [2116. 判断一个括号字符串是否有效 2038](https://leetcode.cn/problems/check-if-a-parentheses-string-can-be-valid/)
 
 ## 表达式解析
-- [ ] [150. 逆波兰表达式求值](https://leetcode.cn/problems/evaluate-reverse-polish-notation/)
+- [x] [150. 逆波兰表达式求值](https://leetcode.cn/problems/evaluate-reverse-polish-notation/)
 - [ ] [1006. 笨阶乘 1408](https://leetcode.cn/problems/clumsy-factorial/)
 - [ ] [224. 基本计算器](https://leetcode.cn/problems/basic-calculator/)
 - [ ] [227. 基本计算器 II](https://leetcode.cn/problems/basic-calculator-ii/)
