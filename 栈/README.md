@@ -52,7 +52,7 @@
 ## 表达式解析
 - [x] [150. 逆波兰表达式求值](https://leetcode.cn/problems/evaluate-reverse-polish-notation/)
 - [x] [1006. 笨阶乘 1408](https://leetcode.cn/problems/clumsy-factorial/)
-- [ ] [224. 基本计算器](https://leetcode.cn/problems/basic-calculator/)
+- [x] [224. 基本计算器](https://leetcode.cn/problems/basic-calculator/)
 - [ ] [227. 基本计算器 II](https://leetcode.cn/problems/basic-calculator-ii/)
 - [ ] [726. 原子的数量](https://leetcode.cn/problems/number-of-atoms/)
 - [ ] [1106. 解析布尔表达式 1880](https://leetcode.cn/problems/parsing-a-boolean-expression/)
