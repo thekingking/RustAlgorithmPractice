@@ -24,6 +24,7 @@
 ## 滑动窗口
 - [2831.找出最长等值子数组 (2024-05-23-m)](https://leetcode.cn/problems/find-the-longest-equal-subarray)
 - [2779.数组的最大美丽值 (2024-06-15-m)](https://leetcode.cn/problems/maximum-beauty-of-an-array-after-applying-operation)
+- [3134.找出唯一性数组的中位数 (2024-08-27-2451)](https://leetcode.cn/problems/find-the-median-of-the-uniqueness-array/)
 
 ## 哈希表
 - [1542.找出最长的超赞子字符串(2024-05-20-h) (状态压缩)](https://leetcode.cn/problems/find-the-longest-equal-subarray)
