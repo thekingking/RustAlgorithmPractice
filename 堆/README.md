@@ -2,7 +2,7 @@
 [灵神题单](https://leetcode.cn/circle/discuss/mOr1u6/)
 
 ## 基础
-- [ ] [1046. 最后一块石头的重量 1173](https://leetcode.cn/problems/last-stone-weight/)
+- [x] [1046. 最后一块石头的重量 1173](https://leetcode.cn/problems/last-stone-weight/)
 - [ ] [2558. 从数量最多的堆取走礼物 1277](https://leetcode.cn/problems/take-gifts-from-the-richest-pile/)
 - [ ] [2336. 无限集中的最小数字 1375](https://leetcode.cn/problems/smallest-number-in-infinite-set/)
 - [ ] [2530. 执行 K 次操作后的最大分数 1386](https://leetcode.cn/problems/maximal-score-after-applying-k-operations/)
