@@ -85,6 +85,7 @@
 - [3117.划分数组得到最小的值之和 (2024-08-16-2735)](https://leetcode.cn/problems/minimum-sum-of-values-by-dividing-array/description/)
 - [3154.到达第 K 级台阶的方案数 (2024-08-20-2071)](https://leetcode.cn/problems/find-number-of-ways-to-reach-the-k-th-stair/)
 - [698.划分为k个相等的子集 (2024-08-25-m)](https://leetcode.cn/problems/partition-to-k-equal-sum-subsets/)
+- [3144.分割字符频率相等的最少子字符串 (2024-08-28-1917)](https://leetcode.cn/problems/minimum-substring-partition-of-equal-character-frequency/)
 
 ## 简单题
 - [2806.取整购买后的账户余额 (2024-06-12-e)](https://leetcode.cn/problems/account-balance-after-rounded-purchase)

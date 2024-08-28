@@ -1,3 +1,5 @@
+use std::i32;
+
 
 fn main() {
     println!("hello, world");
@@ -6,30 +8,26 @@ fn main() {
 struct Solution;
 
 impl Solution {
-    pub fn median_of_uniqueness_array(nums: Vec<i32>) -> i32 {
-        let n = nums.len();
-        let mut cnt = Vec::new();
-        let mut num = 1;
-        for i in 0..n {
-            if i == n - 1 || nums[i] != nums[i + 1] {
-                cnt.push(num);
-                num = 1;
-            } else {
-                num += 1;
+    pub fn minimum_substrings_in_partition(s: String) -> i32 {
+        let mut dp = vec![0; s.len() + 1];
+        let bs = s.as_bytes();
+        let n = bs.len();
+        for i in 1..=n {
+            let mut max = 0;
+            let mut res = i as i32;
+            let mut cnt = vec![0; 26];
+            for j in (0..i).rev() {
+                let k = (bs[j] - b'a') as usize;
+                cnt[k] += 1;
+                if cnt[k] > max {
+                    max = cnt[k];
+                }
+                if cnt.iter().all(|&x| x == max || x == 0) {
+                    res = res.min(1 + dp[j]);
+                }
             }
+            dp[i] = res;
         }
-        let n = n as i64;
-        let t = n * (n + 1) / 4;
-        let mut sum = n;
-        let m = cnt.len();
-        for i in 1..m {
-            if sum >= t {
-                return i as i32;
-            }
-            for j in 0..(m - i) {
-                sum += cnt[j] * cnt[j + i];
-            }
-        }
-        0
+        dp[bs.len()]
     }
 }
