@@ -1,29 +1,3 @@
-use std::i32;
-
-
-fn main() {
-    println!("hello, world");
-}
-
-struct Solution;
-
-impl Solution {
-    pub fn satisfies_conditions(grid: Vec<Vec<i32>>) -> bool {
-        for i in 1..grid[0].len() {
-            if grid[0][i] == grid[0][i - 1] {
-                return false;
-            }
-        }
-        for g in &grid[1..] {
-            if &grid[0] != g {
-                return false
-            }
-        }
-        true
-    }
-}
-
-
 struct SmallestInfiniteSet {
     cnt: Vec<bool>,
     min: usize,
@@ -57,3 +31,10 @@ impl SmallestInfiniteSet {
         self.min = self.min.min(num as usize - 1);
     }
 }
+
+/**
+ * Your SmallestInfiniteSet object will be instantiated and called as such:
+ * let obj = SmallestInfiniteSet::new();
+ * let ret_1: i32 = obj.pop_smallest();
+ * obj.add_back(num);
+ */
