@@ -9,6 +9,7 @@
 - [3101.交替子数组计数 (2024-07-06-m)](https://leetcode.cn/problems/count-alternating-subarrays)
 - [3011.判断一个数组是否可以变为有序 (2024-07-13-1497)](https://leetcode.cn/problems/find-if-array-can-be-sorted/)
 - [551.学生出勤记录 I (2024-08-18-551)](https://leetcode.cn/problems/student-attendance-record-i/)
+- [3142.判断矩阵是否满足条件 (2024-08-29-1303)](https://leetcode.cn/problems/check-if-grid-satisfies-conditions/)
 
 ## 前缀和
 - [1738.找出第 K 大的异或坐标值 (2024-05-26-m)](https://leetcode.cn/problems/find-kth-largest-xor-coordinate-value)
