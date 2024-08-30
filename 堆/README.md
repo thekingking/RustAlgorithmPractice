@@ -7,7 +7,7 @@
 - [x] [2336. 无限集中的最小数字 1375](https://leetcode.cn/problems/smallest-number-in-infinite-set/)
 - [x] [2530. 执行 K 次操作后的最大分数 1386](https://leetcode.cn/problems/maximal-score-after-applying-k-operations/)
 - [x] [3066. 超过阈值的最少操作数 II 1400](https://leetcode.cn/problems/minimum-operations-to-exceed-threshold-value-ii/)
-- [ ] [1962. 移除石子使总数最小 1419](https://leetcode.cn/problems/remove-stones-to-minimize-the-total/)
+- [x] [1962. 移除石子使总数最小 1419](https://leetcode.cn/problems/remove-stones-to-minimize-the-total/)
 - [ ] [1845. 座位预约管理系统 1429](https://leetcode.cn/problems/seat-reservation-manager/)
 - [ ] [2208. 将数组和减半的最少操作次数 1550](https://leetcode.cn/problems/minimum-operations-to-halve-array-sum/)
 - [ ] [2233. K 次增加后的最大乘积 1686](https://leetcode.cn/problems/maximum-product-after-k-increments/)
