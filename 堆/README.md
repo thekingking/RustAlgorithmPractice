@@ -8,7 +8,7 @@
 - [x] [2530. 执行 K 次操作后的最大分数 1386](https://leetcode.cn/problems/maximal-score-after-applying-k-operations/)
 - [x] [3066. 超过阈值的最少操作数 II 1400](https://leetcode.cn/problems/minimum-operations-to-exceed-threshold-value-ii/)
 - [x] [1962. 移除石子使总数最小 1419](https://leetcode.cn/problems/remove-stones-to-minimize-the-total/)
-- [ ] [1845. 座位预约管理系统 1429](https://leetcode.cn/problems/seat-reservation-manager/)
+- [x] [1845. 座位预约管理系统 1429](https://leetcode.cn/problems/seat-reservation-manager/)
 - [ ] [2208. 将数组和减半的最少操作次数 1550](https://leetcode.cn/problems/minimum-operations-to-halve-array-sum/)
 - [ ] [2233. K 次增加后的最大乘积 1686](https://leetcode.cn/problems/maximum-product-after-k-increments/)
 - [ ] [1942. 最小未被占据椅子的编号 1695](https://leetcode.cn/problems/the-number-of-the-smallest-unoccupied-chair/)
