@@ -10,7 +10,7 @@
 - [x] [1962. 移除石子使总数最小 1419](https://leetcode.cn/problems/remove-stones-to-minimize-the-total/)
 - [x] [1845. 座位预约管理系统 1429](https://leetcode.cn/problems/seat-reservation-manager/)
 - [x] [2208. 将数组和减半的最少操作次数 1550](https://leetcode.cn/problems/minimum-operations-to-halve-array-sum/)
-- [ ] [2233. K 次增加后的最大乘积 1686](https://leetcode.cn/problems/maximum-product-after-k-increments/)
+- [x] [2233. K 次增加后的最大乘积 1686](https://leetcode.cn/problems/maximum-product-after-k-increments/)
 - [ ] [1942. 最小未被占据椅子的编号 1695](https://leetcode.cn/problems/the-number-of-the-smallest-unoccupied-chair/)
 - [ ] [1801. 积压订单中的订单总数 1711](https://leetcode.cn/problems/number-of-orders-in-the-backlog/)
 - [ ] [2406. 将区间分为最少组数 1713](https://leetcode.cn/problems/divide-intervals-into-minimum-number-of-groups/)
