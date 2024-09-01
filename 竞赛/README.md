@@ -62,3 +62,10 @@ t3有思路，可惜对堆不太熟悉，在对最小值进行操作的部分超
 - [x] [统计近似相等数对 I](https://leetcode.cn/problems/count-almost-equal-pairs-i/)
 - [ ] [K 次乘运算后的最终数组 II](https://leetcode.cn/problems/final-array-state-after-k-multiplication-operations-ii/)
 - [x] [统计近似相等数对 II](https://leetcode.cn/problems/count-almost-equal-pairs-ii/)
+
+## 138双周赛
+这次状态不太好，又是3题结束了，周赛就没时间打了
+- [x] [求出数字答案](https://leetcode.cn/problems/find-the-key-of-the-numbers/)
+- [x] [哈希分割字符串](https://leetcode.cn/problems/hash-divided-string/)
+- [ ] [统计好整数的数目](https://leetcode.cn/problems/find-the-count-of-good-integers/)
+- [x] [对 Bob 造成的最少伤害](https://leetcode.cn/problems/minimum-amount-of-damage-dealt-to-bob/)
