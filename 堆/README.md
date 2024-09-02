@@ -11,7 +11,7 @@
 - [x] [1845. 座位预约管理系统 1429](https://leetcode.cn/problems/seat-reservation-manager/)
 - [x] [2208. 将数组和减半的最少操作次数 1550](https://leetcode.cn/problems/minimum-operations-to-halve-array-sum/)
 - [x] [2233. K 次增加后的最大乘积 1686](https://leetcode.cn/problems/maximum-product-after-k-increments/)
-- [ ] [1942. 最小未被占据椅子的编号 1695](https://leetcode.cn/problems/the-number-of-the-smallest-unoccupied-chair/)
+- [x] [1942. 最小未被占据椅子的编号 1695](https://leetcode.cn/problems/the-number-of-the-smallest-unoccupied-chair/)
 - [ ] [1801. 积压订单中的订单总数 1711](https://leetcode.cn/problems/number-of-orders-in-the-backlog/)
 - [ ] [2406. 将区间分为最少组数 1713](https://leetcode.cn/problems/divide-intervals-into-minimum-number-of-groups/)
 - [ ] [2462. 雇佣 K 位工人的总代价 1764](https://leetcode.cn/problems/total-cost-to-hire-k-workers/)

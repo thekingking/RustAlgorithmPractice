@@ -1,10 +1,3 @@
-use std::{cmp::Ordering, i32};
-
-
-fn main() {
-    println!("hello, world");
-}
-
 struct Solution;
 
 impl Solution {
