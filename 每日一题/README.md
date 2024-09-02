@@ -18,6 +18,7 @@
 - [3152.特殊数组 II (2024-08-14-1523)](https://leetcode.cn/problems/special-array-ii/)
 - [3148.矩阵中的最大得分 (2024-08-15-1820)](https://leetcode.cn/problems/maximum-difference-score-in-a-grid/)
 - [3153.所有数对中数位差之和 (2024-08-30-1645)](https://leetcode.cn/problems/sum-of-digit-differences-of-all-pairs/)
+- [1450.在既定时间做作业的学生人数 (2024-09-01-1129)](https://leetcode.cn/problems/number-of-students-doing-homework-at-a-given-time/)
 
 ## 单调栈
 - [1673.找出最具竞争力的子序列 (2024-05-24-m)](https://leetcode.cn/problems/find-the-most-competitive-subsequence)
@@ -27,6 +28,7 @@
 - [2831.找出最长等值子数组 (2024-05-23-m)](https://leetcode.cn/problems/find-the-longest-equal-subarray)
 - [2779.数组的最大美丽值 (2024-06-15-m)](https://leetcode.cn/problems/maximum-beauty-of-an-array-after-applying-operation)
 - [3134.找出唯一性数组的中位数 (2024-08-27-2451)](https://leetcode.cn/problems/find-the-median-of-the-uniqueness-array/)
+- [2024.考试的最大困扰度 (2024-09-02-1643)](https://leetcode.cn/problems/maximize-the-confusion-of-an-exam/)
 
 ## 哈希表
 - [1542.找出最长的超赞子字符串(2024-05-20-h) (状态压缩)](https://leetcode.cn/problems/find-the-longest-equal-subarray)
