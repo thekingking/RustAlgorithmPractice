@@ -116,6 +116,7 @@
 - [1035.不相交的线 (2024-08-11-1806)](https://leetcode.cn/problems/uncrossed-lines/)
 - [552.学生出勤记录 II (2024-08-19-h)](https://leetcode.cn/problems/student-attendance-record-ii/)
 - [3007.价值和小于等于 K 的最大数字 (2024-08-21-2258)](https://leetcode.cn/problems/maximum-number-that-sum-of-the-prices-is-less-than-or-equal-to-k/)
+- [3176.求出最长好子序列 I (2024-09-06-1849)](https://leetcode.cn/problems/find-the-maximum-length-of-a-good-subsequence-i/)
 
 ## 脑筋急转弯
 - [521.最长特殊序列 Ⅰ (2024-06-16-e)](https://leetcode.cn/problems/longest-uncommon-subsequence-i)
