@@ -1,12 +1,3 @@
-use std::i32;
-
-
-
-
-fn main() {
-    println!("hello, world");
-}
-
 #[derive(Eq, PartialEq, Debug)]
 struct Pair(i64, i64);
 
@@ -19,12 +10,12 @@ impl PartialOrd for Pair {
     }
 }
 
-
 impl Ord for Pair {
     fn cmp(&self, other: &Self) -> std::cmp::Ordering {
         self.partial_cmp(other).unwrap()
     }
 }
+
 struct Solution;
 
 impl Solution {
