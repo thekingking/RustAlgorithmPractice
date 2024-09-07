@@ -15,7 +15,7 @@
 - [x] [1801. 积压订单中的订单总数 1711](https://leetcode.cn/problems/number-of-orders-in-the-backlog/)
 - [x] [2406. 将区间分为最少组数 1713](https://leetcode.cn/problems/divide-intervals-into-minimum-number-of-groups/)
 - [x] [2462. 雇佣 K 位工人的总代价 1764](https://leetcode.cn/problems/total-cost-to-hire-k-workers/)
-- [ ] [1834. 单线程 CPU 1798](https://leetcode.cn/problems/single-threaded-cpu/)
+- [x] [1834. 单线程 CPU 1798](https://leetcode.cn/problems/single-threaded-cpu/)
 - [ ] [1792. 最大平均通过率 1818](https://leetcode.cn/problems/maximum-average-pass-ratio/)
 - [ ] [2931. 购买物品的最大开销 1822](https://leetcode.cn/problems/maximum-spending-after-buying-items/)
 - [ ] [1882. 使用服务器处理任务 1979](https://leetcode.cn/problems/process-tasks-using-servers/)
