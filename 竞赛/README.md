@@ -69,3 +69,10 @@ t3有思路，可惜对堆不太熟悉，在对最小值进行操作的部分超
 - [x] [哈希分割字符串](https://leetcode.cn/problems/hash-divided-string/)
 - [ ] [统计好整数的数目](https://leetcode.cn/problems/find-the-count-of-good-integers/)
 - [x] [对 Bob 造成的最少伤害](https://leetcode.cn/problems/minimum-amount-of-damage-dealt-to-bob/)
+
+## 414周赛
+好吧，两题，掉大分
+- [x] [将日期转换为二进制表示](https://leetcode.cn/problems/convert-date-to-binary/)
+- [ ] [范围内整数的最大得分](https://leetcode.cn/problems/maximize-score-of-numbers-in-ranges/)
+- [x] [到达数组末尾的最大得分](https://leetcode.cn/problems/reach-end-of-array-with-max-score/)
+- [ ] [吃掉所有兵需要的最多移动次数](https://leetcode.cn/problems/maximum-number-of-moves-to-kill-all-pawns/)
