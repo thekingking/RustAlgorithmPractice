@@ -155,3 +155,6 @@
 - [3133.数组最后一个元素的最小值 (2024-08-22-1935)](https://leetcode.cn/problems/minimum-array-end/)
 - [3145.大数组元素的乘积 (2024-08-23-2859)](https://leetcode.cn/problems/find-products-of-elements-of-big-array/)
 
+
+## 链表
+- [2181.合并零之间的节点 (2024-09-09-1333)](https://leetcode.cn/problems/merge-nodes-in-between-zeros/)

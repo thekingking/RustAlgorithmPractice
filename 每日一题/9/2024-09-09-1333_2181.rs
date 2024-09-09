@@ -1,12 +1,3 @@
-use std::i32;
-
-
-
-
-fn main() {
-    println!("hello, world");
-}
-
 #[derive(PartialEq, Eq, Clone, Debug)]
 pub struct ListNode {
   pub val: i32,
