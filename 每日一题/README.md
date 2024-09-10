@@ -118,6 +118,7 @@
 - [3007.价值和小于等于 K 的最大数字 (2024-08-21-2258)](https://leetcode.cn/problems/maximum-number-that-sum-of-the-prices-is-less-than-or-equal-to-k/)
 - [3176.求出最长好子序列 I (2024-09-06-1849)](https://leetcode.cn/problems/find-the-maximum-length-of-a-good-subsequence-i/)
 - [3177.求出最长好子序列 II (2024-09-07-2365)](https://leetcode.cn/problems/find-the-maximum-length-of-a-good-subsequence-ii/)
+- [2552.统计上升四元组 (2024-09-10-2433)](https://leetcode.cn/problems/count-increasing-quadruplets/)
 
 ## 脑筋急转弯
 - [521.最长特殊序列 Ⅰ (2024-06-16-e)](https://leetcode.cn/problems/longest-uncommon-subsequence-i)

@@ -29,6 +29,7 @@ LeetCode算法练习，目前跟着灵茶山大佬的[【题单】常用数据�
 - [ ] [3117 2735 (2024-08-16 记忆化搜索)](https://leetcode.cn/problems/minimum-sum-of-values-by-dividing-array/)
 - [ ] [3145.大数组元素的乘积 (2024-08-23-2859)](https://leetcode.cn/problems/find-products-of-elements-of-big-array/)
 - [ ] [3134.找出唯一性数组的中位数 (2024-08-27-2451)](https://leetcode.cn/problems/find-the-median-of-the-uniqueness-array/)
+- [ ] [2552.统计上升四元组 (2024-09-10-2433)](https://leetcode.cn/problems/count-increasing-quadruplets/)
 
 看提示做会的
 - mid  2831(2024-05-23每日一题，滑动窗口)
