@@ -31,6 +31,7 @@
 - [2779.数组的最大美丽值 (2024-06-15-m)](https://leetcode.cn/problems/maximum-beauty-of-an-array-after-applying-operation)
 - [3134.找出唯一性数组的中位数 (2024-08-27-2451)](https://leetcode.cn/problems/find-the-median-of-the-uniqueness-array/)
 - [2024.考试的最大困扰度 (2024-09-02-1643)](https://leetcode.cn/problems/maximize-the-confusion-of-an-exam/)
+- [2555.两个线段获得的最多奖品 (2024-09-11-2081)](https://leetcode.cn/problems/maximize-win-from-two-segments/)
 
 ## 哈希表
 - [1542.找出最长的超赞子字符串(2024-05-20-h) (状态压缩)](https://leetcode.cn/problems/find-the-longest-equal-subarray)
