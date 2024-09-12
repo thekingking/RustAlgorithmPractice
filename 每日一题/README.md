@@ -83,6 +83,7 @@
 - [3106.满足距离约束且字典序最小的字符串 (2024-07-27-1515)](https://leetcode.cn/problems/lexicographically-smallest-string-after-operations-with-constraint/)
 - [3111. 覆盖所有点的最少矩形数目 (2024-07-31-1401)](https://leetcode.cn/problems/minimum-rectangles-to-cover-points/)
 - [LCP40.心算挑战 (2024-08-01-e)](https://leetcode.cn/problems/uOAnQW/)
+- [2576.求出最多标记下标 (2024-09-12-1843)](https://leetcode.cn/problems/find-the-maximum-number-of-marked-indices/)
 
 ## 记忆化搜索
 - [3040.相同分数的最大操作数目 II (2024-06-08-m)](https://leetcode.cn/problems/maximum-number-of-operations-with-the-same-score-ii)
