@@ -148,6 +148,7 @@
 - [682.棒球比赛 (2024-07-29-e)](https://leetcode.cn/problems/baseball-game/)
 - [2940.找到 Alice 和 Bob 可以相遇的建筑 (2024-08-10-2327)](https://leetcode.cn/problems/find-building-where-alice-and-bob-can-meet/)
 - [3174.清除数字 （2024-09-05-1255)](https://leetcode.cn/problems/clear-digits/)
+- [2390.从字符串中移除星号 (2024-09-14-1348)](https://leetcode.cn/problems/removing-stars-from-a-string/)
 
 ## 快速幂
 - [2961.双模幂运算 (2024-07-30-1451)](https://leetcode.cn/problems/double-modular-exponentiation/)
@@ -162,3 +163,6 @@
 
 ## 链表
 - [2181.合并零之间的节点 (2024-09-09-1333)](https://leetcode.cn/problems/merge-nodes-in-between-zeros/)
+
+## 差分
+- [2848.与车相交的点 (2024-09-15-1230)](https://leetcode.cn/problems/points-that-intersect-with-cars/)
