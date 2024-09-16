@@ -1,12 +1,3 @@
-use std::i32;
-
-
-
-
-fn main() {
-    println!("hello, world");
-}
-
 struct Solution;
 
 struct Twitter {
