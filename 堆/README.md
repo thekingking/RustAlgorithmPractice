@@ -24,7 +24,7 @@
 - [ ] [1167. 连接木棍的最低费用（会员题）](https://leetcode.cn/problems/minimum-cost-to-connect-sticks/)
 
 ## 进阶
-- [ ] [23. 合并 K 个升序链表](https://leetcode.cn/problems/merge-k-sorted-lists/)
+- [x] [23. 合并 K 个升序链表](https://leetcode.cn/problems/merge-k-sorted-lists/)
 - [ ] [355. 设计推特](https://leetcode.cn/problems/design-twitter/)
 - [ ] [502. IPO](https://leetcode.cn/problems/ipo/)
 - [ ] [1705. 吃苹果的最大数目 1930](https://leetcode.cn/problems/maximum-number-of-eaten-apples/)
