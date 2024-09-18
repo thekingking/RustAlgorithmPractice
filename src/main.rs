@@ -3,40 +3,31 @@ fn main() {
     println!("hello, world");
 }
 
-struct Solution;
+    struct Solution;
 
-impl Solution {
-    pub fn num_buses_to_destination(routes: Vec<Vec<i32>>, source: i32, target: i32) -> i32 {
-        use std::collections::HashSet;
-        let mut vis = vec![false; routes.len()];
-        let mut num = 0;
-        let mut queue = HashSet::new();
-        queue.insert(source);
-        while queue.len() > 0 { 
-            num += 1;
-            let mut tmp = HashSet::new();
-            for i in 0..routes.len() {
-                if vis[i] {
-                    continue;
+    impl Solution {
+        pub fn latest_time_catch_the_bus(mut buses: Vec<i32>, mut passengers: Vec<i32>, capacity: i32) -> i32 {
+            buses.sort_unstable();
+            passengers.sort_unstable();
+
+            // 模拟乘客上车
+            let mut j = 0;
+            let mut c = 0;
+            for &t in &buses {
+                c = capacity;
+                while c > 0 && j < passengers.len() && passengers[j] <= t {
+                    j += 1;
+                    c -= 1;
                 }
-                let mut flag = false;
-                for &r in &routes[i] {
-                    if queue.contains(&r) {
-                        flag = true;
-                    }
-                }
-                if flag {
-                    for &r in &routes[i] {
-                        if r == target {
-                            return num;
-                        }
-                        tmp.insert(r);
-                    }
-                }
-                vis[i] = true;
             }
-            queue = tmp;
+
+            // 寻找插队时机
+            j -= 1;
+            let mut ans = if c > 0 { *buses.last().unwrap() } else { passengers[j] };
+            while j < passengers.len() && ans == passengers[j] {
+                ans -= 1; // 往前找没人到达的时刻
+                j -= 1;
+            }
+            ans
         }
-        -1
     }
-}

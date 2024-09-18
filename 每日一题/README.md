@@ -137,6 +137,7 @@
 - [2970.统计移除递增子数组的数目 I (2024-07-10-1563)](https://leetcode.cn/problems/count-the-number-of-incremovable-subarrays-i)
 - [2972.统计移除递增子数组的数目 I (2024-07-10-2153)](https://leetcode.cn/problems/count-the-number-of-incremovable-subarrays-ii)
 - [977.有序数组的平方 (2024-09-08-1130)](https://leetcode.cn/problems/squares-of-a-sorted-array/)
+- [2322.坐上公交的最晚时间 (2024-09-18-1841)](https://leetcode.cn/problems/the-latest-time-to-catch-a-bus/)
 
 ## Floyd
 - [2959.关闭分部的可行集合数目 (2024-07-17-h)](https://leetcode.cn/problems/number-of-possible-sets-of-closing-branches/)
