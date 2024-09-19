@@ -26,7 +26,7 @@
 ## 进阶
 - [x] [23. 合并 K 个升序链表](https://leetcode.cn/problems/merge-k-sorted-lists/)
 - [x] [355. 设计推特](https://leetcode.cn/problems/design-twitter/)
-- [ ] [502. IPO](https://leetcode.cn/problems/ipo/)
+- [x] [502. IPO](https://leetcode.cn/problems/ipo/)
 - [ ] [1705. 吃苹果的最大数目 1930](https://leetcode.cn/problems/maximum-number-of-eaten-apples/)
 - [ ] [778. 水位上升的泳池中游泳](https://leetcode.cn/problems/swim-in-rising-water/)
 - [ ] [1631. 最小体力消耗路径 1948](https://leetcode.cn/problems/path-with-minimum-effort/)
