@@ -13,6 +13,7 @@
 - [2708.一个小组的最大实力值 (2024-09-03-1502)](https://leetcode.cn/problems/maximum-strength-of-a-group/)
 - [2860.让所有学生保持开心的分组方法数 (2024-09-04-1626)](https://leetcode.cn/problems/happy-students/)
 - [1184.公交站间的距离 (2024-09-16-1234)](https://leetcode.cn/problems/distance-between-bus-stops/)
+- [2414.最长的字母序连续子字符串的长度 (2024-09-19-1222)](https://leetcode.cn/problems/length-of-the-longest-alphabetical-continuous-substring/)
 
 ## 前缀和
 - [1738.找出第 K 大的异或坐标值 (2024-05-26-m)](https://leetcode.cn/problems/find-kth-largest-xor-coordinate-value)
