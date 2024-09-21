@@ -14,6 +14,7 @@
 - [2860.让所有学生保持开心的分组方法数 (2024-09-04-1626)](https://leetcode.cn/problems/happy-students/)
 - [1184.公交站间的距离 (2024-09-16-1234)](https://leetcode.cn/problems/distance-between-bus-stops/)
 - [2414.最长的字母序连续子字符串的长度 (2024-09-19-1222)](https://leetcode.cn/problems/length-of-the-longest-alphabetical-continuous-substring/)
+- [2374.边积分最高的节点 (2024-09-21-1419)](https://leetcode.cn/problems/node-with-highest-edge-score/)
 
 ## 前缀和
 - [1738.找出第 K 大的异或坐标值 (2024-05-26-m)](https://leetcode.cn/problems/find-kth-largest-xor-coordinate-value)
@@ -124,6 +125,7 @@
 - [3176.求出最长好子序列 I (2024-09-06-1849)](https://leetcode.cn/problems/find-the-maximum-length-of-a-good-subsequence-i/)
 - [3177.求出最长好子序列 II (2024-09-07-2365)](https://leetcode.cn/problems/find-the-maximum-length-of-a-good-subsequence-ii/)
 - [2552.统计上升四元组 (2024-09-10-2433)](https://leetcode.cn/problems/count-increasing-quadruplets/)
+- [2376.统计特殊整数 (2024-09-20-2120)](https://leetcode.cn/problems/count-special-integers/)
 
 ## 脑筋急转弯
 - [521.最长特殊序列 Ⅰ (2024-06-16-e)](https://leetcode.cn/problems/longest-uncommon-subsequence-i)
