@@ -76,3 +76,10 @@ t3有思路，可惜对堆不太熟悉，在对最小值进行操作的部分超
 - [ ] [范围内整数的最大得分](https://leetcode.cn/problems/maximize-score-of-numbers-in-ranges/)
 - [x] [到达数组末尾的最大得分](https://leetcode.cn/problems/reach-end-of-array-with-max-score/)
 - [ ] [吃掉所有兵需要的最多移动次数](https://leetcode.cn/problems/maximum-number-of-moves-to-kill-all-pawns/)
+
+## 416周赛
+久违的周赛，手速赛，ak但是掉大分
+- [x] [举报垃圾信息](https://leetcode.cn/problems/report-spam-message/)
+- [x] [移山所需的最少秒数](https://leetcode.cn/problems/minimum-number-of-seconds-to-make-mountain-height-zero/)
+- [x] [统计重新排列后包含另一个字符串的子字符串数目 I](https://leetcode.cn/problems/count-substrings-that-can-be-rearranged-to-contain-a-string-i/)
+- [x] [统计重新排列后包含另一个字符串的子字符串数目 II](https://leetcode.cn/problems/count-substrings-that-can-be-rearranged-to-contain-a-string-ii/)
