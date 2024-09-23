@@ -15,6 +15,7 @@
 - [1184.公交站间的距离 (2024-09-16-1234)](https://leetcode.cn/problems/distance-between-bus-stops/)
 - [2414.最长的字母序连续子字符串的长度 (2024-09-19-1222)](https://leetcode.cn/problems/length-of-the-longest-alphabetical-continuous-substring/)
 - [2374.边积分最高的节点 (2024-09-21-1419)](https://leetcode.cn/problems/node-with-highest-edge-score/)
+- [1014.最佳观光组合 (2024-09-23-1730)](https://leetcode.cn/problems/best-sightseeing-pair/)
 
 ## 前缀和
 - [1738.找出第 K 大的异或坐标值 (2024-05-26-m)](https://leetcode.cn/problems/find-kth-largest-xor-coordinate-value)
