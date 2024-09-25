@@ -48,6 +48,7 @@
 - [2766.重新放置石块 (2024-07-24-1613)](https://leetcode.cn/problems/relocate-marbles/)
 - [3137.K 周期字符串需要的最少操作次数 (2024-08-17-m)](https://leetcode.cn/problems/minimum-number-of-operations-to-make-word-k-periodic/)
 - [3146.两个字符串的排列差 (2024-08-24-1152)](https://leetcode.cn/problems/permutation-difference-between-two-strings/)
+- [2306.公司命名 (2024-09-25-2305)](https://leetcode.cn/problems/naming-a-company/)
 
 ## 模拟
 - [1535.找出数组游戏的赢家 (2024-05-19-m)](https://leetcode.cn/problems/find-the-winner-of-an-array-game)
