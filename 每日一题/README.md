@@ -114,6 +114,7 @@
 - [3131.找出与数组相加的整数 I (2024-08-08-1161)](https://leetcode.cn/problems/find-the-integer-added-to-array-i/)
 - [3151.特殊数组 I (2024-08-13-1153)](https://leetcode.cn/problems/special-array-i/)
 - [997.找到小镇的法官 (2024-09-22-1202)](https://leetcode.cn/problems/find-the-town-judge/)
+- [2535.数组元素和与数字和的绝对差 (2024-09-26-1222)](https://leetcode.cn/problems/difference-between-element-sum-and-digit-sum-of-an-array/)
 
 ## DP
 - [2786.访问数组中的位置使分数最大 (2024-06-14-m)](https://leetcode.cn/problems/visit-array-positions-to-maximize-score)
