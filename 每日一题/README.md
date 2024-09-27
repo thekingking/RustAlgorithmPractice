@@ -38,6 +38,7 @@
 - [2024.考试的最大困扰度 (2024-09-02-1643)](https://leetcode.cn/problems/maximize-the-confusion-of-an-exam/)
 - [2555.两个线段获得的最多奖品 (2024-09-11-2081)](https://leetcode.cn/problems/maximize-win-from-two-segments/)
 - [2398.预算内的最多机器人数目 (2024-09-13-1917)](https://leetcode.cn/problems/maximum-number-of-robots-within-budget/)
+- [2516.每种字符至少取 K 个 (2024-09-27-1948)](https://leetcode.cn/problems/take-k-of-each-character-from-left-and-right/)
 
 ## 哈希表
 - [1542.找出最长的超赞子字符串(2024-05-20-h) (状态压缩)](https://leetcode.cn/problems/find-the-longest-equal-subarray)
