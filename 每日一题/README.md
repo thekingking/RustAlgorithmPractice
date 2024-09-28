@@ -180,3 +180,6 @@
 
 ## BFS
 - [815.公交路线 (2024-09-17-1964)](https://leetcode.cn/problems/bus-routes/)
+
+## 线段树
+- [2286.以组为单位订音乐会的门票 (2024-09-28-2470)](https://leetcode.cn/problems/booking-concert-tickets-in-groups/)
