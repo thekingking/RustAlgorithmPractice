@@ -83,3 +83,15 @@ t3有思路，可惜对堆不太熟悉，在对最小值进行操作的部分超
 - [x] [移山所需的最少秒数](https://leetcode.cn/problems/minimum-number-of-seconds-to-make-mountain-height-zero/)
 - [x] [统计重新排列后包含另一个字符串的子字符串数目 I](https://leetcode.cn/problems/count-substrings-that-can-be-rearranged-to-contain-a-string-i/)
 - [x] [统计重新排列后包含另一个字符串的子字符串数目 II](https://leetcode.cn/problems/count-substrings-that-can-be-rearranged-to-contain-a-string-ii/)
+
+## 140双周赛
+- [x] [替换为数位和以后的最小元素](https://leetcode.cn/problems/minimum-element-after-replacement-with-digit-sum/)
+- [x] [高度互不相同的最大塔高和](https://leetcode.cn/problems/maximize-the-total-height-of-unique-towers/)
+- [ ] [字典序最小的合法序列](https://leetcode.cn/problems/find-the-lexicographically-smallest-valid-sequence/)
+- [ ] [第一个几乎相等子字符串的下标](https://leetcode.cn/problems/find-the-occurrence-of-first-almost-equal-substring/)
+
+## 417周赛
+- [x] [找出第 K 个字符 I](https://leetcode.cn/problems/find-the-k-th-character-in-string-game-i/)
+- [x] [元音辅音字符串计数 I](https://leetcode.cn/problems/count-of-substrings-containing-every-vowel-and-k-consonants-i/)
+- [ ] [元音辅音字符串计数 II](https://leetcode.cn/problems/count-of-substrings-containing-every-vowel-and-k-consonants-ii/)
+- [x] [找出第 K 个字符 II](https://leetcode.cn/problems/find-the-k-th-character-in-string-game-ii/)

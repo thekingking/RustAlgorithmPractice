@@ -1,10 +1,3 @@
-use std::str::FromStr;
-
-
-fn main() {
-    println!("hello, world");
-}
-
 struct Solution;
 
 impl Solution {
@@ -34,11 +27,13 @@ impl Solution {
                 }
                 r += 1;
             }
-            let mut j = 1;
-            while b == 0 && other == k && r + j < n && cnt[(bs[r] - b'a') as usize] >= 0 {
+            let mut j = 0;
+            while b == 0 && other == k && r + j < n && cnt[(bs[r + j] - b'a') as usize] >= 0 {
                 j += 1;
             }
-            res += j as i32;
+            if b == 0 && other == k {
+                res += (j + 1) as i32;
+            }
             if cnt[(bs[l] - b'a') as usize] >= 0 {
                 cnt[(bs[l] - b'a') as usize] -= 1;
                 if cnt[(bs[l] - b'a') as usize] == 0 {
@@ -50,17 +45,5 @@ impl Solution {
             l += 1;
         }
         res
-    }
-
-    pub fn kth_character(k: i64, operations: Vec<i32>) -> char {
-        let mut n = k - 1;
-        let mut num = 0;
-        for x in operations {
-            if n % 2 == 1 && x == 1 {
-                num += 1;
-            }
-            n /= 2;
-        }
-        (b'a' + (num % 26) as u8) as _
     }
 }
