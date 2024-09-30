@@ -184,3 +184,6 @@
 
 ## 线段树
 - [2286.以组为单位订音乐会的门票 (2024-09-28-2470)](https://leetcode.cn/problems/booking-concert-tickets-in-groups/)
+
+## 堆
+- [1845.座位预约管理系统 (2024-09-30-1425)](https://leetcode.cn/problems/seat-reservation-manager/)
