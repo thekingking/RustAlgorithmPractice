@@ -188,3 +188,6 @@
 
 ## 堆
 - [1845.座位预约管理系统 (2024-09-30-1425)](https://leetcode.cn/problems/seat-reservation-manager/)
+
+## 二分
+- [1870.准时到达的列车最小时速 (2024-10-02-1676)](https://leetcode.cn/problems/minimum-speed-to-arrive-on-time/)
