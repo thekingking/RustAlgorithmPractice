@@ -193,3 +193,4 @@
 
 ## 二分
 - [1870.准时到达的列车最小时速 (2024-10-02-1676)](https://leetcode.cn/problems/minimum-speed-to-arrive-on-time/)
+- [2187.完成旅途的最少时间 (2024-10-05-1641)](https://leetcode.cn/problems/minimum-time-to-complete-trips/)
