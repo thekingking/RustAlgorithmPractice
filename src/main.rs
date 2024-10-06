@@ -10,116 +10,99 @@ fn main() {
 struct Solution;
 
 impl Solution {
-    pub fn minimum_time(time: Vec<i32>, total_trips: i32) -> i64 {
-        let mut left = 0;
-        let mut right = 10_i64.pow(14);
-        while left < right {
-            let mid = (left + right) / 2;
-            let mut sum = 0;
-            for &t in &time {
-                sum += mid / t as i64;
-                if sum > total_trips as i64{
-                    break;
-                }
-            }
-            if sum >= total_trips as i64 {
-                right = mid;
-            } else {
-                left = mid + 1;
-            }
-        }
-        left
+    pub fn construct_grid_layout(n: i32, edges: Vec<Vec<i32>>) -> Vec<Vec<i32>> {
+        
     }
 }
 
-use std::collections::HashMap;
-use std::cell::RefCell;
-use std::rc::Rc;
+// use std::collections::HashMap;
+// use std::cell::RefCell;
+// use std::rc::Rc;
 
-struct Node {
-    key: i32,
-    value: i32,
-    prev: Option<Rc<RefCell<Node>>>,
-    next: Option<Rc<RefCell<Node>>>,
-}
+// struct Node {
+//     key: i32,
+//     value: i32,
+//     prev: Option<Rc<RefCell<Node>>>,
+//     next: Option<Rc<RefCell<Node>>>,
+// }
 
-impl Node {
-    fn new(key: i32, value: i32) -> Rc<RefCell<Self>> {
-        Rc::new(RefCell::new(Node {
-            key,
-            value,
-            prev: None,
-            next: None
-        }))
-    }
-}
+// impl Node {
+//     fn new(key: i32, value: i32) -> Rc<RefCell<Self>> {
+//         Rc::new(RefCell::new(Node {
+//             key,
+//             value,
+//             prev: None,
+//             next: None
+//         }))
+//     }
+// }
 
-struct LRUCache {
-    capacity: usize,
-    dummy: Rc<RefCell<Node>>,
-    key_to_node: HashMap<i32, Rc<RefCell<Node>>>,
-}
+// struct LRUCache {
+//     capacity: usize,
+//     dummy: Rc<RefCell<Node>>,
+//     key_to_node: HashMap<i32, Rc<RefCell<Node>>>,
+// }
 
 
-/**
- * `&self` means the method takes an immutable reference.
- * If you need a mutable reference, change it to `&mut self` instead.
- */
-impl LRUCache {
+// /**
+//  * `&self` means the method takes an immutable reference.
+//  * If you need a mutable reference, change it to `&mut self` instead.
+//  */
+// impl LRUCache {
 
-    fn new(capacity: i32) -> Self {
-        // 哨兵
-        let dummy = Node::new(0, 0);
-        dummy.borrow_mut().prev = Some(dummy.clone());
-        dummy.borrow_mut().next = Some(dummy.clone());
-        LRUCache {
-            capacity: capacity as usize,
-            dummy,
-            key_to_node: HashMap::new(),
-        }
-    }
+//     fn new(capacity: i32) -> Self {
+//         // 哨兵
+//         let dummy = Node::new(0, 0);
+//         dummy.borrow_mut().prev = Some(dummy.clone());
+//         dummy.borrow_mut().next = Some(dummy.clone());
+//         LRUCache {
+//             capacity: capacity as usize,
+//             dummy,
+//             key_to_node: HashMap::new(),
+//         }
+//     }
     
-    fn get(&mut self, key: i32) -> i32 {
-        if let Some(node) = self.key_to_node.get(&key) {
-            let node = node.clone();
-            let value = node.borrow().value;
-            self.remove(node.clone());
-            self.push_front(node);
-            return value;
-        }
-        -1
-    }
+//     fn get(&mut self, key: i32) -> i32 {
+//         if let Some(node) = self.key_to_node.get(&key) {
+//             let node = node.clone();
+//             let value = node.borrow().value;
+//             self.remove(node.clone());
+//             self.push_front(node);
+//             return value;
+//         }
+//         -1
+//     }
     
-    fn put(&mut self, key: i32, value: i32) {
-        if let Some(node) = self.key_to_node.get(&key) {
-            let node = node.clone();
-            node.borrow_mut().value = value;
-            self.remove(node.clone());
-            self.push_front(node);
-            return;
-        }
-        let node = Node::new(key, value);
-        self.key_to_node.insert(key, node.clone());
-        self.push_front(node);
-        if self.key_to_node.len() > self.capacity {
-            let back_node = self.dummy.borrow().prev.clone().unwrap();
-            self.key_to_node.remove(&back_node.borrow().key);
-            self.remove(back_node);
-        }
-    }
+//     fn put(&mut self, key: i32, value: i32) {
+//         if let Some(node) = self.key_to_node.get(&key) {
+//             let node = node.clone();
+//             node.borrow_mut().value = value;
+//             self.remove(node.clone());
+//             self.push_front(node);
+//             return;
+//         }
+//         let node = Node::new(key, value);
+//         self.key_to_node.insert(key, node.clone());
+//         self.push_front(node);
+//         if self.key_to_node.len() > self.capacity {
+//             let back_node = self.dummy.borrow().prev.clone().unwrap();
+//             self.key_to_node.remove(&back_node.borrow().key);
+//             self.remove(back_node);
+//         }
+//     }
 
-    fn remove(&mut self, x: Rc<RefCell<Node>>) {
-        let prev = x.borrow().prev.clone().unwrap();
-        let next = x.borrow().next.clone().unwrap();
-        prev.borrow_mut().next = Some(next.clone());
-        next.borrow_mut().prev = Some(prev);
-    }
+//     fn remove(&mut self, x: Rc<RefCell<Node>>) {
+//         let prev = x.borrow().prev.clone().unwrap();
+//         let next = x.borrow().next.clone().unwrap();
+//         prev.borrow_mut().next = Some(next.clone());
+//         next.borrow_mut().prev = Some(prev);
+//     }
 
-    fn push_front(&mut self, x: Rc<RefCell<Node>>) {
-        let next = self.dummy.borrow().next.clone().unwrap();
-        x.borrow_mut().prev = Some(self.dummy.clone());
-        x.borrow_mut().next = Some(next.clone());
-        self.dummy.borrow_mut().next = Some(x.clone());
-        next.borrow_mut().prev = Some(x);
-    }
-}
+//     fn push_front(&mut self, x: Rc<RefCell<Node>>) {
+//         let next = self.dummy.borrow().next.clone().unwrap();
+//         x.borrow_mut().prev = Some(self.dummy.clone());
+//         x.borrow_mut().next = Some(next.clone());
+//         self.dummy.borrow_mut().next = Some(x.clone());
+//         next.borrow_mut().prev = Some(x);
+//     }
+// }
