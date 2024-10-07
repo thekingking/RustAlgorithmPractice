@@ -191,6 +191,7 @@
 
 ## 堆
 - [1845.座位预约管理系统 (2024-09-30-1425)](https://leetcode.cn/problems/seat-reservation-manager/)
+- [871.最低加油次数 (2024-10-07-2074)](https://leetcode.cn/problems/minimum-number-of-refueling-stops/)
 
 ## 二分
 - [1870.准时到达的列车最小时速 (2024-10-02-1676)](https://leetcode.cn/problems/minimum-speed-to-arrive-on-time/)

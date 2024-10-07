@@ -1,5 +1,5 @@
 use std::borrow::BorrowMut;
-use std::i32;
+use std::{i32, vec};
 
 
 
@@ -10,22 +10,28 @@ fn main() {
 struct Solution;
 
 impl Solution {
-    pub fn can_complete_circuit(gas: Vec<i32>, cost: Vec<i32>) -> i32 {
-        let mut min = 0;
-        let mut min_index = 0;
-        let n = gas.len();
-        let mut sum = 0;
-        for i in 0..n {
-            sum += gas[i] - cost[i];
-            if sum < min {
-                min = sum;
-                min_index = i as i32 + 1;
+    pub fn min_refuel_stops(target: i32, start_fuel: i32, mut stations: Vec<Vec<i32>>) -> i32 {
+        use std::collections::BinaryHeap;
+
+        let mut sum = start_fuel;
+        let mut heap = BinaryHeap::new();
+        let mut res = 0;
+        let mut pre = 0;
+        stations.push(vec![target, 0]);
+        for s in stations {
+            sum -= s[0] - pre;
+            while sum < 0 {
+                if let Some(v) = heap.pop() {
+                    sum += v;
+                    res += 1;
+                } else {
+                    return -1;
+                }
             }
+            heap.push(s[1]);
+            pre = s[0];
         }
-        if sum < 0 {
-            return -1;
-        }
-        min_index
+        res
     }
 }
 
