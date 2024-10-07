@@ -95,3 +95,9 @@ t3有思路，可惜对堆不太熟悉，在对最小值进行操作的部分超
 - [x] [元音辅音字符串计数 I](https://leetcode.cn/problems/count-of-substrings-containing-every-vowel-and-k-consonants-i/)
 - [ ] [元音辅音字符串计数 II](https://leetcode.cn/problems/count-of-substrings-containing-every-vowel-and-k-consonants-ii/)
 - [x] [找出第 K 个字符 II](https://leetcode.cn/problems/find-the-k-th-character-in-string-game-ii/)
+
+## 418周赛
+- [x] [连接二进制表示可形成的最大数值](https://leetcode.cn/problems/maximum-possible-number-by-binary-concatenation/)
+- [x] [移除可疑的方法](https://leetcode.cn/problems/remove-methods-from-project/)
+- [ ] [构造符合图结构的二维矩阵](https://leetcode.cn/problems/construct-2d-grid-matching-graph-layout/)
+- [ ] [查询排序后的最大公约数](https://leetcode.cn/problems/sorted-gcd-pair-queries/)
