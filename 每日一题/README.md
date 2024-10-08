@@ -52,6 +52,7 @@
 - [3137.K 周期字符串需要的最少操作次数 (2024-08-17-m)](https://leetcode.cn/problems/minimum-number-of-operations-to-make-word-k-periodic/)
 - [3146.两个字符串的排列差 (2024-08-24-1152)](https://leetcode.cn/problems/permutation-difference-between-two-strings/)
 - [2306.公司命名 (2024-09-25-2305)](https://leetcode.cn/problems/naming-a-company/)
+- [1436.旅行终点站 (2024-10-08-1192)](https://leetcode.cn/problems/destination-city/)
 
 ## 模拟
 - [1535.找出数组游戏的赢家 (2024-05-19-m)](https://leetcode.cn/problems/find-the-winner-of-an-array-game)
@@ -175,7 +176,6 @@
 ## 位运算
 - [3133.数组最后一个元素的最小值 (2024-08-22-1935)](https://leetcode.cn/problems/minimum-array-end/)
 - [3145.大数组元素的乘积 (2024-08-23-2859)](https://leetcode.cn/problems/find-products-of-elements-of-big-array/)
-
 
 ## 链表
 - [2181.合并零之间的节点 (2024-09-09-1333)](https://leetcode.cn/problems/merge-nodes-in-between-zeros/)
