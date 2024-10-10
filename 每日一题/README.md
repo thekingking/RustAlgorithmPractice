@@ -76,6 +76,7 @@
 - [3128.直角三角形 (2024-08-01-1541)](https://leetcode.cn/problems/right-triangles/)
 - [3132.找出与数组相加的整数 II (2024-08-09-1620)](https://leetcode.cn/problems/find-the-integer-added-to-array-ii/)
 - [3127.构造相同颜色的正方形 (2024-08-31-1338)](https://leetcode.cn/problems/make-a-square-with-the-same-color/)
+- [3162.优质数对的总数 I (2024-10-10-1169)](https://leetcode.cn/problems/find-the-number-of-good-pairs-i/)
 
 ## DFS
 - [3067.在带权树网络中统计可连接服务器对数目 (2024-06-04-m)](https://leetcode.cn/problems/count-pairs-of-connectable-servers-in-a-weighted-tree-network/)

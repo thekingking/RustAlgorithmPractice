@@ -10,17 +10,19 @@ fn main() {
 struct Solution;
 
 impl Solution {
-    pub fn dest_city(paths: Vec<Vec<String>>) -> String {
-        use std::collections::HashMap;
-        let mut map = HashMap::new();
-        for path in paths.iter() {
-            map.insert(path[0].as_str(), path[1].as_str());
+    pub fn number_of_pairs(nums1: Vec<i32>, nums2: Vec<i32>, k: i32) -> i32 {
+        let mut res = 0;
+        for &x in &nums1 {
+            if x % k != 0 {
+                continue;
+            }
+            for &y in &nums2 {
+                if x % (k * y) == 0 {
+                    res += 1;
+                }
+            }
         }
-        let mut key = paths[0][0].as_str();
-        while map.contains_key(key) {
-            key = map.get(key).unwrap();
-        }
-        key.to_string()
+        res
     }
 }
 
