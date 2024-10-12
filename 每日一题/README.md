@@ -19,6 +19,7 @@
 - [2207.字符串中最多数目的子序列 (2024-09-24-1530)](https://leetcode.cn/problems/maximize-number-of-subsequences-in-a-string/)
 - [2073.买票需要的时间 (2024-09-29-1325)](https://leetcode.cn/problems/time-needed-to-buy-tickets/)
 - [134.加油站 (2024-10-06-m)](https://leetcode.cn/problems/gas-station/)
+- [3158.求出出现两次数字的 XOR 值 (2024-10-12-1172)](https://leetcode.cn/problems/find-the-xor-of-numbers-which-appear-twice/)
 
 ## 前缀和
 - [1738.找出第 K 大的异或坐标值 (2024-05-26-m)](https://leetcode.cn/problems/find-kth-largest-xor-coordinate-value)
