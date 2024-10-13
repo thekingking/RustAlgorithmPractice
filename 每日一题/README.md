@@ -148,6 +148,7 @@
 ## 数学
 - [2732.找到矩阵中的好子集 (2024-06-25-h)](https://leetcode.cn/problems/find-a-good-subset-of-the-matrix)
 - [1227.飞机座位分配概率 (2024-10-04-m)](https://leetcode.cn/problems/airplane-seat-assignment-probability/)
+- [1884.鸡蛋掉落-两枚鸡蛋 (2024-10-13-m)](https://leetcode.cn/problems/egg-drop-with-2-eggs-and-n-floors/)
 
 ## 有序集合
 - [3102.最小化曼哈顿距离 (2024-07-09-2216)](https://leetcode.cn/problems/minimize-manhattan-distances/description/)
