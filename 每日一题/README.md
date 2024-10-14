@@ -141,6 +141,7 @@
 - [2376.统计特殊整数 (2024-09-20-2120)](https://leetcode.cn/problems/count-special-integers/)
 - [983.最低票价 (2024-10-1-1786)](https://leetcode.cn/problems/minimum-cost-for-tickets/)
 - [1928.规定时间内到达终点的最小花费 (2024-10-03-2413)](https://leetcode.cn/problems/minimum-cost-to-reach-destination-in-time/)
+- [877.鸡蛋掉落 (2024-10-14-2377)](https://leetcode.cn/problems/super-egg-drop/)
 
 ## 脑筋急转弯
 - [521.最长特殊序列 Ⅰ (2024-06-16-e)](https://leetcode.cn/problems/longest-uncommon-subsequence-i)
